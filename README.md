@@ -39,16 +39,17 @@ We'll use the last 5 mins for Q&A before we wrap the livestream - but invite you
 > **Join us for Model Mondays every Monday at 10:30pm PST / 1:30pm EST. It's a weekly show where we round up the latest AI model news and put one model in the spotlight for a deeper dive. Let's Build our model IQ!**
 
 
-| Hands On With.. | Air Date | Recording | Resources | Spotlight|
+| Hands On With.. | Air Date | Livestream | Resources | Spotlight On|
 |:---|:---|:---|:---|:---|
-| #01 - GitHub Models | Mar 10, 2025 | [**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25265/)| [Episode 01](./season-01/ep-01.md) | Model Marketplace |
-| #02 - Reasoning Models| Mar 17, 2025 | [**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25266/) | [Episode 02](./season-01/ep-02.md)| OpenAI, DeepSeek |
-| #03 - Search & Retrieval Models | Mar 24, 2025 |  [**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25354/) |[Episode 03](./season-01/ep-03.md) | Cohere Rerank |
-| #04 - Visual Generative Models | Mar 31, 2025 |[**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25355/) |[Episode 04](./season-01/ep-04.md) | Stable Diffusion |
-| #05 - Fine-Tuning + Models | Apr 07, 2025 |[**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25356/)  |[Episode 05](./season-01/ep-05.md) | TBA | 
-| #06 - Synthetic Datasets + Models | Apr 14, 2025 |[**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25357/)  |[Episode 06](./season-01/ep-06.md) | TBA |
-| #07 - Open Source + Models | Apr 21, 2025 |[**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25358/)  |[Episode 07](./season-01/ep-07.md) | TBA |
-| #08 - Forecasting + Models | Apr 28, 2025 |[**RSVP NOW**](https://developer.microsoft.com/en-us/reactor/events/25359/)  |[Episode 08](./season-01/ep-08.md) | TBA |
+| #01 - [GitHub Models](https://speakerdeck.com/nitya/model-mondays-s1-e1-mar-10-2025) | Mar 10, 2025 | [Replay](https://youtu.be/dohvGc7eyqU) | [Recap](./season-01/ep-01.md) · [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e1-mar-10-2025) | [Model Marketplace](https://github.com/marketplace/models)|
+| | | | |
+| #02 - Reasoning Models| Mar 17, 2025 | [RSVP](https://developer.microsoft.com/en-us/reactor/events/25266/) | [Episode 02](./season-01/ep-02.md)| OpenAI, DeepSeek |
+| #03 - Search & Retrieval Models | Mar 24, 2025 |  [RSVP](https://developer.microsoft.com/en-us/reactor/events/25354/) |[Episode 03](./season-01/ep-03.md) | Cohere Rerank |
+| #04 - Visual Generative Models | Mar 31, 2025 |[RSVP](https://developer.microsoft.com/en-us/reactor/events/25355/) |[Episode 04](./season-01/ep-04.md) | Stable Diffusion |
+| #05 - Fine-Tuning + Models | Apr 07, 2025 |[RSVP](https://developer.microsoft.com/en-us/reactor/events/25356/)  |[Episode 05](./season-01/ep-05.md) | TBA | 
+| #06 - Synthetic Datasets + Models | Apr 14, 2025 |[RSVP](https://developer.microsoft.com/en-us/reactor/events/25357/)  |[Episode 06](./season-01/ep-06.md) | TBA |
+| #07 - Open Source + Models | Apr 21, 2025 |[RSVP](https://developer.microsoft.com/en-us/reactor/events/25358/)  |[Episode 07](./season-01/ep-07.md) | TBA |
+| #08 - Forecasting + Models | Apr 28, 2025 |[RSVP](https://developer.microsoft.com/en-us/reactor/events/25359/)  |[Episode 08](./season-01/ep-08.md) | TBA |
 | | | | |  |
 
 
