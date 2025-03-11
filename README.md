@@ -23,6 +23,14 @@ Welcome to Model Mondays - a weekly 30-minute livestream series that helps you k
 
 ---
 
+## Most Recent Episode
+
+Catch up on the latest episode to learn what the series is all about.
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/dohvGc7eyqU?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL" title="Model Mondays – Hands On With GitHub Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Show Format
 
 Every Model Mondays episode consists of a 30-minute livestream with 2 core segments:
