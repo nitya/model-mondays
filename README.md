@@ -21,13 +21,10 @@ Welcome to Model Mondays - a weekly 30-minute livestream series that helps you k
 
 ![Banner](./img/model-mondays.png)
 
----
 
-## Watch The Replay!
-
-Catch up on the latest episode to learn what the series is all about.
-
-[![Model Mondays](https://img.youtube.com/vi/dohvGc7eyqU/hqdefault.jpg)](https://www.youtube.com/watch?v=dohvGc7eyqU)
+| Catch the replay for the latest episode now!|
+|:---:|
+|[![Model Mondays](https://img.youtube.com/vi/dohvGc7eyqU/hqdefault.jpg)](https://www.youtube.com/watch?v=dohvGc7eyqU)|
 
 ---
 
