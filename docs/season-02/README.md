@@ -191,7 +191,7 @@ _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in 
 
 ![Banner](./img/S2-E11.png)
 
-### CUSTOMER STORIES: Oracle
+### CUSTOMER STORIES: Healow
 
 _Keeping in with today's theme, we're sharing a prior BUILD 2025 session with Sidd Shah, Vice President at Healow, who shares how Healow uses multimodal AI to enhance healthcare experiences!_.
 
