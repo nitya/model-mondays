@@ -191,6 +191,16 @@ _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in 
 
 ![Banner](./img/S2-E11.png)
 
+### CUSTOMER STORIES: Healow
+
+_Keeping in with today's theme, we're sharing a prior BUILD 2025 session with Sidd Shah, Vice President at Healow, who shares how Healow uses multimodal AI to enhance healthcare experiences!_.
+
+**Speakers:**
+
+_Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ years in health IT, product strategy, business growth and transformative healthcare solutions.
+
+![Banner](./img/S2-E11-CustomerStories.png)
+
 ---
 
 ## S2E12 · Models & Observability
