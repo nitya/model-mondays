@@ -183,9 +183,9 @@ _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in 
 
 ## S2E11 · Text & Speech Playgrounds
 
-> Want to explore natural language and speech capabilities (like text to speech, speech to text, translation etc.) in your browser before switching to code? Try the Azure AI Foundry Speech and Language playground. Join us as we talk to Cenyu Zhang about the Speech resource and how we can use it today to transform the user experience in generative AI applications. 
+> Want to explore natural language and speech capabilities (like text to speech, speech to text, translation etc.) in your browser before switching to code? Try the Azure AI Foundry Speech and Language playground. Join us as we talk to Utkarsh Maheswari about the Speech resource and how we can use it today to transform the user experience in generative AI applications. 
 
- - 1️⃣ | [Register For The Livestream](URL_TBD) - Aug 25, 2025 ⁉️
+ - 1️⃣ | [Register For The Livestream](https://developer.microsoft.com/en-us/reactor/events/26130/) - Aug 25, 2025 
  - 2️⃣ | [Register For The AMA](https://discord.gg/azureaifoundry?event=1382864441191960696) - Aug 29, 2025
  - 3️⃣ | [Ask Questions & View Recaps](https://aka.ms/model-mondays/forum) - Discussion Forum
 
@@ -205,40 +205,12 @@ _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ y
 
 ## S2E12 · Models & Observability
 
-> Observability is about instrumenting AI apps to collect signals that provide insight into model behavior & performance across the GenAIOps lifecycle. Join us as we talk to Minsoo Thigpen about evaluations, red-teaming & end-to-end observability in Azure AI Foundry – for trustworthy AI! 
+> Observability is about instrumenting AI apps to collect signals that provide insight into model behavior & performance across the GenAIOps lifecycle. Join us as we talk to Han Che about evaluations, red-teaming & end-to-end observability in Azure AI Foundry – for trustworthy AI! 
 
- - 1️⃣ | [Register For The Livestream](URL_TBD) - Sep 08, 2025 ⁉️
+ - 1️⃣ | [Register For The Livestream](https://developer.microsoft.com/en-us/reactor/events/26131/) - Sep 08, 2025 
  - 2️⃣ | [Register For The AMA](https://discord.gg/azureaifoundry?event=1382864811649536120) - Sep 12, 2025
  - 3️⃣ | [Ask Questions & View Recaps](https://aka.ms/model-mondays/forum) - Discussion Forum
 
 ![Banner](./img/S2-E12.png)
 
-
 ---
-
-## S2E13 · Open Source Models (In-Planning)
-
-> Did you know the Hugging Face collection on Azure AI Foundry Models currently has over 10K options? So when should we use them and how do we select the right one? Join us as we talk about getting started with Hugging Face models on Azure AI – and how you can request new additions. 
-
- - 1️⃣ | Register For The Livestream - Sep 15 ⁉️
- - 2️⃣ | Register For The AMA - Date TBD ⁉️
- - 3️⃣ | Ask Questions & View Recaps - Event TBA⁉️
-
-
----
-
-## S2E14 · Smarter Model Routing (In-Planning)
-
-> Model selection from 11K+ options, is hard! What if you had a smart router that automatically chose the right model for the job? Join us as we talk to Sanjeev Jagtap about Model Router and how it can streamline the developer experience for model selection.
-
- - 1️⃣ | Register For The Livestream - Sep 22 ⁉️
- - 2️⃣ | Register For The AMA - Date TBD ⁉️
- - 3️⃣ | Ask Questions & View Recaps - Event TBA⁉️
-
-## S2E15 · TBD (In-Planning)
-
-> Topic TBD. 
-
- - 1️⃣ | Register For The Livestream - Sep 29 ⁉️
- - 2️⃣ | Register For The AMA - Date TBD ⁉️
- - 3️⃣ | Ask Questions & View Recaps - Event TBA⁉️
