@@ -181,9 +181,9 @@ _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in 
 ![Banner](./img/S2-E10-CustomerStories.png)
 ---
 
-## S2E11 · Text & Speech Playgrounds
+## S2E11 · AI Foundry Speech Playground
 
-> Want to explore natural language and speech capabilities (like text to speech, speech to text, translation etc.) in your browser before switching to code? Try the Azure AI Foundry Speech and Language playground. Join us as we talk to Utkarsh Maheswari about the Speech resource and how we can use it today to transform the user experience in generative AI applications. 
+> Want to explore natural language and speech capabilities (like text to speech, speech to text, translation etc.) in your browser before switching to code? Try the Azure AI Foundry Speech playground. Join us as we talk to Utkarsh Maheswari about the Speech resource and how we can use it today to transform the user experience in generative AI applications. 
 
  - 1️⃣ | [Register For The Livestream](https://developer.microsoft.com/en-us/reactor/events/26130/) - Aug 25, 2025 
  - 2️⃣ | [Register For The AMA](https://discord.gg/azureaifoundry?event=1382864441191960696) - Aug 29, 2025
