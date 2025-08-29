@@ -53,7 +53,7 @@ _Keeping in with today's theme, we're sharing a prior session with Srinivas Gadd
 
 _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in AI-driven software development. As Senior Director of Software Development at Oracle, he leads efforts in conversational AI and AI-powered clinical workflows—advancing healthcare efficiency and patient safety through cutting-edge modeling techniques and responsible AI practices.
 
-![Banner](./season-02/img/S2-E11-CustomerStories.png)
+![Banner](./season-02/img/S2-E10-CustomerStories.png)
 
 ### Aug 25th 2025: Healow
 
@@ -63,7 +63,7 @@ _Keeping in with today's theme, we're sharing a prior BUILD 2025 session with Si
 
 _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ years in health IT, product strategy, business growth and transformative healthcare solutions.
 
-![Banner](./season-02/img/S2-E10-CustomerStories.png)
+![Banner](./season-02/img/S2-E11-CustomerStories.png)
 
 ### Sep 08th 2025: Saifr
 
@@ -81,9 +81,4 @@ Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as 
 
 ![Banner](./season-02/img/s2-e12-CustomerStories.png)
 
-![Banner](./season-02/img/S2-E11-CustomerStories.png)
-
-
-
----
 ---
