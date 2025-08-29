@@ -213,7 +213,7 @@ _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ y
 
 ![Banner](./img/S2-E12.png)
 
-### CUSTOMER STORIES: Healow
+### CUSTOMER STORIES: Saifr
 
 _In this ongoing segment, we continue talking to customers about real world usage of Azure AI technologies and solutions. In this episode we're joined by David Johnston, CTO and Co-founder at Saifr, and Brett Trainor, Head of Partnerships at Saifr who share how Saifr's AI solutions help financial service developers create compliant apps, services and agents!_.
 
