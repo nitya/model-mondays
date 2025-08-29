@@ -53,7 +53,7 @@ _Keeping in with today's theme, we're sharing a prior session with Srinivas Gadd
 
 _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in AI-driven software development. As Senior Director of Software Development at Oracle, he leads efforts in conversational AI and AI-powered clinical workflows—advancing healthcare efficiency and patient safety through cutting-edge modeling techniques and responsible AI practices.
 
-![Banner](./season-02/img/S2-E10-CustomerStories.png)
+![Banner](./season-02/img/S2-E11-CustomerStories.png)
 
 ### Aug 25th 2025: Healow
 
@@ -62,6 +62,24 @@ _Keeping in with today's theme, we're sharing a prior BUILD 2025 session with Si
 **Speakers:**
 
 _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ years in health IT, product strategy, business growth and transformative healthcare solutions.
+
+![Banner](./season-02/img/S2-E10-CustomerStories.png)
+
+### Sep 08th 2025: Saifr
+
+_In this ongoing segment, we continue talking to customers about real world usage of Azure AI technologies and solutions. In this episode we're joined by David Johnston, CTO and Co-founder at Saifr, and Brett Trainor, Head of Partnerships at Saifr who share how Saifr's AI solutions help financial service developers create compliant apps, services and agents!_.
+
+**Speakers:**
+
+_David Johnston_ (Jono) is the CTO of Saifr, a Fidelity Labs company. 
+
+Jono is a hands-on technologist and full-stack developer with a record of leading highly skilled teams and fueling business growth in consulting and corporate environments.  He has deep technological experience and an entrepreneurial heart with experience founding and leading startups as Chief Technology Officer. His company experiences include Fidelity Investments, Putnam Investments, Sallie Mae, and Safran.
+
+_Brett Trainor_ is the Head of Partners of Saifr, a Fidelity Labs Company.
+
+Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as Liberty Mutual, State Street and most recently at Fidelity Investments, Brett has held key roles across Risk, Compliance, Strategic Negotiations/Procurement and Enterprise Relationship Management. With a customer first mindset, Brett looks to drive value and solutions at scale through tightly aligned strategic partnerships. Brett holds an MBA from Northeastern University’s D’Amore-McKim School of Business.
+
+![Banner](./season-02/img/s2-e12-CustomerStories.png)
 
 ![Banner](./season-02/img/S2-E11-CustomerStories.png)
 
