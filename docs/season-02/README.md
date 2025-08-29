@@ -227,6 +227,6 @@ _Brett Trainor_ is the Head of Partners of Saifr, a Fidelity Labs Company.
 
 Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as Liberty Mutual, State Street and most recently at Fidelity Investments, Brett has held key roles across Risk, Compliance, Strategic Negotiations/Procurement and Enterprise Relationship Management. With a customer first mindset, Brett looks to drive value and solutions at scale through tightly aligned strategic partnerships. Brett holds an MBA from Northeastern University’s D’Amore-McKim School of Business.
 
-![Banner](./img/S2-E12-CustomerStories.png)
+![Banner](./img/s2-e12-CustomerStories.png)
 
 ---
