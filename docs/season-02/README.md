@@ -213,4 +213,20 @@ _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ y
 
 ![Banner](./img/S2-E12.png)
 
+### CUSTOMER STORIES: Healow
+
+_In this ongoing segment, we continue talking to customers about real world usage of Azure AI technologies and solutions. In this episode we're joined by David Johnston, CTO and Co-founder at Saifr, and Brett Trainor, Head of Partnerships at Saifr who share how Saifr's AI solutions help financial service developers create compliant apps, services and agents!_.
+
+**Speakers:**
+
+_David Johnston_ (Jono) is the CTO of Saifr, a Fidelity Labs company. 
+
+Jono is a hands-on technologist and full-stack developer with a record of leading highly skilled teams and fueling business growth in consulting and corporate environments.  He has deep technological experience and an entrepreneurial heart with experience founding and leading startups as Chief Technology Officer. His company experiences include Fidelity Investments, Putnam Investments, Sallie Mae, and Safran.
+
+_Brett Trainor_ is the Head of Partners of Saifr, a Fidelity Labs Company.
+
+Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as Liberty Mutual, State Street and most recently at Fidelity Investments, Brett has held key roles across Risk, Compliance, Strategic Negotiations/Procurement and Enterprise Relationship Management. With a customer first mindset, Brett looks to drive value and solutions at scale through tightly aligned strategic partnerships. Brett holds an MBA from Northeastern University’s D’Amore-McKim School of Business.
+
+![Banner](./img/S2-E12-CustomerStories.png)
+
 ---
