@@ -229,4 +229,17 @@ Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as 
 
 ![Banner](./img/s2-e12-CustomerStories.png)
 
+## S2E13 · Hugging Face (PLACEHOLDER)
+
+### CUSTOMER STORIES: DraftWise
+
+_In this episode we're sharing a BUILD 2025 segment from James Ding, CEO and Co-founder at DraftWise, sharing how AI models are revolutionizing legal contracting!_.
+
+**Speakers:**
+
+_James Ding_ is the CEO and co-founder of DraftWise, an AI contract drafting, review, and negotiation platform powered by your legal knowledge.
+
+Before founding DraftWise, James led product teams at Palantir, building AI and big data solutions for clients in manufacturing, finance, and cybersecurity. He has invented multiple patents in data security, machine learning, and cloud computing.
+
+![Banner](./img/S2-E13-CustomerStories.png)
 ---
