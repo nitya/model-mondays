@@ -65,7 +65,32 @@ _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ y
 
 ![Banner](./season-02/img/S2-E11-CustomerStories.png)
 
+### Sep 08th 2025: Saifr
 
+_In this ongoing segment, we continue talking to customers about real world usage of Azure AI technologies and solutions. In this episode we're joined by David Johnston, CTO and Co-founder at Saifr, and Brett Trainor, Head of Partnerships at Saifr who share how Saifr's AI solutions help financial service developers create compliant apps, services and agents!_.
 
----
+**Speakers:**
+
+_David Johnston_ (Jono) is the CTO of Saifr, a Fidelity Labs company. 
+
+Jono is a hands-on technologist and full-stack developer with a record of leading highly skilled teams and fueling business growth in consulting and corporate environments.  He has deep technological experience and an entrepreneurial heart with experience founding and leading startups as Chief Technology Officer. His company experiences include Fidelity Investments, Putnam Investments, Sallie Mae, and Safran.
+
+_Brett Trainor_ is the Head of Partners of Saifr, a Fidelity Labs Company.
+
+Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as Liberty Mutual, State Street and most recently at Fidelity Investments, Brett has held key roles across Risk, Compliance, Strategic Negotiations/Procurement and Enterprise Relationship Management. With a customer first mindset, Brett looks to drive value and solutions at scale through tightly aligned strategic partnerships. Brett holds an MBA from Northeastern University’s D’Amore-McKim School of Business.
+
+![Banner](./season-02/img/s2-e12-CustomerStories.png)
+
+### Sep 15th 2025: DraftWise
+
+_In this episode we're sharing a BUILD 2025 segment from James Ding, CEO and Co-founder at DraftWise, sharing how AI models are revolutionizing legal contracting!_.
+
+**Speakers:**
+
+_James Ding_ is the CEO and co-founder of DraftWise, an AI contract drafting, review, and negotiation platform powered by your legal knowledge.
+
+Before founding DraftWise, James led product teams at Palantir, building AI and big data solutions for clients in manufacturing, finance, and cybersecurity. He has invented multiple patents in data security, machine learning, and cloud computing.
+
+![Banner](./season-02/img/S2-E13-CustomerStories.png)
+
 ---
