@@ -229,8 +229,15 @@ Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as 
 
 ![Banner](./img/s2-e12-CustomerStories.png)
 
-## S2E13 · Hugging Face (PLACEHOLDER)
+## S2E13 · Hugging Face Models in Azure AI Foundry with Jeff Boudier VP of Product Hugging Face
 
+Did you know the Hugging Face collection on Azure AI Foundry Models currently has over 10K options? When should we use them and how do we select the right one? Join us as we talk about getting started with Hugging Face models on Azure AI – and how you can request new additions. 
+
+ - 1️⃣ | [Register For The Livestream](https://developer.microsoft.com/en-us/reactor/events/26132/) - Sep 15, 2025 
+ - 2️⃣ | [Register For The AMA](https://discord.gg/Z8JZsrP5P5?event=1414657387062628442) - Sep 19, 2025
+ - 3️⃣ | [Ask Questions & View Recaps](https://aka.ms/model-mondays/forum) - Discussion Forum
+
+![Banner](./img/S2-E13.png)
 ### CUSTOMER STORIES: DraftWise
 
 _In this episode we're sharing a BUILD 2025 segment from James Ding, CEO and Co-founder at DraftWise, sharing how AI models are revolutionizing legal contracting!_.
