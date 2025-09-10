@@ -17,6 +17,8 @@ We are currently under way for Season 2 with a scheduled 12-episode series. Some
 
 ---
 
+<br/>
+
 ## S2E02 · Model Context Protocol
 
 > Want to learn how Model Context Protocol works and how to leverage MCP in a more effective way to extend the capabilities of your AI models and agents? Join us as we talk to Den Delimarsky about the MCP specification, security considerations and usage within Microsoft Azure. 
@@ -29,6 +31,8 @@ We are currently under way for Season 2 with a scheduled 12-episode series. Some
 ![Banner](./img/S2-E2.png)
 
 ---
+
+<br/>
 
 ## S2E03 · SLMs and Reasoning
 
@@ -43,6 +47,8 @@ We are currently under way for Season 2 with a scheduled 12-episode series. Some
 
 ---
 
+<br/>
+
 ## S2E04 · AI Developer Experiences
 > How can we streamline the AI developer journey from model selection and usage to evaluation and app deployment? Join us as we talk to Leo Yao about the AI Toolkit and Azure AI Foundry extensions for Visual Studio Code – and the key capabilities they provide for generative AI app & agent development. 
 
@@ -55,6 +61,8 @@ We are currently under way for Season 2 with a scheduled 12-episode series. Some
 
 ---
 
+<br/>
+
 ## S2E05 · Fine Tuning & Distillation
 
 > Model customization is critical to ensuring the model is optimized for your application requirements. Join us as we talk to Dave Voutila about fine-tuning Azure OpenAI models, using distillation techniques for efficient knowledge transfer, and other best practices in Azure AI Foundry. 
@@ -66,6 +74,8 @@ We are currently under way for Season 2 with a scheduled 12-episode series. Some
 ![Banner](./img/S2-E5.png)
 
 ---
+
+<br/>
 
 ## S2E06 · Research & Innovation
 
@@ -91,9 +101,9 @@ _Zachary Meierhofer_ is a product manager with a passion for turning complex AI 
 
 ![Banner](./img/S2-E6-CustomerStories.png)
 
-
-
 ---
+
+<br/>
 
 ## S2E07 · AI-Assisted Azure Development
 
@@ -114,7 +124,10 @@ _In this new segment, we continue talking to customers about real world usage of
 _Kurt DeMaagd_ is is Chief AI Officer and Co-founder at Sight Machine. He has developed AI agents and ML applications for manufacturing predictive maintenance, prescriptive energy optimization and waste reduction, decision support tools for quality, and schedule optimization. Kurt has presented on manufacturing AI/ML at conferences such as the Microsoft Ignite, NVIDIA GTC, Qatar Economic Forum, Automate, the American Society for Quality, multiple presentations at the ASQ Statistic Division conference, plus 30+ academic publications. Previously, Kurt was a professor at Michigan State University. He has a Ph.D. in Business Administration from the University of Michigan, Ross School of Business; and a BS in Computer Science from Hope College..
 
 ![Banner](./img/S2-E7-CustomerStories.png)
+
 ---
+
+<br/>
 
 ## S2E08 · On-Device & Local AI
 
@@ -137,7 +150,10 @@ _Marilyn Morgan Westner_ is is Chief Experience Officer (CXO) and Co-founder at 
 _Alex Westner_ is is Chief Executive Officer (CEO) and Co-founder at Xander. Alex spent 20+ years leading product strategy at iZotope, Gibson, and Fidelity Labs, Fidelity Investments' innovation incubator. He began his career in engineering, focused on microphone arrays and the “cocktail party problem.” At the MIT Media Lab he trained computers to differentiate individual voices from other sounds. He spent 18 years as a product leader in audio and music technology companies, where he developed and shipped software products that analyzed and separated sound and speech. He led several successful audio products including iZotope RX, which won an Engineering Emmy Award. In 2018, he became a product leader at Fidelity Labs. Working in fintech, he gained experience protecting online privacy and led a team that successfully developed and launched a software platform that helped financial advisors introduce sustainable investing practices to their clients.
 
 ![Banner](./img/S2-E8-CustomerStories.png)
+
 ---
+
+<br/>
 
 ## S2E09 · Models for AI Agents
 
@@ -158,7 +174,10 @@ _In this ongoing segment, we continue talking to customers about real world usag
 _Sukrit Chatterjee_ is an AI Research Engineer at Atomicwork, designing integrated AI systems that learn from their environment and adapt to task context. With a background in applied AI and system integration, he works at the intersection of research and engineering to advance agentic, context-aware applications.
 
 ![Banner](./img/S2-E9-CustomerStories.png)
+
 ---
+
+<br/>
 
 ## S2E10 · Document Processing
 
@@ -179,7 +198,10 @@ _Keeping in with today's theme, we're sharing a prior session with Srinivas Gadd
 _Sri Gadde_ is a seasoned technology leader with over 15 years of experience in AI-driven software development. As Senior Director of Software Development at Oracle, he leads efforts in conversational AI and AI-powered clinical workflows—advancing healthcare efficiency and patient safety through cutting-edge modeling techniques and responsible AI practices.
 
 ![Banner](./img/S2-E10-CustomerStories.png)
+
 ---
+
+<br/>
 
 ## S2E11 · AI Foundry Speech Playground
 
@@ -202,6 +224,8 @@ _Sidd Shah_, Vice President at healow, leads consumer engagement tech with 20+ y
 ![Banner](./img/S2-E11-CustomerStories.png)
 
 ---
+
+<br/>
 
 ## S2E12 · Models & Observability
 
@@ -227,9 +251,15 @@ _Brett Trainor_ is the Head of Partners of Saifr, a Fidelity Labs Company.
 
 Over a 16-year career at Fortune 100, Fortune 500, and industry leaders such as Liberty Mutual, State Street and most recently at Fidelity Investments, Brett has held key roles across Risk, Compliance, Strategic Negotiations/Procurement and Enterprise Relationship Management. With a customer first mindset, Brett looks to drive value and solutions at scale through tightly aligned strategic partnerships. Brett holds an MBA from Northeastern University’s D’Amore-McKim School of Business.
 
-![Banner](./img/s2-e12-CustomerStories.png)
+![Banner](./img/S2-E12-CustomerStories.png)
 
-## S2E13 · Hugging Face Models in Azure AI Foundry with Jeff Boudier VP of Product Hugging Face
+---
+
+<br/>
+
+## S2E13 · Open-Source Models
+
+> **Hugging Face Models in Azure AI Foundry with Jeff Boudier VP of Product Hugging Face**
 
 Did you know the Hugging Face collection on Azure AI Foundry Models currently has over 10K options? When should we use them and how do we select the right one? Join us as we talk about getting started with Hugging Face models on Azure AI – and how you can request new additions. 
 
@@ -246,7 +276,7 @@ _In this episode we're sharing a BUILD 2025 segment from James Ding, CEO and Co-
 
 _James Ding_ is the CEO and co-founder of DraftWise, an AI contract drafting, review, and negotiation platform powered by your legal knowledge.
 
-Before founding DraftWise, James led product teams at Palantir, building AI and big data solutions for clients in manufacturing, finance, and cybersecurity. He has invented multiple patents in data security, machine learning, and cloud computing.
+Before founding DraftWise, James led product teams at Palantir, building AI and big data solutions for clients in manufacturing, finance, and cybersecurity. He is an inventor with multiple patents in data security, machine learning, and cloud computing.
 
 ![Banner](./img/S2-E13-CustomerStories.png)
 ---
