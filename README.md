@@ -41,7 +41,7 @@ Every AI developer journey starts with model choice. But, as developers, we face
 
 ## Season 2: Jun-Sep 2025
 
-> _Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs._
+> _Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of series 2](http://aka.ms/model-mondays/playlist)
 
 | Episode | Topic | Monday Livestream | Friday AMA| Slides | Blog |
 |:---|:---|:---|:---|:---|:---|
@@ -58,7 +58,7 @@ Every AI developer journey starts with model choice. But, as developers, we face
 | S2:E11| AI Foundry Speech Playground | [![Replays](https://img.shields.io/badge/Replay_-Aug_25-ffba01)](https://www.youtube.com/watch?v=Rr4iSCyE7IY&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=4&pp=iAQB) | [![Recap](https://img.shields.io/badge/Recap-Aug_29-01a6f0)](https://discord.gg/azureaifoundry?event=1382864441191960696) |[![Speakerdeck](https://img.shields.io/badge/Download_-PDF-purple)](https://speakerdeck.com/nitya/model-mondays-s2e11-ai-foundry-speech-playground) | [![Blog](https://img.shields.io/badge/Read_-Blog-tan)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e11-exploring-speech-ai-in-azure-ai-foundry/4448135)
 | S2:E12| Models & Observability | [![Replays](https://img.shields.io/badge/Replay_-Sep_08-ffba01)](https://www.youtube.com/watch?v=gEH2ACNf5b0&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=3&pp=iAQB) | [![Recap](https://img.shields.io/badge/Recap-Sep_12-01a6f0)](https://discord.gg/azureaifoundry?event=1382864811649536120) |[![Speakerdeck](https://img.shields.io/badge/Download_-PDF-purple)](https://speakerdeck.com/nitya/model-mondays-s2e12-models-and-observability) |  [![Blog](https://img.shields.io/badge/Read_-Blog-tan)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e12-models--observability/4452789) |
 | | **`REGISTER NOW👇🏽`** | |
-| S2:E13| Open-Source Models (Hugging Face)  | [![Replays](https://img.shields.io/badge/Register_-Sep_15-f7fbc00)](https://developer.microsoft.com/en-us/reactor/events/26132/) | [![Recap](https://img.shields.io/badge/Register-Sep_19-f34f1c)](https://discord.gg/Z8JZsrP5P5?event=1414657387062628442) | [![Speakerdeck](https://img.shields.io/badge/Pending_-PDF-beige)]() | [![Blog](https://img.shields.io/badge/Pending_-Blog-beige)]() |
+| S2:E13| Open-Source Models (Hugging Face)  | [![Replays](https://img.shields.io/badge/Register_-Sep_15-f7fbc00)](https://developer.microsoft.com/en-us/reactor/events/26132/) | [![Recap](https://img.shields.io/badge/Register-Sep_19-f34f1c)](https://discord.gg/Z8JZsrP5P5?event=1414657387062628442) | [![Speakerdeck](https://img.shields.io/badge/Pending_-PDF-beige)](https://speakerdeck.com/nitya/model-mondays-s2e13-open-source-models-and-hugging-face) | [![Blog](https://img.shields.io/badge/Pending_-Blog-beige)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e13-open-source-models-hugging-face/4454335) |
 | | | |
 
 > **Want to get more details about each session? [Check out the Season 2 page](./docs/season-02/README.md) for more information on each session including speakers, description and links to recaps and slides.** 
