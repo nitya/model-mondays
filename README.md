@@ -41,7 +41,7 @@ Every AI developer journey starts with model choice. But, as developers, we face
 
 ## Season 2: Jun-Sep 2025
 
-> _Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of series 2](http://aka.ms/model-mondays/playlist)
+> _Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of all series of Model Mondays](http://aka.ms/model-mondays/playlist)
 
 | Episode | Topic | Monday Livestream | Friday AMA| Slides | Blog |
 |:---|:---|:---|:---|:---|:---|
