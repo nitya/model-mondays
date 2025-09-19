@@ -25,6 +25,16 @@ Every AI developer journey starts with model choice. But, as developers, we face
 
 <br/>
 
+## Foundry Friday AMA - Every Friday at 1:30pm ET
+
+> **NEXT AMA**: Join us for a conversation with Jeff Boudier on Hugging Face and Open-Source Models on Sep 19, 2025
+
+[![Join Discord Shield](https://img.shields.io/badge/Join_The_AMA-Foundry_Fridays_1:30pm_ET-01a6f0)](https://aka.ms/model-mondays/discord)
+
+![Discord](./docs/season-02/img/S2-E13-AMA.png)
+
+---
+
 ## Season 2 Finale: Spotlight on Hugging Face
 
 2 Seasons and 20 episodes later, we are at the finale for Season 2. And we saved the best for last with a focus on - **Open Source Models**! Join us as we talk to Jeff Boudier (VP of Product, Hugging Face) and put the spotlight on the [Hugging Face Collection](https://ai.azure.com/explore/models?selectedCollection=huggingface) on Azure AI Foundry. With 10K+ models to choose from, the only limit is your imagination! Learn how to discover the right model for your needs, deploy to Azure AI Foundry, and develop AI solutions for specialized domains like healthcare - powered by open-source models like Qwen and more. Plus, we look at some of the latest open-source models from Microsoft Research, and discoverable on Hugging Face!
