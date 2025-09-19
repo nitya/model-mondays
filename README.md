@@ -29,7 +29,9 @@ Every AI developer journey starts with model choice. But, as developers, we face
 
 [![Join Discord Shield](https://img.shields.io/badge/Join_The_AMA-Foundry_Fridays_1:30pm_ET-01a6f0)](https://aka.ms/model-mondays/discord)
 
-> **THIS FRIDAY**: We talk to Jeff Boudier on Hugging Face and Open-Source Models · [Watch Replay](https://developer.microsoft.com/en-us/reactor/events/26132/) · [Download Deck](https://speakerdeck.com/nitya/model-mondays-s2e13-open-source-models-and-hugging-face) 
+> **THIS FRIDAY**: 
+> We talk to Jeff Boudier on Hugging Face and Open-Source Models 
+> [Watch Replay](https://developer.microsoft.com/en-us/reactor/events/26132/) · [Download Deck](https://speakerdeck.com/nitya/model-mondays-s2e13-open-source-models-and-hugging-face) 
 
 
 ![Discord](./docs/season-02/img/S2-E13-AMA.png)
