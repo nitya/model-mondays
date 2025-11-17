@@ -18,39 +18,53 @@
 
 Every AI developer journey starts with model choice. But, as developers, we face two challenges. First is **information overload** - how do we keep up with the rapid pace of model updates and innovation? Second is **decision fatigue** - how do we pick the right model for our task given an ever-growing list of options? Model Mondays tackles these challenges by helping you build your model IQ one week at a time with [livestreams every Monday](https://aka.ms/model-mondays/rsvp) and [AMAs every Friday](https://aka.ms/model-mondays/forum).
 
-1. **5-min Highlights** - catch up on key news items from the past week.
-1. **10-min Customer Stories** - see Azure AI used in real world solutions.
-1. **15-min Spotlight** - get a deep-dive on 1 topic from an expert.
-1. **30-min AMA** - ask questions & discuss topic with experts on Discord.
+<br/>
+
+## Mission Agent Possible - At Microsoft Ignite 2025
+
+So many models - so how do you actually learn how to do model selection right? The best way is to work with existing tools and platforms to solve a real-world problem. _You learn more by doing!_
+
+What if we put the "fun" back into Model Fundamentals? We are joining forces with the M365 Advocacy team to support their agent adventure at Microsoft Ignite 2025!
+
+1. [Read The Contest Rules](https://aka.ms/can-i-win) - to understand requirements
+1. [Read The Contest Blog](https://aka.ms/models-blog) - to learn the tasks & get started
+1. [RSVP to Model Mondays](https://aka.ms/model-mondays/rsvp) - for a featured celebration on Dec 1.
+
+
+**WATCH THIS SPACE** 
+
+For more hands-on guidance and a sneak peek at our upcoming _Models For Beginners_ curricula to continue your model adventures beyond Ignite!
+
+![Contest](./img/ignite25-agent-contest.png)
+
+<br/>
+
+## Model Mondays Live - Every Monday at 1:30pm ET
+
+Join us every week for a **60-minute** livestream that will get you caught up on all the AI model news, release announcements, customer stories, and skilling resources you will need to keep up with the pace of AI innovation. 
+
+1. **Weekly Highlights** - catch up on key news items from the past week.
+1. **Tech Spotlights** - deep-dives by experts featuring hands-on demos
+1. **Customer Stories** - showcase for real-world Azure AI adoption at scale.
+1. **Study Corner** - build your skills with our curricular, one lab at a time!
+
+**Season 3 kicks off Dec 1 - [RSVP HERE](https://aka.ms/model/mondays/RSVP)** for remnders & resources.
+
+![Thumbnail](https://img.youtube.com/vi/zE1tfuPGfFY/hqdefault.jpg)
 
 <br/>
 
 ## Foundry Friday AMA - Every Friday at 1:30pm ET
 
-[![Join Discord Shield](https://img.shields.io/badge/Join_The_AMA-Foundry_Fridays_1:30pm_ET-01a6f0)](https://aka.ms/model-mondays/discord)
+Want to learn from the experts and have interactive Q&A discussions on emerging technologies and topics? #FoundryFriday is your opportunity to do exactly that. Just follow these three steps to get setup:
 
-> **THIS FRIDAY**: 
-> We talk to Jeff Boudier on Hugging Face and Open-Source Models 
-> [Watch Replay](https://developer.microsoft.com/en-us/reactor/events/26132/) · [Download Deck](https://speakerdeck.com/nitya/model-mondays-s2e13-open-source-models-and-hugging-face) 
+1. [Join Our Discord](https://aka.ms/model-mondays/discord) - and meet a community of like-minded peers.
+1. Join the **#model-mondays** channel - to get news & updates
+1. Join the AMA very Friday at 1:30pm ET - on the **#community-calls** stage
 
-
-![Discord](./docs/season-02/img/S2-E13-AMA.png)
+![Friday](./img/foundry-fridays.png)
 
 ---
-
-## Season 2 Finale: Spotlight on Hugging Face
-
-2 Seasons and 20 episodes later, we are at the finale for Season 2. And we saved the best for last with a focus on - **Open Source Models**! Join us as we talk to Jeff Boudier (VP of Product, Hugging Face) and put the spotlight on the [Hugging Face Collection](https://ai.azure.com/explore/models?selectedCollection=huggingface) on Azure AI Foundry. With 10K+ models to choose from, the only limit is your imagination! Learn how to discover the right model for your needs, deploy to Azure AI Foundry, and develop AI solutions for specialized domains like healthcare - powered by open-source models like Qwen and more. Plus, we look at some of the latest open-source models from Microsoft Research, and discoverable on Hugging Face!
-
-1. [Register](https://aka.ms/model-mondays/rsvp) - and watch the livestream on Monday Sep 15 at 1:30pm ET
-1. [Join Discord](https://aka.ms/model-mondays/discord) - and the `#model-mondays` channel for updates
-1. [Get Reminders](https://discord.com/invite/Z8JZsrP5P5?event=1414657387062628442) to attend the AMA with Jeff on Sep 19 at 1:30pm ET
-1. [Explore](https://ai.azure.com/explore/models?selectedCollection=huggingface) the Hugging Face collection on Azure AI Foundry.
-
-[![Hugging Face](./docs/season-02/img/S2-E13.png)](https://www.youtube.com/watch?v=BANtEq-0FsE)
-
-<br/>
-
 
 ## Season 2: Jun-Sep 2025
 
