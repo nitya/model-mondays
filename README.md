@@ -56,25 +56,25 @@ The main schedule for Season 3 will kickoff in January 2026, after the holiday b
 
 **Watch this space for schedule updates and click the links to register for livestream and AMA sessions**.
 
-| Episode | Livestream | AMA | Tech Spotlight | Customer Story | Study Corner |
+| Ep | Livestream | AMA | Tech Spotlight | Customer Story | Study Corner |
 |:---|:---|:---|:---|:---|:---|
 | 01 | [Dec 01](https://aka.ms/model-mondays/rsvp) | [Dec 05](https://aka.ms/model-mondays/discord) | [Model Router](https://github.com/microsoft/aitour26-LTG153-automate-model-selection-and-ai-app-design-with-microsoft-foundry) | Adobe Doc | L0: Introduction |
 | 02 | [Dec 08](https://aka.ms/model-mondays/rsvp) | [Dec 12](https://aka.ms/model-mondays/discord) | [Red Teaming](https://github.com/microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-microsoft-foundry) | |  L1: Language Models |
 | 03 | [Dec 15](https://aka.ms/model-mondays/rsvp) | [Dec 19](https://aka.ms/model-mondays/discord)  | [Foundry Local](https://github.com/microsoft/edgeai-for-beginners/blob/main/Module08/README.md) | |  L2: Multimodal Models |
 | -- | 🎄🎄🎄 | --- |  HOLIDAY BREAK | --- | 🎄🎄🎄 |
-| 04 | | |  TBA | | L3: Reasoning Models |
-| 05 | | |  TBA | | L4: Smart Models |
-| 06 | | |  TBA | | L5: Cards & Catalogs |
-| 07 | | |  TBA | | L6: Benchmarks & Leaderboards |
-| 08 | | |  TBA | | L7: Playgrounds & Portals |
-| 09 | | |  TBA | | L8: Graders & Simulators |
-| 10 | | |  TBA | | L9: Context Engineering |
-| 11 | | |  TBA | | L10: Model Customization |
-| 12 | | |  TBA | | L11: Model Distillation |
-| 13 | | |  TBA | | L12: Model Deployment |
-| 14 | | |  TBA | | L13: Evaluation & Metrics |
-| 15 | | |  TBA | | L14: Red-Teaming & Reports |
-| 16 | | |  TBA | | L15: Tracing & Monitoring |
+| 04 | Jan 12 | Jan 16 |  TBA | | L3: Reasoning Models |
+| 05 | Jan 19 | Jan 23 |  TBA | | L4: Smart Models |
+| 06 | Jan 26 | Jan 30 |  TBA | | L5: Cards & Catalogs |
+| 07 | Feb 02 | Feb 06 |  TBA | | L6: Benchmarks & Leaderboards |
+| 08 | Feb 09 | Feb 13 |  TBA | | L7: Playgrounds & Portals |
+| 09 | Feb 16 | Feb 20 |  TBA | | L8: Graders & Simulators |
+| 10 | Feb 23 | Feb 27 |  TBA | | L9: Context Engineering |
+| 11 | Mar 02 | Mar 06 |  TBA | | L10: Model Customization |
+| 12 | Mar 09 | Mar 13 |  TBA | | L11: Model Distillation |
+| 13 | Mar 16 | Mar 20 |  TBA | | L12: Model Deployment |
+| 14 | Mar 23 | Mar 27 |  TBA | | L13: Evaluation & Metrics |
+| 15 | Mar 30 | Apr 03 |  TBA | | L14: Red-Teaming & Reports |
+| 16 | Apr 06 | Apr 10 |  TBA | | L15: Tracing & Monitoring |
 | | | | | | |
 
 
