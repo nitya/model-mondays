@@ -93,4 +93,10 @@ Before founding DraftWise, James led product teams at Palantir, building AI and 
 
 ![Banner](./season-02/img/S2-E13-CustomerStories.png)
 
+### Dec 1st 2025: Adobe
+
+_In this episode we're sharing a Ignite 2025 segment from Nikhil Kumar, Director of Software Development at Adobe, who discusses how new Microsoft Foundry features like Priority Processing are crucial in real-world AI applications to handle load spikes seamlessly!_.
+
+![Banner](./season-02/img/S3-E01-CustomerStories.png)
+
 ---
