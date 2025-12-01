@@ -15,60 +15,92 @@
 
 ![Model Mondays](./img/model-mondays-banner.png)
 
+As an AI native engineer, your journey starts with model choice. But with 10K+ models in Microsoft Foundry, 2M+ open-source model in Hugging Face, and new model releases every day, _how do you make informed decisions?_ With Model Mondays, we have three resources to help you go from awareness to action to adoption.
 
-Every AI developer journey starts with model choice. But, as developers, we face two challenges. First is **information overload** - how do we keep up with the rapid pace of model updates and innovation? Second is **decision fatigue** - how do we pick the right model for our task given an ever-growing list of options? Model Mondays tackles these challenges by helping you build your model IQ one week at a time with [livestreams every Monday](https://aka.ms/model-mondays/rsvp) and [AMAs every Friday](https://aka.ms/model-mondays/forum).
+1. [Model Mondays livestream](https://aka.ms/model-mondays/rsvp) - every Monday at 1:30pm EST with news, tech spotlights & customer stories
+1. [Foundry Friday AMA](https://aka.ms/model-mondays/discord) - every Monday at 1:30pm EST with demos, Q&A featuring subject matter experts
+1. [Models For Beginners](https://aka.ms/models-for-beginners) - curriculum launching Dec 2025 with 4 tracks and weekly lesson updates.
+
+**Build your Model IQ** one week at a time - and go from scenario to solution by learning model fundamentals, understanding model selection, exploring model customization, and building trustworthy AI solutions with end-to-end observability. Join us by taking two actions today:
+
+1. [Join the Discord](https://aka.ms/model-mondays/discord) - and follow the _#model-mondays_ channel for regular updates!
+1. [Register for the Livestream](https://aka.ms/model-mondays/rsvp) - and watch for new updates to the schedule in 2026
 
 <br/>
 
-## Mission Agent Possible - At Microsoft Ignite 2025
+## Season 3: Dec 2025 - Apr 2026
+
+With 21 livestream episodes and 31 AMA sessions completed, we now have a well-defined format that has resonated with AI native engineers and decision-makers alike. As we began planning Season 3, we thought about how we could use the platform to support one additional audience: _learners_. 
+
+Over the next four months, we'll end each episode with a look at one lesson or lab from "Models For Beginners" (MFB), the latest addition to our popular _For-Beginners_ curricula. This content is derived from labs and workshops delivered at signature Microsoft events like AI Tour, Build and Ignite - and gives you a structured way to explore and understand Microsoft Foundry features through the lens of a common app scenario and rich developer tools.
+
+**Learn more at our kickoff - and watch for updates throughout the season.**
+
+![CTA](./img/model-mondays-s3.png)
+
+
+
+### Season 3: This Week 
+
+|   | EP 01: Microsoft Foundry model router|
+|:---|:---|
+| Dec 01 - 1:30pm ET | [Register for Livestream](https://aka.ms/model-mondays/rsvp) |
+| Dec 05 - 1:30pm ET | [Join Discord for AMA](https://aka.ms/model-mondays/discord)|
+|  ![Thumbnail](https://img.youtube.com/vi/zE1tfuPGfFY/hqdefault.jpg)| What if you could always pick the perfect model, instantly? See Foundry Model Router make split-second decisions that save money and boost performance. We talk to Core AI PM Lead Sanjeev Jagtap about the GA announcement at Microsoft Ignite - and revisit demos from his [theater session](https://ignite.microsoft.com/en-US/sessions/THR722?source=bookofnews) there. |
+
+
+
+### Season 3: Full Schedule
+
+The main schedule for Season 3 will kickoff in January 2026, after the holiday break. However, we decided to do a short 3-episode "pre-season" opener in December 2025 to showcase key announcements from [Microsoft Ignite](https://ignite.microsoft.com/sessions) and give your resources to explore over the holidays.
+
+**Watch this space for schedule updates and click the links to register for livestream and AMA sessions**.
+
+| Episode | Livestream | AMA | Tech Spotlight | Customer Story | Study Corner |
+|:---|:---|:---|:---|:---|:---|
+| 01 | [Dec 01](https://aka.ms/model-mondays/rsvp) | [Dec 05](https://aka.ms/model-mondays/discord) | [Model Router](https://github.com/microsoft/aitour26-LTG153-automate-model-selection-and-ai-app-design-with-microsoft-foundry) | Adobe Doc | L0: Introduction |
+| 02 | [Dec 08](https://aka.ms/model-mondays/rsvp) | [Dec 12](https://aka.ms/model-mondays/discord) | [Red Teaming](https://github.com/microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-microsoft-foundry) | |  L1: Language Models |
+| 03 | [Dec 15](https://aka.ms/model-mondays/rsvp) | [Dec 19](https://aka.ms/model-mondays/discord)  | [Foundry Local](https://github.com/microsoft/edgeai-for-beginners/blob/main/Module08/README.md) | |  L2: Multimodal Models |
+| -- | 🎄🎄🎄 | --- |  HOLIDAY BREAK | --- | 🎄🎄🎄 |
+| 04 | | |  TBA | | L3: Reasoning Models |
+| 05 | | |  TBA | | L4: Smart Models |
+| 06 | | |  TBA | | L5: Cards & Catalogs |
+| 07 | | |  TBA | | L6: Benchmarks & Leaderboards |
+| 08 | | |  TBA | | L7: Playgrounds & Portals |
+| 09 | | |  TBA | | L8: Graders & Simulators |
+| 10 | | |  TBA | | L9: Context Engineering |
+| 11 | | |  TBA | | L10: Model Customization |
+| 12 | | |  TBA | | L11: Model Distillation |
+| 13 | | |  TBA | | L12: Model Deployment |
+| 14 | | |  TBA | | L13: Evaluation & Metrics |
+| 15 | | |  TBA | | L14: Red-Teaming & Reports |
+| 16 | | |  TBA | | L15: Tracing & Monitoring |
+| | | | | | |
+
+
+<br/>
+
+## NOV 2025: Mission Agent Possible At Microsoft Ignite
 
 So many models - so how do you actually learn how to do model selection right? The best way is to work with existing tools and platforms to solve a real-world problem. _You learn more by doing!_
 
-What if we put the "fun" back into Model Fundamentals? We are joining forces with the M365 Advocacy team to support their agent adventure at Microsoft Ignite 2025!
+What if we put the "fun" back into Model Fundamentals? Model Mondays joined forces with the M365 Advocacy team to try an interesting experiment at Microsoft Ignite. Stay tuned for a special segment on Model Mondays Season 3 where we share insights from the contest, and celebrate our winners!
 
 1. [Read The Contest Rules](https://aka.ms/can-i-win) - to understand requirements
 1. [Read The Contest Blog](https://aka.ms/models-blog) - to learn the tasks & get started
-1. [RSVP to Model Mondays](https://aka.ms/model-mondays/rsvp) - for a featured celebration on Dec 1.
-
-
-**WATCH THIS SPACE** 
-
-For more hands-on guidance and a sneak peek at our upcoming _Models For Beginners_ curricula to continue your model adventures beyond Ignite!
+1. [RSVP to Model Mondays](https://aka.ms/model-mondays/rsvp) - for a featured celebration in December.
 
 ![Contest](./img/ignite25-agent-contest.png)
 
-<br/>
-
-## Model Mondays Live - Every Monday at 1:30pm ET
-
-Join us every week for a **60-minute** livestream that will get you caught up on all the AI model news, release announcements, customer stories, and skilling resources you will need to keep up with the pace of AI innovation. 
-
-1. **Weekly Highlights** - catch up on key news items from the past week.
-1. **Tech Spotlights** - deep-dives by experts featuring hands-on demos
-1. **Customer Stories** - showcase for real-world Azure AI adoption at scale.
-1. **Study Corner** - build your skills with our curricular, one lab at a time!
-
-**Season 3 kicks off Dec 1 - [RSVP HERE](https://aka.ms/model/mondays/RSVP)** for remnders & resources.
-
-![Thumbnail](https://img.youtube.com/vi/zE1tfuPGfFY/hqdefault.jpg)
 
 <br/>
 
-## Foundry Friday AMA - Every Friday at 1:30pm ET
+## Season 2: Jun 2025 - Sep 2025
 
-Want to learn from the experts and have interactive Q&A discussions on emerging technologies and topics? #FoundryFriday is your opportunity to do exactly that. Just follow these three steps to get setup:
 
-1. [Join Our Discord](https://aka.ms/model-mondays/discord) - and meet a community of like-minded peers.
-1. Join the **#model-mondays** channel - to get news & updates
-1. Join the AMA very Friday at 1:30pm ET - on the **#community-calls** stage
+> **Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of all series of Model Mondays](http://aka.ms/model-mondays/playlist)**
 
-![Friday](./img/foundry-fridays.png)
-
----
-
-## Season 2: Jun-Sep 2025
-
-> _Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of all series of Model Mondays](http://aka.ms/model-mondays/playlist)
+![Season 2](./docs/season-02/img/S2-Banner-Lineup.png)
 
 | Episode | Topic | Monday Livestream | Friday AMA| Slides | Blog |
 |:---|:---|:---|:---|:---|:---|
@@ -89,12 +121,11 @@ Want to learn from the experts and have interactive Q&A discussions on emerging 
 
 > **Want to get more details about each session? [Check out the Season 2 page](./docs/season-02/README.md) for more information on each session including speakers, description and links to recaps and slides.** 
 
-![Season 2](./docs/season-02/img/S2-Banner-Lineup.png)
 ---
 
 <br/>
 
-## Season 1: Mar-May 2025
+## Season 1: Mar 2025 - May 2025
 
 [![Replays](https://img.shields.io/badge/Watch_S1:E01-GitHub_Models-b5179e)](https://www.youtube.com/watch?v=dohvGc7eyqU&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=20&pp=iAQB) 
 [![Replays](https://img.shields.io/badge/Watch_S1:E02-Reasoning_Models-43aa8b)](https://www.youtube.com/watch?v=nTqr4pzxF-k&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=19&pp=iAQB) 
