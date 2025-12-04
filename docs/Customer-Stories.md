@@ -99,4 +99,27 @@ _In this episode we're sharing a Ignite 2025 segment from Nikhil Kumar, Director
 
 ![Banner](./season-02/img/S3-01-Customer-Stories.png)
 
+### Dec 8th 2025: Ada
+
+_In this episode we're sharing a Ignite 2025 segment from Mike Gozzo, Chief Product and Technology Officer at Ada, who discusses how a multi-agent architecture and features like Priority Processing are a must-have to drive business outcomes at scale in the customer experience industry_.
+
+**Speakers:**
+
+_Mike Gozzo_ is the Chief Product & Technology Officer at Ada, where he leads AI research, engineering, product management, and design to develop autonomous AI agents for customer service automation. 
+
+A seasoned entrepreneur and angel investor, he co-founded Smooch.io, a company that transformed business-consumer messaging before being acquired by Zendesk in 2019. At Zendesk, he served as SVP of Product Management, overseeing global product and R&D operations. Recognized as one of Quebec's top emerging entrepreneurs, Gozzo continues to mentor and invest in Canadian tech startups while supporting educational and elder-focused charities through his family foundation. He holds a Bachelor's in Electrical Engineering and an MBA in Finance and Strategy from Concordia University's John Molson School of Business. Outside of work, he enjoys cycling, food, and family time, alongside his active role in nurturing early-stage ventures in Canada.
+
+![Banner](./season-02/img/s3-e02-customer-stories.png)
+
+### Dec 15th 2025: eClinicalWorks
+
+_In this episode we're sharing a Ignite 2025 segment from Rakhee Langer, Vice President at eClinicalWorks, who shares a live demo of Voice AI driving stellar patient outcomes in clinical settings, and how sub-second latency is crucial to building trust_.
+
+**Speakers:**
+
+_Rakhee Langer_ is a results-driven leader with over 20 years of experience in healthcare IT. As Vice President at eClinicalWorks, she oversees customer success and business development initiatives, guiding strategic direction and driving the advancement of innovative solutions. Her expertise spans strategy development, product roadmap planning, and execution for Sunoh and ambient listening technologies, ensuring alignment with evolving market needs.
+
+With a Master’s in Biomedical Engineering, Rakhee brings strong analytical and problem-solving capabilities that fuel growth, foster innovation, and deepen customer engagement.
+
+![Banner](./season-02/img/s3-e03-customer-stories.png)
 ---
