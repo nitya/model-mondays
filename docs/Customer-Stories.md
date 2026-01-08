@@ -122,4 +122,14 @@ _Rakhee Langer_ is a results-driven leader with over 20 years of experience in h
 With a Master’s in Biomedical Engineering, Rakhee brings strong analytical and problem-solving capabilities that fuel growth, foster innovation, and deepen customer engagement.
 
 ![Banner](./season-02/img/s3-e03-customer-stories.png)
+
+### Jan 12th 2025: InWorld.AI
+
+_In this episode we're joined by Cale Shapera, Staff Product Engineer at Inworld AI, who shares demos of InWorld's TTS API's and runtime platform, and highlights why "time to real audio" is a key metric in building effective Voice AI agents._
+
+**Speakers:**
+
+_Cale Shapera_ is a Staff Product Engineer at Inworld AI. With a background in anthropology, education, and information architecture, he has been building large-scale conversational AI experiences since 2019..
+
+![Banner](./season-02/img/s3-e04-customer-stories.png)
 ---
