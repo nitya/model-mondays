@@ -129,7 +129,17 @@ _In this episode we're joined by Cale Shapera, Staff Product Engineer at Inworld
 
 **Speakers:**
 
-_Cale Shapera_ is a Staff Product Engineer at Inworld AI. With a background in anthropology, education, and information architecture, he has been building large-scale conversational AI experiences since 2019..
+_Cale Shapera_ is a Staff Product Engineer at Inworld AI. With a background in anthropology, education, and information architecture, he has been building large-scale conversational AI experiences since 2019.
 
 ![Banner](./season-02/img/s3-e04-customer-stories.png)
+
+### Jan 26th 2025: Relativity
+
+_In this episode we're sharing a Ignite 2025 segment from John Banta, Vice President at Relativity who shares a live demo of Foundry models dramatically accelerating eDiscovery document retreival tasks for lawyers._
+
+**Speakers:**
+
+_John Banta_ is Vice President of Product at Relativity, where he leads the AI and Data Platform product teams driving innovation in Legal Data Intelligence. With over 25 years of experience spanning product management and engineering, John has a proven record of building transformative solutions that simplify complex workflows and enhance user experience across B2C, B2B, and SaaS applications. His leadership focuses on harnessing AI to empower legal and compliance professionals to uncover insights faster, work smarter, and deliver greater impact.
+
+![Banner](./season-02/img/s3-e06-customer-stories.png)
 ---
