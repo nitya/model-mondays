@@ -56,14 +56,24 @@ In Season 3, we are putting the tech spotlight on [Microsoft Foundry](https://ai
 | 16 |[Apr 06](https://aka.ms/model-mondays/rsvp) | [Apr 10](https://aka.ms/model-mondays/discord) |  [GitHub Agentic Workflows](https://githubnext.github.io/gh-aw/) | | Korey |
 | | | | | | |
 
-With 21 livestream episodes and 31 AMA sessions completed, we now have a well-defined format that has resonated with AI native engineers and decision-makers alike. As we began planning Season 3, we thought about how we could use the platform to support one additional audience: _learners and partners_. In 2026, look for new segments like _Partner Spotlights_ featuring model providers, and _Study Corner_ showcasing self-guided labs and curricula for skilling.
+With 21 livestream episodes and 31 AMA sessions completed, we now have a well-defined format that has resonated with AI native engineers and decision-makers alike. As we began planning Season 3, we thought about how we could use the platform to support one additional audience: _learners and partners_. In 2026, look for new segments like _Partner Spotlights_ featuring model providers, _This Week In Hugging Face_ spotlighting open-source models, and _Study Corner_ showcasing self-guided labs and curricula for skilling.
 
 ![CTA](./data/assets/misc/model-mondays-s3.png)
 
+<br/>
+
+## 🆕 · This Week In Hugging Face 🤗
+
+Did you know Microsoft Foundry gives you access to 10K+ open-source models through the [Hugging Face Collection](https://aka.ms/hf/foundry-models)? Starting in Feb 2026, look for a weekly update on what's trending in Hugging Face where we feature 3 models and give you some intuition for what makes them notable for AI devs.
+
+- Visit [this page](./docs/hugging-face/README.md) to learn more & view shared models
+- Track [this tag](https://aka.ms/hf/blog) for a weekly blog post & deep-dive.
+
+![Banner](./docs/hugging-face/assets/HF-blog.jpg)
 
 <br/>
 
-## NOV 2025: Mission Agent Possible At Microsoft Ignite
+## Nov 2025: Mission Agent Possible At Microsoft Ignite
 
 So many models - so how do you actually learn how to do model selection right? The best way is to work with existing tools and platforms to solve a real-world problem. _You learn more by doing!_
 
@@ -74,7 +84,6 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 1. [RSVP to Model Mondays](https://aka.ms/model-mondays/rsvp) - for a featured celebration in December.
 
 ![Contest](./data/assets/misc/ignite25-agent-contest.png)
-
 
 <br/>
 
