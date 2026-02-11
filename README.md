@@ -13,7 +13,7 @@
 
 <br/>
 
-![Model Mondays](./data/assets/misc/model-mondays-banner.png)
+![Model Mondays](./docs/assets/misc/model-mondays-banner.png)
 
 As an AI native engineer, your journey starts with model choice. But with 10K+ models in Microsoft Foundry, 2M+ open-source model in Hugging Face, and new model releases every day, _how do you make informed decisions?_ With Model Mondays, we have three resources to help you go from awareness to action to adoption.
 
@@ -33,32 +33,32 @@ As an AI native engineer, your journey starts with model choice. But with 10K+ m
 In Season 3, we are putting the tech spotlight on [Microsoft Foundry](https://ai.azure.com) and bringing in product group leads and subject matter experts to talk about the unified platform and tech stack that powers the app and agent factory! Season 3 is currently planned for a 16-episode arc going from Dec 2025 to Apr 2026. **In addition to tech spotlights, watch for new customer stories and new segments including Study Corner and Partner Spotlights**.
 
 
-![Lineup](./data/assets/livestream/S3-Banner-Linueup.png)
+![Lineup](./docs/assets/model-mondays/S3-Banner-Linueup.png)
 
 | Ep | Livestream | AMA | Tech Spotlight | Customer Story | Host |
 |:---|:---|:---|:---|:---|:---|
-| 01 | [Dec 01](https://developer.microsoft.com/en-us/reactor/events/26347/) | [Dec 05](https://aka.ms/model-mondays/discord) | [Model Router](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-router?view=foundry) | [Adobe](https://github.com/microsoft/model-mondays/blob/main/docs/Customer-Stories.md#dec-1st-2025-adobe) | Nitya |
-| 02 | [Dec 08](https://developer.microsoft.com/en-us/reactor/events/26577/) | [Dec 12](https://aka.ms/model-mondays/discord) | [Red Teaming](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-red-teaming-agent?view=foundry) | [Ada](https://github.com/microsoft/model-mondays/blob/main/docs/Customer-Stories.md#dec-8th-2025-ada)| Nitya |
-| 03 | [Dec 15](https://developer.microsoft.com/en-us/reactor/events/26578/) | [Dec 19](https://aka.ms/model-mondays/discord)  | [Foundry Local](https://www.foundrylocal.ai/) | [eClinicalWorks](https://github.com/microsoft/model-mondays/blob/main/docs/Customer-Stories.md#dec-15th-2025-eclinicalworks)| Lee |
+| 01 | [Dec 01](https://developer.microsoft.com/en-us/reactor/events/26347/) | [Dec 05](docs/foundry-fridays/2025-12-05-s03-e01-model-router-ama.md) | [Model Router](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-router?view=foundry) | [Adobe](docs/customer-stories/README.md#dec-1st-2025-adobe) | Nitya |
+| 02 | [Dec 08](https://developer.microsoft.com/en-us/reactor/events/26577/) | [Dec 12](docs/foundry-fridays/2025-12-12-s03-e02-red-teaming-ama.md) | [Red Teaming](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-red-teaming-agent?view=foundry) | [Ada](docs/customer-stories/README.md#dec-8th-2025-ada)| Nitya |
+| 03 | [Dec 15](https://developer.microsoft.com/en-us/reactor/events/26578/) | [Dec 19](docs/foundry-fridays/2025-12-19-s03-e03-edge-ai-ama.md)  | [Foundry Local](https://www.foundrylocal.ai/) | [eClinicalWorks](docs/customer-stories/README.md#dec-15th-2025-eclinicalworks)| Lee |
 |  | ✨✨✨ | ✨✨✨ |  FESTIVE HOLIDAY | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
-| 04 | [Jan 12](https://developer.microsoft.com/en-us/reactor/events/26643/) | [Jan 16](https://aka.ms/model-mondays/discord) | [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview) | [InWorld.AI](https://github.com/microsoft/model-mondays/blob/main/docs/Customer-Stories.md#jan-12th-2025-inworldai)| Korey |
-| 05 | [Jan 19 ](https://aka.ms/model-mondays/rsvp)| [Jan 23](https://aka.ms/model-mondays/discord) |  US HOLIDAY  | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
-| 06 | [Jan 26](https://aka.ms/model-mondays/rsvp) | [Jan 30](https://aka.ms/model-mondays/discord) |  [Fine Tuning](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/fine-tuning-considerations?view=foundry) & [Responses API](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | [Relativity](https://github.com/microsoft/model-mondays/blob/main/docs/Customer-Stories.md#jan-26th-2025-relativity) | Bethany |
-| 07 | [Feb 02](https://aka.ms/model-mondays/rsvp) | [Feb 06](https://aka.ms/model-mondays/discord) |  [Synthetic Data Generation](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | | Bethany |
-| 08 | [Feb 09](https://aka.ms/model-mondays/rsvp) | [Feb 13](https://aka.ms/model-mondays/discord) |  [Next-Gen UI Experiences](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-foundry?view=foundry#microsoft-foundry-portals) | | Nitya|
-| 09 | [Feb 16](https://aka.ms/model-mondays/rsvp) | [Feb 20](https://aka.ms/model-mondays/discord) |  [Research Models](https://labs.ai.azure.com/) | | Nitya|
-| 10 | [Feb 23](https://aka.ms/model-mondays/rsvp) | [Feb 27](https://aka.ms/model-mondays/discord) |  [Microsoft Foundry Agents](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry) | | Carlotta|
-| 11 | [Mar 02](https://aka.ms/model-mondays/rsvp) | [Mar 06](https://aka.ms/model-mondays/discord) |  [Foundry Control Plane](https://learn.microsoft.com/en-us/azure/ai-foundry/control-plane/overview?view=foundry) | | Nitya |
-| 12 | [Mar 09](https://aka.ms/model-mondays/rsvp) | [Mar 13](https://aka.ms/model-mondays/discord) |  [AI Developer Experience](https://learn.microsoft.com/en-us/windows/ai/toolkit/) | | April |
-| 13 | [Mar 16](https://aka.ms/model-mondays/rsvp) | [Mar 20](https://aka.ms/model-mondays/discord) |  [Foundry IQ](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/knowledge-retrieval?view=foundry&tabs=foundry%2Cpython) | | Carlotta |
-| 14 | [Mar 23](https://aka.ms/model-mondays/rsvp) | [Mar 27](https://aka.ms/model-mondays/discord) |  [Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?view=foundry) | | (Lee/Carlotta) |
-| 15 | [Mar 30](https://aka.ms/model-mondays/rsvp) | [Apr 03](https://aka.ms/model-mondays/discord) |  [Agent 365 & Identity](https://www.microsoft.com/en-us/microsoft-agent-365) | | Korey |
-| 16 |[Apr 06](https://aka.ms/model-mondays/rsvp) | [Apr 10](https://aka.ms/model-mondays/discord) |  [GitHub Agentic Workflows](https://githubnext.github.io/gh-aw/) | | Korey |
+| 04 | [Jan 12](https://developer.microsoft.com/en-us/reactor/events/26643/) | [Jan 16](docs/foundry-fridays/2026-01-16-s03-e04-agent-framework-ama.md) | [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview) | [InWorld.AI](docs/customer-stories/README.md#jan-12th-2025-inworldai)| Korey |
+| 05 | [Jan 19 ](https://aka.ms/model-mondays/rsvp)| [Jan 23](docs/foundry-fridays/2026-01-23-s03-e05-holiday.md) |  US HOLIDAY  | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
+| 06 | [Jan 26](https://aka.ms/model-mondays/rsvp) | [Jan 30](docs/foundry-fridays/2026-01-30-s03-e06-fine-tuning-ama.md) |  [Fine Tuning](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/fine-tuning-considerations?view=foundry) & [Responses API](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | [Relativity](docs/customer-stories/README.md#jan-26th-2025-relativity) | Bethany |
+| 07 | [Feb 02](https://aka.ms/model-mondays/rsvp) | [Feb 06](docs/foundry-fridays/2026-02-06-s03-e07-synthetic-data-ama.md) |  [Synthetic Data Generation](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | | Bethany |
+| 08 | [Feb 09](https://aka.ms/model-mondays/rsvp) | [Feb 13](docs/foundry-fridays/2026-02-13-s03-e08-ui-experiences-ama.md) |  [Next-Gen UI Experiences](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-foundry?view=foundry#microsoft-foundry-portals) | | Nitya|
+| 09 | [Feb 16](https://aka.ms/model-mondays/rsvp) | [Feb 20](docs/foundry-fridays/2026-02-20-s03-e09-research-models-ama.md) |  US HOLIDAY  | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
+| 10 | [Feb 23](https://aka.ms/model-mondays/rsvp) | [Feb 27](docs/foundry-fridays/2026-02-27-s03-e10-foundry-agents-ama.md) |  [Microsoft Foundry Agents](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry) | | Carlotta|
+| 11 | [Mar 02](https://aka.ms/model-mondays/rsvp) | [Mar 06](docs/foundry-fridays/2026-03-06-s03-e11-control-plane-ama.md) |  [Foundry Control Plane](https://learn.microsoft.com/en-us/azure/ai-foundry/control-plane/overview?view=foundry) | | Nitya |
+| 12 | [Mar 09](https://aka.ms/model-mondays/rsvp) | [Mar 13](docs/foundry-fridays/2026-03-13-s03-e12-dev-experience-ama.md) |  [AI Developer Experience](https://learn.microsoft.com/en-us/windows/ai/toolkit/) | | April |
+| 13 | [Mar 16](https://aka.ms/model-mondays/rsvp) | [Mar 20](docs/foundry-fridays/2026-03-20-s03-e13-foundry-iq-ama.md) |  [Foundry IQ](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/knowledge-retrieval?view=foundry&tabs=foundry%2Cpython) | | Carlotta |
+| 14 | [Mar 23](https://aka.ms/model-mondays/rsvp) | [Mar 27](docs/foundry-fridays/2026-03-27-s03-e14-foundry-tools-ama.md) |  [Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?view=foundry) | | (Lee/Carlotta) |
+| 15 | [Mar 30](https://aka.ms/model-mondays/rsvp) | [Apr 03](docs/foundry-fridays/2026-04-03-s03-e15-agent365-ama.md) |  [Agent 365 & Identity](https://www.microsoft.com/en-us/microsoft-agent-365) | | Korey |
+| 16 |[Apr 06](https://aka.ms/model-mondays/rsvp) | [Apr 10](docs/foundry-fridays/2026-04-10-s03-e16-github-workflows-ama.md) |  [GitHub Agentic Workflows](https://githubnext.github.io/gh-aw/) | | Korey |
 | | | | | | |
 
 With 21 livestream episodes and 31 AMA sessions completed, we now have a well-defined format that has resonated with AI native engineers and decision-makers alike. As we began planning Season 3, we thought about how we could use the platform to support one additional audience: _learners and partners_. In 2026, look for new segments like _Partner Spotlights_ featuring model providers, _This Week In Hugging Face_ spotlighting open-source models, and _Study Corner_ showcasing self-guided labs and curricula for skilling.
 
-![CTA](./data/assets/misc/model-mondays-s3.png)
+![CTA](./docs/assets/misc/model-mondays-s3.png)
 
 <br/>
 
@@ -83,7 +83,7 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 1. [Read The Contest Blog](https://aka.ms/models-blog) - to learn the tasks & get started
 1. [RSVP to Model Mondays](https://aka.ms/model-mondays/rsvp) - for a featured celebration in December.
 
-![Contest](./data/assets/misc/ignite25-agent-contest.png)
+![Contest](./docs/assets/misc/ignite25-agent-contest.png)
 
 <br/>
 
@@ -92,7 +92,7 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 
 > **Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of all series of Model Mondays](http://aka.ms/model-mondays/playlist)**
 
-![Season 2](./data/assets/livestream/S2-Banner-Lineup.png)
+![Season 2](./docs/assets/model-mondays/S2-Banner-Lineup.png)
 
 | Episode | Topic | Monday Livestream | Friday AMA| Slides | Blog |
 |:---|:---|:---|:---|:---|:---|
@@ -111,7 +111,7 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 | S2:E13| Open-Source Models (Hugging Face)  | [![Replays](https://img.shields.io/badge/Replay_-Sep_15-ffba01)](https://www.youtube.com/watch?v=BANtEq-0FsE) | [![Recap](https://img.shields.io/badge/Recap-Sep_19-01a6f0)](https://discord.gg/Z8JZsrP5P5?event=1414657387062628442) | [![Speakerdeck](https://img.shields.io/badge/Download_-PDF-purple)](https://speakerdeck.com/nitya/model-mondays-s2e13-open-source-models-and-hugging-face) | [![Blog](https://img.shields.io/badge/Read_-Blog-tan)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/model-mondays-s2e13-open-source-models-hugging-face/4454335) |
 | | | |
 
-> **Want to get more details about each session? [Check out the Season 2 page](./docs/season-02/README.md) for more information on each session including speakers, description and links to recaps and slides.** 
+> **Want to get more details about each session? [Check out the Season 2 page](./.2025/season-02/README.md) for more information on each session including speakers, description and links to recaps and slides.** 
 
 ---
 
@@ -129,20 +129,20 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 [![Replays](https://img.shields.io/badge/Watch_S1:E08-Forecasting_Models-43aa8b)](https://www.youtube.com/watch?v=_I6qDdp5Vo4&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=13&pp=iAQB0gcJCcMJAYcqIYzv) 
 
 
-> **Our pilot season featured 8 episodes covering models (green badges) and tools (magenta badges) in Azure AI Foundry. [Visit the Season 1 page](./docs/season-01/README.md) for details or click the episode specific badge below to go directly to the replay.**
+> **Our pilot season featured 8 episodes covering models (green badges) and tools (magenta badges) in Azure AI Foundry. [Visit the Season 1 page](./.2025/season-01/README.md) for details or click the episode specific badge below to go directly to the replay.**
 
-[![Season 1](./data/assets/livestream/S1-lineup.png)](./docs/season-01/README.md)
+[![Season 1](./docs/assets/model-mondays/S1-lineup.png)](./.2025/season-01/README.md)
 
 | Episode | Video | Blog | Slides | AMA | 
 |:---|:---|:---|:---|:---|
-| E01 · GitHub Models | [**Play ▶️**](https://developer.microsoft.com/reactor/events/25265/)| [GitHub Models](https://techcommunity.microsoft.com/blog/machinelearningblog/introducing-model-mondays-%E2%80%93-your-ai-model-power-up/4390773) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e1-mar-10-2025)  | Mar 14  |
-| E02 ·  Reasoning Models | [**Play ▶️**](https://developer.microsoft.com/reactor/events/25266/) | [OpenAI, DeepSeek](./docs/season-01/ep-02.md)| [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e2-hands-on-with-reasoning-models) | Mar 21 | 
-| E03 ·  Search + Retrieval  |  [**Play ▶️**](https://developer.microsoft.com/en-us/reactor/events/25354/) |[Cohere Rerank](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-why-rerank-models-are-the-secret-sauce-of-high-quality-search/4396032) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e3-hands-on-with-search-and-retrieval-models)  | Mar 28 |
-| E04 ·  Visual + Generative  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25355/) |[Stable Diffusion](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-lights-prompts-action/4398576) |  [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e4-hands-on-with-visual-generative-ai) | Apr 04 |
-| E05 ·  Fine-Tuning  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25356/)  |[Mistral](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-teaching-your-model-new-tricks-with-fine-tuning/4401129) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e4-hands-on-with-fine-tuning-models) | Apr 11| |
-| E06 ·  Local AI Development |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25357/)  | [AI Toolkit (AITK)](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-bringing-ai-home-with-local-development/4403619) |  [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e6-hands-on-with-local-ai-development) | Apr 18 |
-| E07 ·  Open Source & AI  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25358/)  | [Llama 4 (Meta)](https://techcommunity.microsoft.com/blog/aiplatformblog/expanding-the-llama-4-herd-new-models-now-available-on-azure-ai-foundry/4403609)| [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e7-hands-on-with-open-source-models) | Apr 25|
-| E08 ·  Forecasting Models |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25359/)  | Nixtla TimeGEN | - | May 02 |
+| E01 · GitHub Models | [**Play ▶️**](https://developer.microsoft.com/reactor/events/25265/)| [GitHub Models](https://techcommunity.microsoft.com/blog/machinelearningblog/introducing-model-mondays-%E2%80%93-your-ai-model-power-up/4390773) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e1-mar-10-2025)  | [Mar 14](docs/foundry-fridays/2025-03-14-s01-e01-github-models-ama.md)  |
+| E02 ·  Reasoning Models | [**Play ▶️**](https://developer.microsoft.com/reactor/events/25266/) | [OpenAI, DeepSeek](./.2025/season-01/ep-02.md)| [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e2-hands-on-with-reasoning-models) | [Mar 21](docs/foundry-fridays/2025-03-21-s01-e02-reasoning-ama.md) | 
+| E03 ·  Search + Retrieval  |  [**Play ▶️**](https://developer.microsoft.com/en-us/reactor/events/25354/) |[Cohere Rerank](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-why-rerank-models-are-the-secret-sauce-of-high-quality-search/4396032) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e3-hands-on-with-search-and-retrieval-models)  | [Mar 28](docs/foundry-fridays/2025-03-28-s01-e03-search-retrieval-ama.md) |
+| E04 ·  Visual + Generative  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25355/) |[Stable Diffusion](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-lights-prompts-action/4398576) |  [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e4-hands-on-with-visual-generative-ai) | [Apr 04](docs/foundry-fridays/2025-04-04-s01-e04-visual-generative-ama.md) |
+| E05 ·  Fine-Tuning  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25356/)  |[Mistral](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-teaching-your-model-new-tricks-with-fine-tuning/4401129) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e4-hands-on-with-fine-tuning-models) | [Apr 11](docs/foundry-fridays/2025-04-11-s01-e05-fine-tuning-ama.md)| |
+| E06 ·  Local AI Development |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25357/)  | [AI Toolkit (AITK)](https://techcommunity.microsoft.com/blog/machinelearningblog/model-mondays-bringing-ai-home-with-local-development/4403619) |  [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e6-hands-on-with-local-ai-development) | [Apr 18](docs/foundry-fridays/2025-04-18-s01-e06-local-ai-ama.md) |
+| E07 ·  Open Source & AI  |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25358/)  | [Llama 4 (Meta)](https://techcommunity.microsoft.com/blog/aiplatformblog/expanding-the-llama-4-herd-new-models-now-available-on-azure-ai-foundry/4403609)| [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e7-hands-on-with-open-source-models) | [Apr 25](docs/foundry-fridays/2025-04-25-s01-e07-open-source-ama.md)|
+| E08 ·  Forecasting Models |[**Play ▶️**](https://developer.microsoft.com/reactor/events/25359/)  | Nixtla TimeGEN | - | [May 02](docs/foundry-fridays/2025-05-02-s01-e08-forecasting-ama.md) |
 | | |
 
 <br/>
@@ -154,7 +154,7 @@ Great devs don't build alone! In a fast-pased developer ecosystem, there's no ti
 1. [Join the Discord](https://aka.ms/model-mondays/discord) - for real-time chats, events & learning
 1. [Explore the Forum](https://aka.ms/model-mondays/forum) - for AMA recaps, Q&A, and help!
 
-![CTA](./data/assets/misc/3-cta.png)
+![CTA](./docs/assets/misc/3-cta.png)
 
 
 <br/>

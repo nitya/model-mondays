@@ -1,0 +1,401 @@
+{
+  "name": "update-content",
+  "displayName": "Update Episode or AMA Content",
+  "description": "Update existing Model Mondays episode or Foundry Friday AMA with new information, recaps, resources, or corrections",
+  "version": "1.0.0",
+  "category": "content-update",
+  "parameters": {
+    "contentType": {
+      "type": "enum",
+      "description": "Type of content to update",
+      "required": true,
+      "options": ["episode", "ama"]
+    },
+    "season": {
+      "type": "number",
+      "description": "Season number (1, 2, or 3)",
+      "required": true,
+      "min": 1,
+      "max": 3
+    },
+    "episode": {
+      "type": "number",
+      "description": "Episode number within the season",
+      "required": true,
+      "min": 1
+    },
+    "updateType": {
+      "type": "enum",
+      "description": "Type of update to perform",
+      "required": true,
+      "options": [
+        "add-recap",
+        "add-resources",
+        "add-news-highlights",
+        "update-description",
+        "add-customer-story",
+        "add-topics",
+        "add-speaker",
+        "fix-links",
+        "update-banner",
+        "custom"
+      ]
+    },
+    "content": {
+      "type": "object",
+      "description": "Content to add or update",
+      "required": true,
+      "properties": {
+        "recap": {
+          "type": "string",
+          "description": "Recap text or link to recap discussion"
+        },
+        "resources": {
+          "type": "array",
+          "description": "List of resource objects with title and url",
+          "items": {
+            "title": "string",
+            "url": "string",
+            "description": "string (optional)"
+          }
+        },
+        "newsHighlights": {
+          "type": "array",
+          "description": "List of news highlights with title, url, and description",
+          "items": {
+            "title": "string",
+            "url": "string",
+            "description": "string"
+          }
+        },
+        "topics": {
+          "type": "array",
+          "description": "List of topics covered",
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Updated description text"
+        },
+        "customerStory": {
+          "type": "object",
+          "properties": {
+            "company": "string",
+            "description": "string",
+            "link": "string"
+          }
+        },
+        "speaker": {
+          "type": "object",
+          "properties": {
+            "name": "string",
+            "role": "string (optional)",
+            "company": "string (optional)"
+          }
+        },
+        "banner": {
+          "type": "string",
+          "description": "New banner filename (if updating banner)"
+        },
+        "custom": {
+          "type": "object",
+          "description": "Custom search and replace operations",
+          "properties": {
+            "oldText": "string",
+            "newText": "string"
+          }
+        }
+      }
+    },
+    "updateReadme": {
+      "type": "boolean",
+      "description": "Whether to update README tables if content changes affect them",
+      "required": false,
+      "default": false
+    }
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "validate-inputs",
+      "description": "Validate all input parameters",
+      "checks": [
+        "Season and episode numbers are valid",
+        "Content type is either 'episode' or 'ama'",
+        "Update type is valid",
+        "Required content for updateType is provided"
+      ]
+    },
+    {
+      "step": 2,
+      "action": "locate-file",
+      "description": "Find the target file to update",
+      "operations": [
+        "Search for files matching pattern: *-s{season:02d}-e{episode:02d}.md",
+        "In appropriate directory: docs/model-mondays/ or docs/foundry-fridays/",
+        "If not found, throw error with helpful message",
+        "Read current file content"
+      ]
+    },
+    {
+      "step": 3,
+      "action": "backup-content",
+      "description": "Keep track of original content for rollback if needed",
+      "operations": [
+        "Store original file content in memory",
+        "Note original line count and structure"
+      ]
+    },
+    {
+      "step": 4,
+      "action": "apply-updates",
+      "description": "Apply the requested updates based on updateType",
+      "operations": {
+        "add-recap": [
+          "If episode: Add 'Recap' section after Summary with link to AMA or discussion",
+          "If AMA: Add 'Recap' link in Related section pointing to Discord discussion",
+          "Format: **Recap:** [View Discussion](url)"
+        ],
+        "add-resources": [
+          "Locate 'Resources:' section",
+          "Append new resources to the list",
+          "Format: - [Title](url) - Description (if provided)",
+          "Maintain consistent formatting"
+        ],
+        "add-news-highlights": [
+          "Locate 'News Highlights' section (episodes only)",
+          "Add new highlights to the numbered list",
+          "Format: N. [Title](url) - Description",
+          "Ensure at least 5 total highlights"
+        ],
+        "update-description": [
+          "Locate the description section",
+          "Replace existing description with new content",
+          "Preserve formatting"
+        ],
+        "add-customer-story": [
+          "Add or update 'Customer Story' section (episodes only)",
+          "Format: ### Customer Story: {company}",
+          "{description}",
+          "[View full story](link)"
+        ],
+        "add-topics": [
+          "Locate 'Topics Covered:' section (AMAs only)",
+          "Add new topics to the list",
+          "Format: - Topic description",
+          "Maintain consistent formatting"
+        ],
+        "add-speaker": [
+          "Locate 'Speakers:' section",
+          "Add new speaker to the list",
+          "Format: - Name (Role/Company)",
+          "Place before host"
+        ],
+        "fix-links": [
+          "Scan file for broken links",
+          "Identify issues: absolute vs relative paths, missing files, etc.",
+          "Fix common issues automatically",
+          "Report unfixable issues to user"
+        ],
+        "update-banner": [
+          "Verify new banner file exists",
+          "Update banner reference at top of file",
+          "Format: ![SX-EY](../assets/[category]/filename.png)"
+        ],
+        "custom": [
+          "Apply custom search and replace operation",
+          "Use exact text matching",
+          "Report number of replacements made"
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "action": "update-readme-if-needed",
+      "condition": "updateReadme === true",
+      "description": "Update README tables if content changes affect them",
+      "operations": [
+        "Check if title, date, or other table fields changed",
+        "Locate appropriate table in README.md",
+        "Update corresponding row",
+        "For AMAs, also update docs/foundry-fridays/README.md"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "update-metadata-json",
+      "description": "Update JSON metadata if content changes affect structured data",
+      "operations": [
+        "Determine if changes affect livestreams.json or amas.json",
+        "Update relevant fields (title, description, speakers, etc.)",
+        "Validate JSON structure",
+        "Save changes"
+      ]
+    },
+    {
+      "step": 7,
+      "action": "validate-updates",
+      "description": "Validate all changes made",
+      "checks": [
+        "File was updated successfully",
+        "Markdown formatting is valid",
+        "Links are properly formatted",
+        "Image references are correct",
+        "No duplicate sections created",
+        "Content structure maintained"
+      ]
+    },
+    {
+      "step": 8,
+      "action": "verify-cross-references",
+      "description": "Ensure cross-references remain valid",
+      "operations": [
+        "Check links to related episodes or AMAs",
+        "Verify customer story links if modified",
+        "Validate resource URLs are accessible",
+        "Check Discord and external links"
+      ]
+    },
+    {
+      "step": 9,
+      "action": "generate-summary",
+      "description": "Provide user with summary of changes",
+      "output": {
+        "fileUpdated": "Path to modified file",
+        "changesApplied": ["List of changes made"],
+        "linesAdded": "Number of lines added",
+        "linesModified": "Number of lines modified",
+        "relatedFilesUpdated": ["README.md", "data/*.json if updated"],
+        "warnings": ["Any issues found"],
+        "suggestions": ["Recommended follow-up actions"]
+      }
+    }
+  ],
+  "examples": [
+    {
+      "name": "Add recap to Season 3 Episode 1",
+      "input": {
+        "contentType": "episode",
+        "season": 3,
+        "episode": 1,
+        "updateType": "add-recap",
+        "content": {
+          "recap": "https://github.com/orgs/azure-ai-foundry/discussions/120"
+        }
+      },
+      "expectedOutput": {
+        "fileUpdated": "docs/model-mondays/2025-12-01-s03-e01.md",
+        "changesApplied": ["Added recap link to Summary section"],
+        "linesAdded": 2
+      }
+    },
+    {
+      "name": "Add resources to Season 3 AMA 1",
+      "input": {
+        "contentType": "ama",
+        "season": 3,
+        "episode": 1,
+        "updateType": "add-resources",
+        "content": {
+          "resources": [
+            {
+              "title": "Model Router Documentation",
+              "url": "https://learn.microsoft.com/azure/ai-foundry/concepts/model-router",
+              "description": "Official documentation"
+            },
+            {
+              "title": "Sample Code",
+              "url": "https://github.com/Azure/model-router-samples"
+            }
+          ]
+        }
+      },
+      "expectedOutput": {
+        "fileUpdated": "docs/foundry-fridays/2025-12-05-s03-e01.md",
+        "changesApplied": ["Added 2 new resources"],
+        "linesAdded": 2
+      }
+    },
+    {
+      "name": "Update news highlights for Season 2 Episode 1",
+      "input": {
+        "contentType": "episode",
+        "season": 2,
+        "episode": 1,
+        "updateType": "add-news-highlights",
+        "content": {
+          "newsHighlights": [
+            {
+              "title": "OpenAI o1 Model Update",
+              "url": "https://openai.com/blog/o1-update",
+              "description": "Latest improvements to reasoning capabilities"
+            }
+          ]
+        }
+      },
+      "expectedOutput": {
+        "fileUpdated": "docs/model-mondays/2025-06-16-s02-e01.md",
+        "changesApplied": ["Added 1 news highlight"],
+        "linesAdded": 1
+      }
+    },
+    {
+      "name": "Fix broken links in a file",
+      "input": {
+        "contentType": "episode",
+        "season": 3,
+        "episode": 2,
+        "updateType": "fix-links"
+      },
+      "expectedOutput": {
+        "fileUpdated": "docs/model-mondays/2025-12-08-s03-e02.md",
+        "changesApplied": [
+          "Fixed 3 absolute URLs to relative paths",
+          "Corrected 1 broken asset reference"
+        ],
+        "warnings": ["1 external link returned 404 - needs manual review"]
+      }
+    }
+  ],
+  "validationRules": [
+    {
+      "rule": "Don't create duplicate sections",
+      "check": "Before adding a section, verify it doesn't already exist"
+    },
+    {
+      "rule": "Maintain markdown formatting",
+      "check": "Ensure proper heading levels and list formatting"
+    },
+    {
+      "rule": "Preserve existing content",
+      "check": "Don't remove or modify content not explicitly being updated"
+    },
+    {
+      "rule": "Validate URLs",
+      "check": "Check that added URLs are properly formatted"
+    },
+    {
+      "rule": "Maintain template structure",
+      "check": "Keep sections in the expected order"
+    }
+  ],
+  "errorHandling": {
+    "fileNotFound": "Provide helpful error message with available files for that season",
+    "invalidContent": "Validate content structure before applying updates",
+    "conflictingUpdates": "Warn if update would conflict with existing content",
+    "brokenLinks": "Attempt to fix automatically, report if manual intervention needed"
+  },
+  "batchOperations": {
+    "enabled": true,
+    "description": "Support updating multiple files in one operation",
+    "example": "Update all Season 3 episodes with recap links",
+    "syntax": "update-content --batch --season=3 --updateType=add-recap --content={...}"
+  },
+  "usage": {
+    "command": "update-content",
+    "syntax": "@agent update-content --type={episode|ama} --season=X --episode=Y --updateType={type} --content={json_object}",
+    "interactive": "The agent will prompt for missing required parameters and show preview before applying changes"
+  }
+}
