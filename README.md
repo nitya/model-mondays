@@ -33,27 +33,27 @@ As an AI native engineer, your journey starts with model choice. But with 10K+ m
 In Season 3, we are putting the tech spotlight on [Microsoft Foundry](https://ai.azure.com) and bringing in product group leads and subject matter experts to talk about the unified platform and tech stack that powers the app and agent factory! Season 3 is currently planned for a 16-episode arc going from Dec 2025 to Apr 2026. **In addition to tech spotlights, watch for new customer stories and new segments including Study Corner and Partner Spotlights**.
 
 
-![Lineup](./docs/assets/model-mondays/S3-Banner-Linueup.png)
+![Lineup](./docs/assets/misc/S3-Banner-Linueup.png)
 
-| Ep | Livestream | AMA | Tech Spotlight | Customer Story | Host |
+| Ep | Live | AMA | Partner/Story | Tech Spotlight | Description |
 |:---|:---|:---|:---|:---|:---|
-| 01 | [Dec 01](https://developer.microsoft.com/en-us/reactor/events/26347/) | [Dec 05](docs/foundry-fridays/2025-12-05-s03-e01-model-router-ama.md) | [Model Router](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-router?view=foundry) | [Adobe](docs/customer-stories/README.md#dec-1st-2025-adobe) | Nitya |
-| 02 | [Dec 08](https://developer.microsoft.com/en-us/reactor/events/26577/) | [Dec 12](docs/foundry-fridays/2025-12-12-s03-e02-red-teaming-ama.md) | [Red Teaming](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-red-teaming-agent?view=foundry) | [Ada](docs/customer-stories/README.md#dec-8th-2025-ada)| Nitya |
-| 03 | [Dec 15](https://developer.microsoft.com/en-us/reactor/events/26578/) | [Dec 19](docs/foundry-fridays/2025-12-19-s03-e03-edge-ai-ama.md)  | [Foundry Local](https://www.foundrylocal.ai/) | [eClinicalWorks](docs/customer-stories/README.md#dec-15th-2025-eclinicalworks)| Lee |
-|  | ✨✨✨ | ✨✨✨ |  FESTIVE HOLIDAY | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
-| 04 | [Jan 12](https://developer.microsoft.com/en-us/reactor/events/26643/) | [Jan 16](docs/foundry-fridays/2026-01-16-s03-e04-agent-framework-ama.md) | [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview) | [InWorld.AI](docs/customer-stories/README.md#jan-12th-2025-inworldai)| Korey |
-| 05 | [Jan 19 ](https://aka.ms/model-mondays/rsvp)| [Jan 23](docs/foundry-fridays/2026-01-23-s03-e05-holiday.md) |  US HOLIDAY  | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
-| 06 | [Jan 26](https://aka.ms/model-mondays/rsvp) | [Jan 30](docs/foundry-fridays/2026-01-30-s03-e06-fine-tuning-ama.md) |  [Fine Tuning](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/fine-tuning-considerations?view=foundry) & [Responses API](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | [Relativity](docs/customer-stories/README.md#jan-26th-2025-relativity) | Bethany |
-| 07 | [Feb 02](https://aka.ms/model-mondays/rsvp) | [Feb 06](docs/foundry-fridays/2026-02-06-s03-e07-synthetic-data-ama.md) |  [Synthetic Data Generation](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key) | | Bethany |
-| 08 | [Feb 09](https://aka.ms/model-mondays/rsvp) | [Feb 13](docs/foundry-fridays/2026-02-13-s03-e08-ui-experiences-ama.md) |  [Next-Gen UI Experiences](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-foundry?view=foundry#microsoft-foundry-portals) | | Nitya|
-| 09 | [Feb 16](https://aka.ms/model-mondays/rsvp) | [Feb 20](docs/foundry-fridays/2026-02-20-s03-e09-research-models-ama.md) |  US HOLIDAY  | ✨✨✨✨✨✨ | ✨✨✨✨✨✨ |
-| 10 | [Feb 23](https://aka.ms/model-mondays/rsvp) | [Feb 27](docs/foundry-fridays/2026-02-27-s03-e10-foundry-agents-ama.md) |  [Microsoft Foundry Agents](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry) | | Carlotta|
-| 11 | [Mar 02](https://aka.ms/model-mondays/rsvp) | [Mar 06](docs/foundry-fridays/2026-03-06-s03-e11-control-plane-ama.md) |  [Foundry Control Plane](https://learn.microsoft.com/en-us/azure/ai-foundry/control-plane/overview?view=foundry) | | Nitya |
-| 12 | [Mar 09](https://aka.ms/model-mondays/rsvp) | [Mar 13](docs/foundry-fridays/2026-03-13-s03-e12-dev-experience-ama.md) |  [AI Developer Experience](https://learn.microsoft.com/en-us/windows/ai/toolkit/) | | April |
-| 13 | [Mar 16](https://aka.ms/model-mondays/rsvp) | [Mar 20](docs/foundry-fridays/2026-03-20-s03-e13-foundry-iq-ama.md) |  [Foundry IQ](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/knowledge-retrieval?view=foundry&tabs=foundry%2Cpython) | | Carlotta |
-| 14 | [Mar 23](https://aka.ms/model-mondays/rsvp) | [Mar 27](docs/foundry-fridays/2026-03-27-s03-e14-foundry-tools-ama.md) |  [Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?view=foundry) | | (Lee/Carlotta) |
-| 15 | [Mar 30](https://aka.ms/model-mondays/rsvp) | [Apr 03](docs/foundry-fridays/2026-04-03-s03-e15-agent365-ama.md) |  [Agent 365 & Identity](https://www.microsoft.com/en-us/microsoft-agent-365) | | Korey |
-| 16 |[Apr 06](https://aka.ms/model-mondays/rsvp) | [Apr 10](docs/foundry-fridays/2026-04-10-s03-e16-github-workflows-ama.md) |  [GitHub Agentic Workflows](https://githubnext.github.io/gh-aw/) | | Korey |
+| 01 | [Dec 01](https://developer.microsoft.com/en-us/reactor/events/26347/) | [Dec 05](docs/foundry-fridays/2025-12-05-s03-e01-model-router-ama.md) | [Adobe](docs/customer-stories/README.md#dec-1st-2025-adobe) | Sanjeev Jagtap | [Model Router](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-router?view=foundry): Learn why smart model routing matters for cost-effective AI deployment |
+| 02 | [Dec 08](https://developer.microsoft.com/en-us/reactor/events/26577/) | [Dec 12](docs/foundry-fridays/2025-12-12-s03-e02-red-teaming-ama.md) | [Ada](docs/customer-stories/README.md#dec-8th-2025-ada) | Minsoo Thigpen | [AI Red Teaming](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-red-teaming-agent?view=foundry): Discover how to assess risks and build trustworthy AI with automated adversarial testing |
+| 03 | [Dec 15](https://developer.microsoft.com/en-us/reactor/events/26578/) | [Dec 19](docs/foundry-fridays/2025-12-19-s03-e03-edge-ai-ama.md) | [eClinicalWorks](docs/customer-stories/README.md#dec-15th-2025-eclinicalworks) | Maanav Dalal | [Foundry Local](https://www.foundrylocal.ai/): Explore on-device inference with data privacy for edge AI applications |
+|  | ✨✨✨ | ✨✨✨ | ✨✨✨✨✨✨ | FESTIVE HOLIDAY | ✨✨✨✨✨✨ |
+| 04 | [Jan 12](https://developer.microsoft.com/en-us/reactor/events/26643/) | [Jan 16](docs/foundry-fridays/2026-01-16-s03-e04-agent-framework-ama.md) | [InWorld.AI](docs/customer-stories/README.md#jan-12th-2025-inworldai) | Shawn Henry | [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview): Build scalable AI solutions with multi-agent orchestration |
+| 05 | [Jan 19](https://aka.ms/model-mondays/rsvp) | [Jan 23](docs/foundry-fridays/2026-01-23-s03-e05-holiday.md) | ✨✨✨✨✨✨ | US HOLIDAY | ✨✨✨✨✨✨ |
+| 06 | [Jan 26](https://aka.ms/model-mondays/rsvp) | [Jan 30](docs/foundry-fridays/2026-01-30-s03-e06-fine-tuning-ama.md) | [Relativity](docs/customer-stories/README.md#jan-26th-2025-relativity) | Dave Voutila & Guy Gregory | [Fine-Tuning](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/fine-tuning-considerations?view=foundry) & [Responses API](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key): Master model customization and streamline agent creation with unified APIs |
+| 07 | [Feb 02](https://aka.ms/model-mondays/rsvp) | [Feb 06](docs/foundry-fridays/2026-02-06-s03-e07-synthetic-data-ama.md) | | William Liang | [Synthetic Data Generation](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key): Create high-quality, safe datasets for model evaluation and fine-tuning |
+| 08 | [Feb 09](https://aka.ms/model-mondays/rsvp) | [Feb 13](docs/foundry-fridays/2026-02-13-s03-e08-ui-experiences-ama.md) | | Amir Zur | [Foundry Portal](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-foundry?view=foundry#microsoft-foundry-portals): Experience next-gen UI with end-to-end workflows from planning to production |
+| 09 | [Feb 16](https://aka.ms/model-mondays/rsvp) | [Feb 20](docs/foundry-fridays/2026-02-20-s03-e09-research-models-ama.md) | | Yash Lara | [Foundry Labs](https://aka.ms/model-mondays): Experiment with cutting-edge models and tools from Microsoft Research |
+| 10 | [Feb 23](https://aka.ms/model-mondays/rsvp) | [Feb 27](docs/foundry-fridays/2026-02-27-s03-e10-foundry-agents-ama.md) | | Bala Venkataraman | [Foundry Agents](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry): Discover the unified runtime that takes you from planning to production |
+| 11 | [Mar 02](https://aka.ms/model-mondays/rsvp) | [Mar 06](docs/foundry-fridays/2026-03-06-s03-e11-control-plane-ama.md) | | Sebastian Kohlmeier | [Foundry Control Plane](https://learn.microsoft.com/en-us/azure/ai-foundry/control-plane/overview?view=foundry): Manage multi-agent fleets at enterprise scale with unified observability |
+| 12 | [Mar 09](https://aka.ms/model-mondays/rsvp) | [Mar 13](docs/foundry-fridays/2026-03-13-s03-e12-dev-experience-ama.md) | | Rong Lu | [AI Toolkit](https://learn.microsoft.com/en-us/windows/ai/toolkit/): Build, evaluate, and deploy AI solutions directly from VS Code |
+| 13 | [Mar 16](https://aka.ms/model-mondays/rsvp) | [Mar 20](docs/foundry-fridays/2026-03-20-s03-e13-foundry-iq-ama.md) | | Farzad Sunavala | [Foundry IQ](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/knowledge-retrieval?view=foundry&tabs=foundry%2Cpython): Power your agents with unified knowledge layer and intelligent retrieval |
+| 14 | [Mar 23](https://aka.ms/model-mondays/rsvp) | [Mar 27](docs/foundry-fridays/2026-03-27-s03-e14-foundry-tools-ama.md) | | SeokJin Han | [Foundry Tools & MCP](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?view=foundry): Extend agent capabilities with MCP server integration and tool discovery |
+| 15 | [Mar 30](https://aka.ms/model-mondays/rsvp) | [Apr 03](docs/foundry-fridays/2026-04-03-s03-e15-agent365-ama.md) | | Srikumar Nair | [Agent 365](https://www.microsoft.com/en-us/microsoft-agent-365): Integrate agents seamlessly into Microsoft 365 with secure, managed infrastructure |
+| 16 | [Apr 06](https://aka.ms/model-mondays/rsvp) | [Apr 10](docs/foundry-fridays/2026-04-10-s03-e16-github-workflows-ama.md) | | Peli de Halleux | [GitHub Agentic Workflows](https://githubnext.github.io/gh-aw/): Automate GitHub tasks safely using AI agents with plain English instructions |
 | | | | | | |
 
 With 21 livestream episodes and 31 AMA sessions completed, we now have a well-defined format that has resonated with AI native engineers and decision-makers alike. As we began planning Season 3, we thought about how we could use the platform to support one additional audience: _learners and partners_. In 2026, look for new segments like _Partner Spotlights_ featuring model providers, _This Week In Hugging Face_ spotlighting open-source models, and _Study Corner_ showcasing self-guided labs and curricula for skilling.
@@ -92,7 +92,7 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 
 > **Season 2 kicked off on Jun 16, 2025 and will run through Sep 2025. =Use the **Register** links to get reminders for upcoming events, and visit the **Replay** and **Recap** links to revisit past episodes and AMAs. Watch the complete [playlist of all series of Model Mondays](http://aka.ms/model-mondays/playlist)**
 
-![Season 2](./docs/assets/model-mondays/S2-Banner-Lineup.png)
+![Season 2](./docs/assets/misc/S2-Banner-Lineup.png)
 
 | Episode | Topic | Monday Livestream | Friday AMA| Slides | Blog |
 |:---|:---|:---|:---|:---|:---|
@@ -129,9 +129,9 @@ What if we put the "fun" back into Model Fundamentals? Model Mondays joined forc
 [![Replays](https://img.shields.io/badge/Watch_S1:E08-Forecasting_Models-43aa8b)](https://www.youtube.com/watch?v=_I6qDdp5Vo4&list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL&index=13&pp=iAQB0gcJCcMJAYcqIYzv) 
 
 
-> **Our pilot season featured 8 episodes covering models (green badges) and tools (magenta badges) in Azure AI Foundry. [Visit the Season 1 page](./.2025/season-01/README.md) for details or click the episode specific badge below to go directly to the replay.**
+> **Our pilot season featured 8 episodes covering models (green badges) and tools (magenta badges) in Microsoft Foundry. [Visit the Season 1 page](./.2025/season-01/README.md) for details or click the episode specific badge below to go directly to the replay.**
 
-[![Season 1](./docs/assets/model-mondays/S1-lineup.png)](./.2025/season-01/README.md)
+[![Season 1](./docs/assets/misc/S1-lineup.png)](./.2025/season-01/README.md)
 
 | Episode | Video | Blog | Slides | AMA | 
 |:---|:---|:---|:---|:---|

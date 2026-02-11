@@ -7,7 +7,7 @@
     "profileImage": "assets/people/nitya-narasimhan.jpg",
     "bio": "Nitya is a Senior Cloud Advocate at Microsoft with a focus on AI and developer experience. She holds a PhD and has extensive experience in mobile and web development.",
     "socialLinks": {
-      "linkedin": "https://linkedin.com/in/nitya",
+      "linkedin": "https://linkedin.com/in/nityan",
       "twitter": "https://twitter.com/nitya",
       "github": "https://github.com/nitya",
       "website": "https://nitya.dev"
@@ -27,7 +27,7 @@
     "profileImage": "assets/people/lee-stott.jpg",
     "bio": "Lee is a Senior Cloud Advocate at Microsoft focusing on AI, education, and developer communities.",
     "socialLinks": {
-      "linkedin": "",
+      "linkedin": "https://linkedin.com/in/leestott",
       "twitter": "",
       "github": "",
       "website": ""
@@ -85,7 +85,7 @@
     "profileImage": "assets/people/sanjeev-jagtap.jpg",
     "bio": "Sanjeev is a Core AI PM Lead at Microsoft, focusing on model routing and AI infrastructure.",
     "socialLinks": {
-      "linkedin": "",
+      "linkedin": "https://linkedin.com/in/sanjeevjagtap",
       "twitter": "",
       "github": "",
       "website": ""
@@ -94,7 +94,344 @@
       "Model Router",
       "AI Infrastructure",
       "Product Management",
-      "Azure AI Foundry"
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "bethany-jepchumba",
+    "name": "Bethany Jepchumba",
+    "role": "Senior Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/bethany-jepchumba.jpg",
+    "bio": "Bethany is a Senior Cloud Advocate at Microsoft, focusing on AI, cloud development, and developer communities.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/bethany-jep",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Azure AI",
+      "Cloud Development",
+      "Developer Advocacy"
+    ]
+  },
+  {
+    "id": "william-liang",
+    "name": "William Liang",
+    "role": "Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/william-liang.jpg",
+    "bio": "William Liang is a Product Manager at Microsoft specializing in synthetic data generation and responsible AI practices. He works on tools that help developers create high-quality, diverse, and safe datasets for model training and evaluation.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/william-jiaxiang-liang",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Synthetic Data Generation",
+      "Responsible AI",
+      "Microsoft Foundry",
+      "Data Quality"
+    ]
+  },
+  {
+    "id": "amir-zur",
+    "name": "Amir Zur",
+    "role": "Product Lead",
+    "affiliation": "Microsoft Azure AI",
+    "profileImage": "assets/people/amir-zur.jpg",
+    "bio": "Amir Zur is a Product Lead at Microsoft Azure AI, focusing on developer experiences and portal design. He works on creating intuitive, end-to-end workflows that enable developers to build, test, and deploy AI solutions efficiently.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/amirzur",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry Portal",
+      "Developer Experience",
+      "UI/UX Design",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "yash-lara",
+    "name": "Yash Lara",
+    "role": "Program Manager",
+    "affiliation": "Microsoft Research",
+    "profileImage": "assets/people/yash-lara.jpg",
+    "bio": "Yash Lara is a Program Manager at Microsoft Research, leading experimental AI projects and Foundry Labs initiatives. He bridges cutting-edge research with practical developer tools, bringing innovative models and frameworks to the community.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/yashlara",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry Labs",
+      "Microsoft Research",
+      "Experimental AI",
+      "Innovation"
+    ]
+  },
+  {
+    "id": "korey-stegared-pace",
+    "name": "Korey Stegared-Pace",
+    "role": "Senior Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/korey-stegared-pace.jpg",
+    "bio": "Korey is a Senior Cloud Advocate at Microsoft focusing on AI, developer experience, and cloud technologies.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/koreyspace",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Azure AI",
+      "Developer Advocacy",
+      "Cloud Development"
+    ]
+  },
+  {
+    "id": "carlotta-castelluccio",
+    "name": "Carlotta Castelluccio",
+    "role": "Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/carlotta-castelluccio.jpg",
+    "bio": "Carlotta is a Cloud Advocate at Microsoft with expertise in AI and developer communities.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/carlotta-castelluccio",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Azure AI",
+      "Developer Advocacy",
+      "Community Building"
+    ]
+  },
+  {
+    "id": "april-speight",
+    "name": "April Speight",
+    "role": "Senior Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/april-speight.jpg",
+    "bio": "April is a Senior Cloud Advocate at Microsoft focusing on mixed reality, spatial computing, and AI technologies.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/aprilgittens",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Mixed Reality",
+      "Spatial Computing",
+      "Azure AI",
+      "Developer Experience"
+    ]
+  },
+  {
+    "id": "shawn-henry",
+    "name": "Shawn Henry",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/shawn-henry.jpg",
+    "bio": "Shawn is a Principal Product Manager at Microsoft, focusing on multi-agent orchestration and the Microsoft Agent Framework.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/shawn-patrick-henry",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Microsoft Agent Framework",
+      "Multi-Agent Systems",
+      "Product Management",
+      "AI Orchestration"
+    ]
+  },
+  {
+    "id": "guy-gregory",
+    "name": "Guy Gregory",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/guy-gregory.jpg",
+    "bio": "Guy is a Principal Product Manager at Microsoft, specializing in fine-tuning, the Responses API, and model customization capabilities.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/guygregory",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Fine-Tuning",
+      "Responses API",
+      "Model Customization",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "dave-voutila",
+    "name": "Dave Voutila",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/dave-voutila.jpg",
+    "bio": "Dave is a Principal Product Manager at Microsoft with expertise in model fine-tuning and optimization techniques.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/davevoutila",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Fine-Tuning",
+      "Model Optimization",
+      "Azure OpenAI",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "bala-venkataraman",
+    "name": "Bala Venkataraman",
+    "role": "Partner Group Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/bala-venkataraman.jpg",
+    "bio": "Bala is a Partner Group Product Manager at Microsoft, leading the development of Foundry Agents and unified AI runtime capabilities.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/vpbala",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry Agents",
+      "AI Runtime",
+      "Product Management",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "sebastian-kohlmeier",
+    "name": "Sebastian Kohlmeier",
+    "role": "Partner Group Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/sebastian-kohlmeier.jpg",
+    "bio": "Sebastian is a Partner Group Product Manager at Microsoft, focusing on enterprise-scale agent management and the Foundry Control Plane.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/sebastiankohlmeier",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry Control Plane",
+      "Agent Management",
+      "Enterprise Scale",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "rong-lu",
+    "name": "Rong Lu",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/rong-lu.jpg",
+    "bio": "Rong is a Principal Product Manager at Microsoft, leading the AI Toolkit and developer experience initiatives.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/rongl",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "AI Toolkit",
+      "Developer Experience",
+      "Visual Studio Code",
+      "AI Development Tools"
+    ]
+  },
+  {
+    "id": "farzad-sunavala",
+    "name": "Farzad Sunavala",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/farzad-sunavala.jpg",
+    "bio": "Farzad is a Principal Product Manager at Microsoft, specializing in Foundry IQ and unified knowledge layer capabilities for AI agents.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/farzadsunavala",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry IQ",
+      "Knowledge Retrieval",
+      "AI Agents",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "seokjin-han",
+    "name": "SeokJin Han",
+    "role": "Senior Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/seokjin-han.jpg",
+    "bio": "SeokJin is a Senior Product Manager at Microsoft, focusing on Foundry Tools, MCP integration, and developer tool ecosystems.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/seokjinhan",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Foundry Tools",
+      "Model Context Protocol",
+      "Developer Tools",
+      "Microsoft Foundry"
+    ]
+  },
+  {
+    "id": "srikumar-nair",
+    "name": "Srikumar Nair",
+    "role": "Partner Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "assets/people/srikumar-nair.jpg",
+    "bio": "Srikumar is a Partner Product Manager at Microsoft, leading Agent 365 and Microsoft 365 AI agent integration initiatives.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/srikumarknair",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "Agent 365",
+      "Microsoft 365",
+      "Enterprise AI",
+      "Product Management"
+    ]
+  },
+  {
+    "id": "peli-de-halleux",
+    "name": "Peli de Halleux",
+    "role": "Principal Engineer",
+    "affiliation": "GitHub",
+    "profileImage": "assets/people/peli-de-halleux.jpg",
+    "bio": "Peli is a Principal Engineer at GitHub, leading the development of GitHub Agentic Workflows and AI-powered automation capabilities.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/pelidehalleux",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": [
+      "GitHub Agentic Workflows",
+      "AI Automation",
+      "GitHub Engineering",
+      "Workflow Automation"
     ]
   }
 ]

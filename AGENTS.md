@@ -12,7 +12,7 @@
 
 ## 📋 Repository Overview
 
-This repository hosts the **Model Mondays** livestream series and **Foundry Fridays** AMA sessions, providing educational content about AI models, Azure AI Foundry, and related technologies.
+This repository hosts the **Model Mondays** livestream series and **Foundry Fridays** AMA sessions, providing educational content about AI models, Microsoft Foundry, and related technologies.
 
 ### Content Structure
 
@@ -65,6 +65,7 @@ model-mondays/
 - **Banner images required** for all episode and AMA posts
 - **Dates follow** ISO 8601 format: `YYYY-MM-DD`
 - **Links are relative** within the repository (no absolute GitHub URLs for internal content)
+- **Terminology:** Use "Microsoft Foundry" not "Azure AI Foundry" (URLs with `/azure/ai-foundry/` paths remain unchanged)
 
 ### Season Information
 
@@ -164,7 +165,7 @@ When handling images and banners:
 
 **Date:** Month DD, YYYY  
 **Season:** X | **Episode:** Y  
-**Host:** Name
+**Host:** [Host Name](linkedin-url)
 
 ### News Highlights
 
@@ -182,6 +183,10 @@ Description of the main technology or model featured.
 - Feature 1
 - Feature 2
 - Feature 3
+
+**Speaker:** [Speaker Name](linkedin-url)
+
+_Brief 2-3 sentence bio about the speaker's background and expertise relevant to the topic._
 
 **Resources:**
 - [Documentation](url)
@@ -209,8 +214,8 @@ Brief summary of the episode content and key takeaways.
 **Title:** Topic AMA
 
 **Speakers:**
-- Name (Role/Company)
-- Host Name (Host)
+- [Speaker Name](linkedin-url) (Role/Company) - _Brief bio about speaker's expertise_
+- [Host Name](linkedin-url) (Host)
 
 **Description:** Brief description of the AMA session and topics covered.
 
@@ -230,6 +235,45 @@ Brief summary of the episode content and key takeaways.
 - [Model Mondays Episode](../model-mondays/yyyy-mm-dd-sXX-eYY.md)
 - [Discord AMA Discussion](https://aka.ms/model-mondays/discord)
 ```
+
+---
+
+## 🤖 Using Custom Skills
+
+The repository includes automated workflow skills for common operations.
+
+### Skill: create-content
+
+Create new episodes or AMAs with all required files and metadata.
+
+```bash
+@agent create-content --type=episode --season=3 --episode=5 \
+  --date=2026-01-20 --title="Edge AI" --host="Lee Stott"
+```
+
+See [.github/skills/create-content-skill.json](.github/skills/create-content-skill.json) for full documentation.
+
+### Skill: update-content
+
+Update existing content with new information (recaps, resources, etc.).
+
+```bash
+@agent update-content --type=ama --season=3 --episode=1 \
+  --updateType=add-recap --content='{"recap":"https://..."}'
+```
+
+See [.github/skills/update-content-skill.json](.github/skills/update-content-skill.json) for full documentation.
+
+### Skill: manage-speaker
+
+Add or update speaker profiles with LinkedIn integration.
+
+```bash
+@agent manage-speaker --action=add --id=john-doe \
+  --linkedinProfile=johndoe --fetchFromLinkedIn=true
+```
+
+See [.github/skills/manage-speaker-skill.json](.github/skills/manage-speaker-skill.json) for full documentation.
 
 ---
 
@@ -351,6 +395,7 @@ See [.github/README.md](.github/README.md) for complete documentation on using t
 5. **ALWAYS check both episode and AMA cross-references** are bidirectional
 6. **ALWAYS update season tables** in README files when adding content
 7. **ALWAYS validate JSON metadata** files are updated alongside markdown content
+8. **ALWAYS use "Microsoft Foundry"** terminology (not "Azure AI Foundry") in text content
 
 ---
 

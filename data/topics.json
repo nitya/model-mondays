@@ -114,7 +114,7 @@
   },
   {
     "id": "azure-ai-foundry",
-    "name": "Azure AI Foundry",
+    "name": "Microsoft Foundry",
     "category": "platforms",
     "description": "Microsoft's comprehensive AI development platform offering model catalog, deployment, evaluation, and monitoring capabilities.",
     "relatedTopics": [

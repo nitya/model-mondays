@@ -18,7 +18,7 @@
       ],
       "resources": [
         {
-          "title": "How to use reasoning models with Azure AI Foundry",
+          "title": "How to use reasoning models with Microsoft Foundry",
           "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/how-to/use-chat-reasoning",
           "type": "documentation"
         },
@@ -37,14 +37,14 @@
     "customerStory": null,
     "highlights": [
       {
-        "title": "Azure AI Foundry Model Catalog Expansion",
+        "title": "Microsoft Foundry Model Catalog Expansion",
         "url": "https://azure.microsoft.com/blog/",
         "description": "New models from DeepSeek, XAI, Meta, and Mistral now available under Microsoft service terms."
       },
       {
         "title": "Video Playground Launch",
         "url": "https://ai.azure.com",
-        "description": "New prompt-to-video generation capability in Azure AI Foundry with exportable code."
+        "description": "New prompt-to-video generation capability in Microsoft Foundry with exportable code."
       },
       {
         "title": "Model Router GA",

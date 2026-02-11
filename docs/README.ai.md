@@ -72,7 +72,7 @@ We are experimenting with AI in an iterative manner. The process is documented b
 
 
 **Objective:** <br/> 
-Streamline the creation of [Foundry Friday recap posts](https://aka.ms/model-mondays/forum) reflecting the community discussions on [Azure AI Foundry Discord](https://aka.ms/model-mondays/discord) for that week's episode.
+Streamline the creation of [Foundry Friday recap posts](https://aka.ms/model-mondays/forum) reflecting the community discussions on [Microsoft Foundry Discord](https://aka.ms/model-mondays/discord) for that week's episode.
 
 **Tasks:** <br/>
 The forum posts need to be created **in advance of the Friday AMA** and updated after the session with a summary of the discussion and relevant resources. This gives the community a place to post questions ahead of time (with topic context), and provides a destination for them to revisit the discussion later. Here are the main tasks we want to automate with AI:

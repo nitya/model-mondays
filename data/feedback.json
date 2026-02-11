@@ -71,7 +71,7 @@
     "author": "Enterprise_Dev",
     "timestamp": "2025-12-01T14:25:00Z",
     "status": "answered",
-    "response": "Currently, Model Router works with models available in the Azure AI Foundry catalog. For custom models, you'd need to implement your own routing logic. However, the catalog has 1800+ models including the ability to bring your own models to Foundry, which can then be included in routing decisions.",
+    "response": "Currently, Model Router works with models available in the Microsoft Foundry catalog. For custom models, you'd need to implement your own routing logic. However, the catalog has 1800+ models including the ability to bring your own models to Foundry, which can then be included in routing decisions.",
     "tags": [
       "model-router",
       "custom-models",
