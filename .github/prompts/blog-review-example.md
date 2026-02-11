@@ -16,7 +16,7 @@
 - Clearly explains episode coverage (open source AI, demos, workflows)
 - Mentions special guest Jeff Boudier from Hugging Face
 - References the season finale context
-- Good connection between open models, community, and Azure AI Foundry
+- Good connection between open models, community, and Microsoft Foundry
 
 ### 3. Key Takeaways ✅
 - Contains exactly 5 well-structured bullet points
@@ -67,7 +67,7 @@
 ## 🔗 Link Status
 
 ### Working Links ✅
-- Azure AI Foundry explore models (200 OK)
+- Microsoft Foundry explore models (200 OK)
 - Microsoft Learn Responsible AI docs (200 OK)
 - Hugging Face leaderboard (307 redirect - working)
 
@@ -81,7 +81,7 @@
 ## 📚 Technical Accuracy (MCP Enhanced)
 
 ### Strengths ✅
-- Accurate references to Azure AI Foundry capabilities
+- Accurate references to Microsoft Foundry capabilities
 - Correct mention of open source models available
 - Proper technical terminology usage
 - Good coverage of responsible AI concepts

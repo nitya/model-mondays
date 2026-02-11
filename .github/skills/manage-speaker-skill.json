@@ -1,0 +1,178 @@
+{
+  "name": "manage-speaker",
+  "description": "Add or update speaker information in the speakers.json database with LinkedIn profile integration",
+  "version": "1.0.0",
+  "instructions": "This skill manages speaker and host profiles in the Model Mondays repository. It can add new speakers, update existing speaker information, and optionally fetch details from LinkedIn profiles.",
+  "parameters": [
+    {
+      "name": "action",
+      "type": "string",
+      "description": "Action to perform: 'add' (new speaker) or 'update' (existing speaker)",
+      "required": true,
+      "enum": ["add", "update"]
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "description": "Speaker ID (kebab-case, e.g., 'john-doe'). Required for both add and update operations.",
+      "required": true,
+      "pattern": "^[a-z0-9-]+$"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Full name of the speaker (e.g., 'John Doe'). Required for add, optional for update.",
+      "required": false
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "description": "Job title or role (e.g., 'Senior Cloud Advocate', 'PM Lead')",
+      "required": false
+    },
+    {
+      "name": "affiliation",
+      "type": "string",
+      "description": "Company or organization (e.g., 'Microsoft', 'Azure AI Team')",
+      "required": false
+    },
+    {
+      "name": "linkedinProfile",
+      "type": "string",
+      "description": "LinkedIn profile username (e.g., 'nitya' for linkedin.com/in/nitya). If provided, skill will attempt to fetch profile info.",
+      "required": false
+    },
+    {
+      "name": "profileImage",
+      "type": "string",
+      "description": "Relative path to profile image (e.g., 'assets/people/john-doe.jpg'). Auto-generated if not provided.",
+      "required": false
+    },
+    {
+      "name": "bio",
+      "type": "string",
+      "description": "Short biography (2-3 sentences). Can be fetched from LinkedIn if profile provided.",
+      "required": false
+    },
+    {
+      "name": "socialLinks",
+      "type": "object",
+      "description": "Social media links object with linkedin, twitter, github, website properties",
+      "required": false,
+      "properties": {
+        "linkedin": { "type": "string", "description": "Full LinkedIn URL" },
+        "twitter": { "type": "string", "description": "Full Twitter/X URL" },
+        "github": { "type": "string", "description": "Full GitHub URL" },
+        "website": { "type": "string", "description": "Personal website URL" }
+      }
+    },
+    {
+      "name": "expertise",
+      "type": "array",
+      "description": "Array of expertise areas/topics (e.g., ['Azure AI', 'Machine Learning'])",
+      "required": false,
+      "items": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "fetchFromLinkedIn",
+      "type": "boolean",
+      "description": "Whether to attempt fetching profile details from LinkedIn (requires linkedinProfile parameter)",
+      "required": false,
+      "default": true
+    }
+  ],
+  "workflow": {
+    "steps": [
+      {
+        "step": 1,
+        "action": "validate-parameters",
+        "description": "Validate required parameters and check if speaker ID already exists (for add) or doesn't exist (for update)"
+      },
+      {
+        "step": 2,
+        "action": "fetch-linkedin-data",
+        "description": "If linkedinProfile provided and fetchFromLinkedIn=true, retrieve profile information from LinkedIn",
+        "conditional": true,
+        "notes": "Extract: name, role, affiliation, bio summary, profile image URL. Use this data to populate missing fields."
+      },
+      {
+        "step": 3,
+        "action": "generate-defaults",
+        "description": "Generate default values for missing fields: profileImage path, empty socialLinks, empty expertise array"
+      },
+      {
+        "step": 4,
+        "action": "create-or-update-entry",
+        "description": "Add new entry to speakers.json or update existing entry with provided/fetched data"
+      },
+      {
+        "step": 5,
+        "action": "validate-json",
+        "description": "Ensure speakers.json remains valid JSON with proper formatting"
+      },
+      {
+        "step": 6,
+        "action": "update-episode-references",
+        "description": "Find all episode files that reference this speaker and add LinkedIn links if not present",
+        "notes": "Search for speaker name in episode markdown files and add LinkedIn link in format: [Speaker Name](linkedin-url)"
+      },
+      {
+        "step": 7,
+        "action": "report-completion",
+        "description": "Provide summary of changes including which fields were fetched from LinkedIn and which episodes were updated"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "description": "Add new speaker with LinkedIn profile fetch",
+      "command": "@agent manage-speaker --action=add --id=john-doe --linkedinProfile=johndoe --fetchFromLinkedIn=true"
+    },
+    {
+      "description": "Add new speaker with manual data",
+      "command": "@agent manage-speaker --action=add --id=jane-smith --name='Jane Smith' --role='Senior PM' --affiliation='Microsoft' --linkedinProfile=janesmith --bio='Jane is a Senior PM...' --expertise='[\"AI\", \"Product Management\"]'"
+    },
+    {
+      "description": "Update existing speaker's bio and expertise",
+      "command": "@agent manage-speaker --action=update --id=nitya-narasimhan --bio='Updated bio...' --expertise='[\"Azure AI\", \"Gen AI\", \"Developer Advocacy\"]'"
+    },
+    {
+      "description": "Update speaker with new LinkedIn profile",
+      "command": "@agent manage-speaker --action=update --id=lee-stott --linkedinProfile=leestott --fetchFromLinkedIn=true"
+    }
+  ],
+  "validation": {
+    "rules": [
+      "Speaker ID must be unique for add operations",
+      "Speaker ID must exist for update operations",
+      "Speaker ID must be kebab-case (lowercase with hyphens)",
+      "LinkedIn profile username should not include 'linkedin.com/in/' prefix",
+      "Profile image path should start with 'assets/people/'",
+      "Bio should be 2-3 sentences, maximum 500 characters",
+      "All URLs in socialLinks must be valid URLs or empty strings",
+      "Expertise array should contain 2-6 items"
+    ]
+  },
+  "outputs": {
+    "files_modified": ["data/speakers.json"],
+    "files_potentially_modified": ["docs/model-mondays/*.md", "docs/foundry-fridays/*.md"],
+    "report_includes": [
+      "Action performed (add/update)",
+      "Speaker ID and name",
+      "Fields fetched from LinkedIn (if applicable)",
+      "Fields manually provided",
+      "Number of episode files updated with LinkedIn links",
+      "Validation status"
+    ]
+  },
+  "notes": [
+    "LinkedIn data fetching requires appropriate authentication and API access",
+    "If LinkedIn fetch fails, skill will proceed with manual data only",
+    "Profile images should be placed in docs/assets/people/ directory",
+    "Speaker bio should focus on professional background and expertise relevant to Model Mondays",
+    "When updating existing speakers, only provided fields will be modified",
+    "Episode file updates will preserve existing markdown formatting"
+  ]
+}

@@ -1,10 +1,10 @@
 [
   {
     "id": "azure-reasoning-docs",
-    "title": "How to use reasoning models with Azure AI Foundry",
+    "title": "How to use reasoning models with Microsoft Foundry",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/how-to/use-chat-reasoning",
     "type": "documentation",
-    "description": "Official Microsoft documentation for implementing reasoning models using Azure AI Foundry, covering Python, JavaScript, Java, and C# examples.",
+    "description": "Official Microsoft documentation for implementing reasoning models using Microsoft Foundry, covering Python, JavaScript, Java, and C# examples.",
     "provider": "Microsoft",
     "topics": [
       "reasoning-models",
@@ -21,7 +21,7 @@
     "title": "Tutorial: Get started with DeepSeek-R1 reasoning model",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/tutorials/get-started-deepseek-r1",
     "type": "documentation",
-    "description": "Step-by-step tutorial for deploying and using DeepSeek-R1 in Azure AI Foundry.",
+    "description": "Step-by-step tutorial for deploying and using DeepSeek-R1 in Microsoft Foundry.",
     "provider": "Microsoft",
     "topics": [
       "deepseek",
@@ -219,7 +219,7 @@
   },
   {
     "id": "deepseek-announcement",
-    "title": "Announcing DeepSeek-V3 on Azure AI Foundry and GitHub",
+    "title": "Announcing DeepSeek-V3 on Microsoft Foundry and GitHub",
     "url": "https://techcommunity.microsoft.com/blog/machinelearningblog/announcing-deepseek-v3-on-azure-ai-foundry-and-github/4390438",
     "type": "blog",
     "description": "Announcement of DeepSeek-V3 availability on Microsoft platforms.",
@@ -239,7 +239,7 @@
     "title": "Azure AI Model Inference API",
     "url": "https://learn.microsoft.com/en-us/azure/machine-learning/reference-model-inference-api",
     "type": "documentation",
-    "description": "Unified API documentation for interacting with models in Azure AI Foundry.",
+    "description": "Unified API documentation for interacting with models in Microsoft Foundry.",
     "provider": "Microsoft",
     "topics": [
       "azure-ai-foundry",

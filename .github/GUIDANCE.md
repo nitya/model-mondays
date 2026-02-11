@@ -236,7 +236,7 @@ Validated: ✅ All checks passed
 @agent update-content --type=episode --season=3 --episode=5 \
   --updateType=add-resources \
   --content='{"resources":[
-    {"title":"Azure AI Foundry Docs","url":"https://aka.ms/foundry"},
+    {"title":"Microsoft Foundry Docs","url":"https://aka.ms/foundry"},
     {"title":"Sample Code","url":"https://github.com/..."}
   ]}'
 ```
@@ -250,6 +250,80 @@ Validated: ✅ All checks passed
 6. ✅ Updates JSON metadata
 7. ✅ Validates changes
 8. ✅ Confirms success
+
+### Skill 3: manage-speaker
+
+**Purpose:** Add or update speaker profiles in the speakers.json database with LinkedIn integration.
+
+**Syntax:**
+```bash
+@agent manage-speaker --action=add \
+  --id=john-doe \
+  --linkedinProfile=johndoe \
+  --fetchFromLinkedIn=true
+```
+
+**Parameters:**
+
+| Parameter | Required | Description | Example |
+|:----------|:---------|:------------|:--------|
+| `action` | Yes | `add` (new) or `update` (existing) | `add` |
+| `id` | Yes | Kebab-case ID | `john-doe` |
+| `name` | No* | Full name | `"John Doe"` |
+| `role` | No | Job title | `"Senior PM Lead"` |
+| `affiliation` | No | Company/organization | `"Microsoft"` |
+| `linkedinProfile` | No | LinkedIn username (not full URL) | `johndoe` |
+| `bio` | No | 2-3 sentence bio | `"John is a..."` |
+| `expertise` | No | JSON array of topics | `'["AI", "Azure"]'` |
+| `fetchFromLinkedIn` | No | Auto-fetch from profile? | `true` (default) |
+
+\* Name required for `add`, optional for `update`
+
+**What It Does:**
+1. ✅ Validates speaker ID (unique for add, exists for update)
+2. ✅ Fetches data from LinkedIn if profile provided
+3. ✅ Generates default values (profile image path, etc.)
+4. ✅ Updates or creates entry in `data/speakers.json`
+5. ✅ Validates JSON structure
+6. ✅ Updates episode files with LinkedIn links
+7. ✅ Reports changes and affected files
+
+**Example - Add Speaker with LinkedIn:**
+```bash
+@agent manage-speaker --action=add \
+  --id=sarah-chen \
+  --linkedinProfile=sarahchen \
+  --fetchFromLinkedIn=true
+```
+
+**Example - Add Speaker Manually:**
+```bash
+@agent manage-speaker --action=add \
+  --id=alex-taylor \
+  --name="Alex Taylor" \
+  --role="Principal Engineer" \
+  --affiliation="Microsoft Azure AI" \
+  --bio="Alex is a Principal Engineer..." \
+  --expertise='["Azure AI", "MLOps", "Kubernetes"]' \
+  --linkedinProfile=alextaylor
+```
+
+**Example - Update Existing Speaker:**
+```bash
+@agent manage-speaker --action=update \
+  --id=nitya-narasimhan \
+  --bio="Updated bio with new focus areas..." \
+  --expertise='["Azure AI", "Gen AI", "Agents"]'
+```
+
+**Output:**
+```
+✅ Added speaker: sarah-chen (Sarah Chen)
+📥 Fetched from LinkedIn: name, role, affiliation, profile image
+✏️  Manually provided: expertise
+📝 Updated 3 episode files with LinkedIn links
+✅ Validation passed
+```
 
 ---
 

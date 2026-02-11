@@ -1,9 +1,9 @@
 ## Customer Stories
-As part of Model Mondays, we feature real world customer stories showing how Azure AI Foundry models are solving enterprise problems. 
+As part of Model Mondays, we feature real world customer stories showing how Microsoft Foundry models are solving enterprise problems. 
 
 ### Jul 21st 2025: Capacity
 
-We're joined by Steve Frederickson, Head of Product and Zachary Meierhoffer, Product Manager at Capacity, who walk through how Capacity's Answer Engine uses Azure AI Foundry models to unlock insights from knowledge that exists across their organizations.
+We're joined by Steve Frederickson, Head of Product and Zachary Meierhoffer, Product Manager at Capacity, who walk through how Capacity's Answer Engine uses Microsoft Foundry models to unlock insights from knowledge that exists across their organizations.
 
 **Speakers:**
 

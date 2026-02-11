@@ -8,7 +8,7 @@ hide:
 
 ## Motivation
 
-Is the pace of AI model evolution leaving you feeling a bit overwhelmed? You aren't alone. The [Azure AI Foundry model catalog](https://ai.azure.com/explore/models) has **over 1800 models** to choose from - and you can find **over 1.5M open-source community variants** on Hugging Face. So - how do you keep up with the news, and build hands-on expertise with this fast-paced ecosystem? Say hello to Model Mondays!
+Is the pace of AI model evolution leaving you feeling a bit overwhelmed? You aren't alone. The [Microsoft Foundry model catalog](https://ai.azure.com/explore/models) has **over 1800 models** to choose from - and you can find **over 1.5M open-source community variants** on Hugging Face. So - how do you keep up with the news, and build hands-on expertise with this fast-paced ecosystem? Say hello to Model Mondays!
 
 !!! success "BUILD YOUR MODEL IQ ONE WEEK AT A TIME!" 
 

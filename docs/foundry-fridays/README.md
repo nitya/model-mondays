@@ -1,6 +1,6 @@
 # 🎙️ Foundry Friday AMA - Demos & QA with Experts
 
-There are 11K+ models in the Azure AI Foundry model catalog, 2M+ community variants on Hugging Face, and new model-related tools & announcements happening daily! How do you keep up your knowledge and skills?
+There are 11K+ models in the Microsoft Foundry model catalog, 2M+ community variants on Hugging Face, and new model-related tools & announcements happening daily! How do you keep up your knowledge and skills?
 
 ![Model-Mondays-AMA](../assets/misc/foundry-fridays.png)
 
@@ -54,7 +54,7 @@ By building your Model IQ - one week at a time - with livestreams on Mondays and
 | 13 | Open-Source & Hugging Face | Sep 19, 2025 | 🔶 | [Read the AMA Recap](https://github.com/orgs/azure-ai-foundry/discussions/110) |
 | 12 | Models & Observability | Sep 12, 2025 | 🔶 | 🔶 |
 | 11 | Text & Speech Playground | Aug 29, 2025 | 🔶 | 🔶 |
-| 10 | Azure AI Foundry Speech Playground | Aug 22, 2025 | 🔶 | 🔶 |
+| 10 | Microsoft Foundry Speech Playground | Aug 22, 2025 | 🔶 | 🔶 |
 | 09 | Models for AI Agents | Aug 15, 2025 | 🔶 | [Read the AMA Recap](https://github.com/orgs/azure-ai-foundry/discussions/109) |
 | 08 | On-Device & Local AI | Aug 08, 2025 | 🔶 | [Read the AMA Recap](https://github.com/orgs/azure-ai-foundry/discussions/108) |
 | 07 | AI-Assisted Azure Dev | Aug 01, 2025 | 🔶 | [Read the AMA Recap](https://github.com/orgs/azure-ai-foundry/discussions/106) |
@@ -88,7 +88,7 @@ _Note: For Season 2 episodes 02-13, full AMA pages are being created. In the mea
 
 ## 🚀 How to Join
 
-1. **Join the Discord**: [Azure AI Foundry Discord](https://aka.ms/model-mondays/discord)
+1. **Join the Discord**: [Microsoft Foundry Discord](https://aka.ms/model-mondays/discord)
 2. **Follow the #model-mondays channel** for announcements
 3. **Attend on Fridays at 1:30pm EST** for live Q&A with experts
 4. **Review recap discussions** on the Discord forum after each session
