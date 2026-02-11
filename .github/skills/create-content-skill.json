@@ -1,0 +1,306 @@
+{
+  "name": "create-content",
+  "displayName": "Create New Episode or AMA",
+  "description": "Create a new Model Mondays episode or Foundry Friday AMA with all required files and metadata",
+  "version": "1.0.0",
+  "category": "content-creation",
+  "parameters": {
+    "contentType": {
+      "type": "enum",
+      "description": "Type of content to create",
+      "required": true,
+      "options": ["episode", "ama"],
+      "default": "episode"
+    },
+    "season": {
+      "type": "number",
+      "description": "Season number (1, 2, or 3)",
+      "required": true,
+      "min": 1,
+      "max": 3
+    },
+    "episode": {
+      "type": "number",
+      "description": "Episode number within the season",
+      "required": true,
+      "min": 1
+    },
+    "date": {
+      "type": "string",
+      "description": "Date in YYYY-MM-DD format",
+      "required": true,
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the episode or AMA topic",
+      "required": true
+    },
+    "host": {
+      "type": "string",
+      "description": "Name of the host",
+      "required": true,
+      "default": "Nitya Narasimhan"
+    },
+    "speakers": {
+      "type": "array",
+      "description": "List of speaker names (for AMAs)",
+      "required": false,
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the content",
+      "required": true
+    },
+    "bannerExists": {
+      "type": "boolean",
+      "description": "Whether the banner image already exists",
+      "required": false,
+      "default": false
+    }
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "action": "validate-inputs",
+      "description": "Validate all input parameters",
+      "checks": [
+        "Date format is correct (YYYY-MM-DD)",
+        "Season and episode numbers are valid",
+        "Title is not empty",
+        "Content type is either 'episode' or 'ama'"
+      ]
+    },
+    {
+      "step": 2,
+      "action": "check-banner",
+      "description": "Verify banner image exists or note it's missing",
+      "operations": [
+        "Construct banner filename based on contentType: SX-EY.png or SX-EY-AMA.png",
+        "Check if file exists in appropriate assets directory",
+        "If missing and bannerExists=false, add warning comment to file",
+        "If missing and bannerExists=true, throw error"
+      ]
+    },
+    {
+      "step": 3,
+      "action": "create-markdown-file",
+      "description": "Create the episode or AMA markdown file",
+      "operations": [
+        "Construct filename: {date}-s{season:02d}-e{episode:02d}.md",
+        "Determine target directory: docs/model-mondays/ or docs/foundry-fridays/",
+        "Apply appropriate template based on contentType",
+        "Insert all provided parameters",
+        "Add banner image reference (with warning if missing)"
+      ],
+      "templates": {
+        "episode": {
+          "structure": [
+            "![Banner](../assets/model-mondays/SX-EY.png)",
+            "",
+            "## {title}",
+            "",
+            "**Date:** {formatted_date}  ",
+            "**Season:** {season} | **Episode:** {episode}  ",
+            "**Host:** {host}",
+            "",
+            "### News Highlights",
+            "",
+            "1. [Headline 1](url) - Description",
+            "2. [Headline 2](url) - Description",
+            "3. [Headline 3](url) - Description",
+            "4. [Headline 4](url) - Description",
+            "5. [Headline 5](url) - Description",
+            "",
+            "### Tech Spotlight: {title}",
+            "",
+            "{description}",
+            "",
+            "**Key Features:**",
+            "- Feature 1",
+            "- Feature 2",
+            "- Feature 3",
+            "",
+            "**Resources:**",
+            "- [Documentation](url)",
+            "- [Tutorial](url)",
+            "- [Sample Code](url)",
+            "",
+            "### Summary",
+            "",
+            "Summary of key takeaways.",
+            "",
+            "**Related AMA:** [View AMA Discussion](../foundry-fridays/{date}-s{season:02d}-e{episode:02d}.md)"
+          ]
+        },
+        "ama": {
+          "structure": [
+            "![Banner](../assets/foundry-fridays/SX-EY-AMA.png)",
+            "",
+            "**Title:** {title}",
+            "",
+            "**Speakers:**",
+            "- {speakers_list}",
+            "- {host} (Host)",
+            "",
+            "**Description:** {description}",
+            "",
+            "**Topics Covered:**",
+            "- Topic 1",
+            "- Topic 2",
+            "- Topic 3",
+            "- Topic 4",
+            "- Topic 5",
+            "",
+            "**Resources:**",
+            "- [Documentation](url)",
+            "- [Tutorial](url)",
+            "- [Sample Code](url)",
+            "",
+            "**Related:**",
+            "- [Model Mondays Episode](../model-mondays/{date}-s{season:02d}-e{episode:02d}.md)",
+            "- [Discord AMA Discussion](https://aka.ms/model-mondays/discord)"
+          ]
+        }
+      }
+    },
+    {
+      "step": 4,
+      "action": "update-readme-tables",
+      "description": "Update README.md with new entry",
+      "operations": [
+        "Read README.md",
+        "Locate the appropriate season table",
+        "Insert new row in correct position (episodes are in date order)",
+        "Maintain table formatting",
+        "Save changes"
+      ]
+    },
+    {
+      "step": 5,
+      "action": "update-foundry-fridays-readme",
+      "condition": "contentType === 'ama'",
+      "description": "Update docs/foundry-fridays/README.md",
+      "operations": [
+        "Read docs/foundry-fridays/README.md",
+        "Locate the appropriate season table",
+        "Insert new row in reverse chronological order (latest first)",
+        "Update episode count in header if needed",
+        "Save changes"
+      ]
+    },
+    {
+      "step": 6,
+      "action": "update-metadata-json",
+      "description": "Update JSON metadata files in data/ directory",
+      "operations": [
+        "Determine which JSON file to update (livestreams.json or amas.json)",
+        "Read current JSON file",
+        "Add new entry with all metadata",
+        "Validate JSON structure",
+        "Save changes"
+      ]
+    },
+    {
+      "step": 7,
+      "action": "update-agents-md",
+      "description": "Update AGENTS.md statistics",
+      "operations": [
+        "Read AGENTS.md",
+        "Update episode/AMA counts",
+        "Update 'Last Updated' date",
+        "Save changes"
+      ]
+    },
+    {
+      "step": 8,
+      "action": "validate-output",
+      "description": "Validate all created/modified files",
+      "checks": [
+        "Markdown file was created successfully",
+        "Banner image reference is correct",
+        "Cross-references to related content are bidirectional",
+        "README tables updated correctly",
+        "JSON metadata is valid",
+        "AGENTS.md updated",
+        "No broken links introduced"
+      ]
+    },
+    {
+      "step": 9,
+      "action": "generate-summary",
+      "description": "Provide user with summary of changes",
+      "output": {
+        "filesCreated": ["List of new files"],
+        "filesModified": ["List of modified files"],
+        "warnings": ["Any warnings or missing items"],
+        "nextSteps": ["Suggested follow-up actions"]
+      }
+    }
+  ],
+  "examples": [
+    {
+      "name": "Create Season 3 Episode 4",
+      "input": {
+        "contentType": "episode",
+        "season": 3,
+        "episode": 4,
+        "date": "2026-01-13",
+        "title": "Microsoft Agent Framework",
+        "host": "Lee Stott",
+        "description": "Exploring the Microsoft Agent Framework for building AI agents",
+        "bannerExists": true
+      },
+      "expectedOutput": {
+        "filesCreated": [
+          "docs/model-mondays/2026-01-13-s03-e04.md"
+        ],
+        "filesModified": [
+          "README.md",
+          "data/livestreams.json",
+          "AGENTS.md"
+        ]
+      }
+    },
+    {
+      "name": "Create Season 3 AMA 4",
+      "input": {
+        "contentType": "ama",
+        "season": 3,
+        "episode": 4,
+        "date": "2026-01-16",
+        "title": "Agent Framework AMA",
+        "host": "Lee Stott",
+        "speakers": ["Victor Dibia"],
+        "description": "Deep dive into Agent Framework with Q&A",
+        "bannerExists": true
+      },
+      "expectedOutput": {
+        "filesCreated": [
+          "docs/foundry-fridays/2026-01-16-s03-e04.md"
+        ],
+        "filesModified": [
+          "README.md",
+          "docs/foundry-fridays/README.md",
+          "data/amas.json",
+          "AGENTS.md"
+        ]
+      }
+    }
+  ],
+  "errorHandling": {
+    "fileExists": "Check if file already exists and prompt user before overwriting",
+    "invalidDate": "Throw error if date format is incorrect",
+    "missingBanner": "Add warning comment but continue creation",
+    "invalidJSON": "Validate JSON before saving and show specific error",
+    "brokenLinks": "Warn user about any broken cross-references"
+  },
+  "usage": {
+    "command": "create-content",
+    "syntax": "@agent create-content --type={episode|ama} --season=X --episode=Y --date=YYYY-MM-DD --title=\"Title\" --host=\"Name\" [--speakers=\"Name1,Name2\"] [--description=\"Description\"]",
+    "interactive": "The agent will prompt for missing required parameters"
+  }
+}
