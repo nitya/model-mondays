@@ -22,9 +22,9 @@ By building your Model IQ - one week at a time - with livestreams on Mondays and
 | 14 | Foundry Tools | Mar 27, 2026 | [View](2026-03-27-s03-e14.md) | 🔶 |
 | 13 | Foundry IQ | Mar 20, 2026 | [View](2026-03-20-s03-e13.md) | 🔶 |
 | 12 | AI Developer Experience | Mar 13, 2026 | [View](2026-03-13-s03-e12.md) | 🔶 |
-| 11 | Foundry Control Plane | Mar 06, 2026 | [View](2026-03-06-s03-e11.md) | 🔶 |
+| 11 | Observability in Microsoft Foundry | Mar 06, 2026 | [View](2026-03-06-s03-e11.md) | 🔶 |
 | 10 | Microsoft Foundry Agents | Feb 27, 2026 | [View](2026-02-27-s03-e10.md) | 🔶 |
-| 09 | Research Models | Feb 20, 2026 | [View](2026-02-20-s03-e09.md) | 🔶 |
+| 09 | Agent Skills For Microsoft Foundry | Feb 20, 2026 | [View](2026-02-20-s03-e09.md) | 🔶 |
 | 08 | Next-Gen UI Experiences | Feb 13, 2026 | [View](2026-02-13-s03-e08.md) | 🔶 |
 | 07 | Synthetic Data Generation | Feb 06, 2026 | [View](2026-02-06-s03-e07.md) | 🔶 |
 | 06 | Fine Tuning & Responses API | Jan 30, 2026 | [View](2026-01-30-s03-e06.md) | 🔶 |
