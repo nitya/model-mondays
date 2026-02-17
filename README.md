@@ -32,6 +32,16 @@ As an AI native engineer, your journey starts with model choice. But with 10K+ m
 
 In Season 3, we are putting the tech spotlight on [Microsoft Foundry](https://ai.azure.com) and bringing in product group leads and subject matter experts to talk about the unified platform and tech stack that powers the app and agent factory! Season 3 is currently planned for a 16-episode arc going from Dec 2025 to Apr 2026. **In addition to tech spotlights, watch for new customer stories and new segments including Study Corner and Partner Spotlights**.
 
+### Partner Spotlights
+
+In our featured Partner Spotlights, we put the focus on key model families with featured speakers from our industry partners.
+
+🌟 | Feb 23, 2026 at 1:30pm ET ․ [**REGISTER TO ATTEND**](https://developer.microsoft.com/en-us/reactor/events/26811/) ․ Join us as we go **Hands-on with Claude in Microsoft Foundry** with our featured spotlight on Anthropic.
+
+![Anthropic](./docs/assets/model-mondays/S3-E10-anthropic.png)
+
+
+### Tech Spotlights
 
 ![Lineup](./docs/assets/misc/S3-Banner-Linueup.png)
 
