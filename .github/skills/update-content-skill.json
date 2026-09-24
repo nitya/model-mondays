@@ -12,7 +12,7 @@
     "id": {
       "type": "string",
       "required": true,
-      "description": "Episode ID such as s4-e07 or AMA ID such as ama-048"
+      "description": "Episode ID such as s4-e07 or AMA ID such as ama-049"
     },
     "updateType": {
       "type": "enum",

@@ -18,9 +18,9 @@ Model Mondays is a practical livestream series for building model expertise one 
 
 ## Foundry Friday AMA Spotlight
 
-[![AMA #048](./docs/assets/foundry-fridays/AMA-048.png)](docs/foundry-fridays/2026-09-25-ama-048.md)
+[![AMA #049](./docs/assets/foundry-fridays/AMA-049.png)](docs/foundry-fridays/2026-09-25-ama-049.md)
 
-### [How do you know what to optimize next in your AI agent? Ask the experts!](docs/foundry-fridays/2026-09-25-ama-048.md)
+### [How do you know what to optimize next in your AI agent? Ask the experts!](docs/foundry-fridays/2026-09-25-ama-049.md)
 
 **September 25, 2026 · 1:30-2:00 PM ET**<br>
 **Speaker:** Charles Kim, Product Lead, Core AI, Microsoft
@@ -55,4 +55,68 @@ Season 4 runs from August 10 through November 2, 2026. Each episode focuses on a
 - [Explore This Week in Hugging Face](docs/hugging-face/README.md)
 - [Watch the Model Mondays playlist](https://aka.ms/model-mondays/playlist)
 
-Previous-season episode pages remain available in [`docs/model-mondays/`](docs/model-mondays/).
+## Previous Seasons
+
+[Watch all Model Mondays replays on YouTube](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL).
+
+<details>
+<summary><strong>Season 3</strong></summary>
+
+| Ep | Topic | Host | Speaker(s) | Replay |
+|:---:|:---|:---|:---|:---:|
+| 01 | Model Router | — | Sanjeev Jagtap | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 02 | AI Red Teaming | — | Minsoo Thigpen | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 03 | Foundry Local | — | Maanav Dalal | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 04 | Microsoft Agent Framework | Korey Stegared-Pace | Shawn Henry | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 05 | Responses API | Nitya Narasimhan | Guy Gregory | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 06 | Fine-Tuning & Responses API | Bethany Jepchumba | Dave Voutila; Guy Gregory | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 07 | Synthetic Data Generation | Bethany Jepchumba | William Liang | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 08 | Foundry Portal & Next-Gen UI | Nitya Narasimhan | Amir Zur | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 09 | Foundry Labs | Nitya Narasimhan | Yash Lara | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 10 | Foundry Agents | Carlotta Castelluccio | Bala Venkataraman | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 11 | BFL & Microsoft Foundry Observability | Nitya Narasimhan | Sebastian Kohlmeier | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 12 | AI Toolkit | April Gittens | Leo Yao | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 13 | Foundry IQ | Carlotta Castelluccio | Farzad Sunavala | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 14 | Foundry Tools & MCP | Lee Stott | SeokJin Han | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 15 | Hugging Face, Agent 365 & Work IQ | Gustavo Cordido | Jeff Boudier; Srikumar Nair | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 16 | Cohere & GitHub Agentic Workflows | Andrea Griffiths | Peli de Halleux | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 17 | Building Foundry Agents Code-First in Visual Studio Code | Carlotta Castelluccio | Junjie Li; Filisha Shah | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+
+</details>
+
+<details>
+<summary><strong>Season 2</strong></summary>
+
+| Ep | Topic | Host | Speaker(s) | Replay |
+|:---:|:---|:---|:---|:---:|
+| 01 | Advanced Reasoning | — | Marlene Mhangami | [YouTube](https://www.youtube.com/watch?v=ffxUEenM4B8) |
+| 02 | Model Context Protocol | — | Den Delimarsky | [YouTube](https://www.youtube.com/watch?v=cPS3cWRZTps) |
+| 03 | SLMs and Reasoning | — | Mojan Javaheripi | [YouTube](https://www.youtube.com/watch?v=VLQKZq8L9Uk) |
+| 04 | AI Developer Experiences | — | Leo Yao | [YouTube](https://www.youtube.com/watch?v=tNiFbf3XP6k) |
+| 05 | Fine Tuning & Distillation | — | Dave Voutila | [YouTube](https://www.youtube.com/watch?v=VSNGzBB20aw) |
+| 06 | Research & Innovation | — | SeokJin Han; Saumil Shrivastava | [YouTube](https://www.youtube.com/watch?v=chjpVSrk3jA) |
+| 07 | AI-Assisted Azure Development | — | Sandeep Sen | [YouTube](https://www.youtube.com/watch?v=mSrg1uP136g) |
+| 08 | On-Device & Local AI | — | Maanav Dalal | [YouTube](https://www.youtube.com/watch?v=ILBDDCJ0d9g) |
+| 09 | Models for AI Agents | — | Mona Whalin | [YouTube](https://www.youtube.com/watch?v=fjSxraAmGMI) |
+| 10 | Document Processing | — | Mistral AI | [YouTube](https://www.youtube.com/watch?v=tqOecUt_wCc) |
+| 11 | Speech Playground | — | Utkarsh Maheswari | [YouTube](https://www.youtube.com/watch?v=Rr4iSCyE7IY) |
+| 12 | Models & Observability | — | Han Che | [YouTube](https://www.youtube.com/watch?v=gEH2ACNf5b0) |
+| 13 | Open-Source Models | — | Jeff Boudier | [YouTube](https://www.youtube.com/watch?v=BANtEq-0FsE) |
+
+</details>
+
+<details>
+<summary><strong>Season 1</strong></summary>
+
+| Ep | Topic | Host | Speaker(s) | Replay |
+|:---:|:---|:---|:---|:---:|
+| 01 | GitHub Models | — | Nitya Narasimhan | [YouTube](https://www.youtube.com/watch?v=dohvGc7eyqU) |
+| 02 | Reasoning Models | — | Jennifer Marsman | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 03 | Search & Retrieval | — | Neel Gokhale | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 04 | Visual Generative Models | — | Ken Hoge | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 05 | Fine-Tuning Models | — | — | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 06 | Local AI Development | — | — | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 07 | Open Source Models | — | — | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+| 08 | Forecasting Models | — | Nixtla / TimeGEN | [Playlist](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL) |
+
+</details>

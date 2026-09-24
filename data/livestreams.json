@@ -477,5 +477,24 @@
     "banner": "docs/assets/model-mondays/S4-E12.png",
     "links": {},
     "tags": []
+  },
+  {
+    "id": "s3-e17",
+    "season": 3,
+    "episode": 17,
+    "title": "Building Foundry Agents Code-First in Visual Studio Code",
+    "description": "Build Microsoft Foundry agents in Visual Studio Code with Foundry Toolkit, GitHub Copilot, and Foundry Skills.",
+    "date": "2026-04-20",
+    "time": "1:30pm ET",
+    "duration": 60,
+    "status": "completed",
+    "host": "Carlotta Castelluccio",
+    "speakers": [
+      "Junjie Li",
+      "Filisha Shah"
+    ],
+    "banner": "docs/assets/model-mondays/S3-E17-03.png",
+    "links": {},
+    "tags": []
   }
 ]

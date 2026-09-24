@@ -45,16 +45,16 @@ AMAs use a global sequence independent of Model Mondays seasons:
 
 ```json
 {
-  "id": "ama-048",
-  "number": 48,
+  "id": "ama-049",
+  "number": 49,
   "date": "2026-09-25",
   "time": "1:30-2:00 PM ET",
   "title": "Insights in Foundry and Agent Optimizer in Foundry Agent Service",
   "description": "Source-backed description",
   "speakers": ["Charles Kim — Product Lead, Core AI, Microsoft"],
   "status": "scheduled",
-  "banner": "docs/assets/foundry-fridays/AMA-048.png",
-  "page": "docs/foundry-fridays/2026-09-25-ama-048.md",
+  "banner": "docs/assets/foundry-fridays/AMA-049.png",
+  "page": "docs/foundry-fridays/2026-09-25-ama-049.md",
   "links": {}
 }
 ```

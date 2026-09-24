@@ -34,7 +34,7 @@ Foundry Fridays is an on-demand initiative, not a season-driven weekly series.
 - Display number: `AMA #NNN`
 - Page: `YYYY-MM-DD-ama-NNN.md`
 - Banner: `AMA-NNN.png`
-- Example: `2026-09-25-ama-048.md` and `AMA-048.png`
+- Example: `2026-09-25-ama-049.md` and `AMA-049.png`
 
 AMA numbers are global, unique, and sequential. An AMA may optionally link to a related episode, but no relationship is required.
 
@@ -42,9 +42,9 @@ AMA numbers are global, unique, and sequential. An AMA may optionally link to a 
 
 - Season 1: 8 episodes, completed.
 - Season 2: 13 episodes, completed.
-- Season 3: 16 episodes, completed.
+- Season 3: 17 episodes, completed.
 - Season 4: 12 episodes, August 10-November 2, 2026, active.
-- Foundry Fridays: 48 numbered entries through AMA #048.
+- Foundry Fridays: 49 numbered entries through AMA #049.
 
 Season 4 is titled **Model Spotlights for Agent Builders**.
 

@@ -28,4 +28,4 @@ Build your model IQ with practical model spotlights, demos, and expert AMAs.
 
 Foundry Fridays is now an on-demand series with independent event numbering.
 
-[Browse all AMAs](foundry-fridays/README.md) · [View AMA #048](foundry-fridays/2026-09-25-ama-048.md)
+[Browse all AMAs](foundry-fridays/README.md) · [View AMA #049](foundry-fridays/2026-09-25-ama-049.md)

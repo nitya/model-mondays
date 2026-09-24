@@ -847,6 +847,27 @@
   {
     "id": "ama-047",
     "number": 47,
+    "date": "2026-04-24",
+    "title": "Building Agents with Foundry Toolkit for VS Code",
+    "description": "Explore Microsoft Foundry Toolkit and how to build and manage an agentic AI application from within Visual Studio Code.",
+    "speakers": [
+      "Host: Carlotta Castelluccio, Sr AI Advocate at Microsoft",
+      "Guest: Junjie Li, Sr Product Manager at Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-047.png",
+    "page": "docs/foundry-fridays/2026-04-24-ama-047.md",
+    "links": {
+      "registration": "https://aka.ms/model-mondays/discord"
+    },
+    "legacy": {
+      "season": 3,
+      "episode": 17
+    }
+  },
+  {
+    "id": "ama-048",
+    "number": 48,
     "date": "2026-09-04",
     "time": "10:00-10:30 AM CEST",
     "title": "Build Agents with Foundry Canvas & GitHub Copilot App",
@@ -857,12 +878,12 @@
     ],
     "status": "completed",
     "links": {},
-    "banner": "docs/assets/foundry-fridays/AMA-047.png",
-    "page": "docs/foundry-fridays/2026-09-04-ama-047.md"
+    "banner": "docs/assets/foundry-fridays/AMA-048.png",
+    "page": "docs/foundry-fridays/2026-09-04-ama-048.md"
   },
   {
-    "id": "ama-048",
-    "number": 48,
+    "id": "ama-049",
+    "number": 49,
     "date": "2026-09-25",
     "time": "1:30-2:00 PM ET",
     "title": "Insights in Foundry and Agent Optimizer in Foundry Agent Service",
@@ -875,7 +896,7 @@
       "join": "https://aka.ms/model-mondays/chat",
       "announcement": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/how-do-you-know-what-to-optimize-next-in-your-ai-agent-ask-the-experts/4559401"
     },
-    "banner": "docs/assets/foundry-fridays/AMA-048.png",
-    "page": "docs/foundry-fridays/2026-09-25-ama-048.md"
+    "banner": "docs/assets/foundry-fridays/AMA-049.png",
+    "page": "docs/foundry-fridays/2026-09-25-ama-049.md"
   }
 ]

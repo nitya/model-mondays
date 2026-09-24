@@ -64,4 +64,4 @@ Review generated/public changes for:
 
 - Active season: Season 4 — Model Spotlights for Agent Builders.
 - Season 4: 12 episodes, August 10-November 2, 2026.
-- Foundry Fridays: AMA #001-#048 in one global sequence.
+- Foundry Fridays: AMA #001-#049 in one global sequence.

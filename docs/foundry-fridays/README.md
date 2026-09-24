@@ -4,9 +4,9 @@ Foundry Fridays is an on-demand AMA series for timely conversations with AI mode
 
 ## Next AMA
 
-[![AMA #048](../assets/foundry-fridays/AMA-048.png)](2026-09-25-ama-048.md)
+[![AMA #049](../assets/foundry-fridays/AMA-049.png)](2026-09-25-ama-049.md)
 
-### [AMA #048: Insights in Foundry and Agent Optimizer in Foundry Agent Service](2026-09-25-ama-048.md)
+### [AMA #049: Insights in Foundry and Agent Optimizer in Foundry Agent Service](2026-09-25-ama-049.md)
 
 **September 25, 2026 · 1:30-2:00 PM ET**<br>
 **Speaker:** Charles Kim, Product Lead, Core AI, Microsoft
@@ -19,8 +19,9 @@ Learn how to evaluate and optimize production agents, turn recurring failures in
 
 | AMA | Date | Title | Speaker(s) | Page |
 |:---:|:---|:---|:---|:---:|
-| #048 | Sep 25, 2026 | Insights in Foundry and Agent Optimizer in Foundry Agent Service | Charles Kim — Product Lead, Core AI, Microsoft | [View](2026-09-25-ama-048.md) |
-| #047 | Sep 4, 2026 | Build Agents with Foundry Canvas & GitHub Copilot App | Carlotta Castelluccio (Host)<br>Junjie Li — Senior Product Manager, Microsoft | [View](2026-09-04-ama-047.md) |
+| #049 | Sep 25, 2026 | Insights in Foundry and Agent Optimizer in Foundry Agent Service | Charles Kim — Product Lead, Core AI, Microsoft | [View](2026-09-25-ama-049.md) |
+| #048 | Sep 4, 2026 | Build Agents with Foundry Canvas & GitHub Copilot App | Carlotta Castelluccio (Host)<br>Junjie Li — Senior Product Manager, Microsoft | [View](2026-09-04-ama-048.md) |
+| #047 | Apr 24, 2026 | Building Agents with Foundry Toolkit for VS Code | Host: Carlotta Castelluccio, Sr AI Advocate at Microsoft<br>Guest: Junjie Li, Sr Product Manager at Microsoft | [View](2026-04-24-ama-047.md) |
 | #046 | Apr 10, 2026 | GitHub Agentic Workflows | Peli de Halleux — Principal Engineer, GitHub | [View](2026-04-10-ama-046.md) |
 | #045 | Apr 3, 2026 | Agent 365 & Identity | Srikumar Nair — Partner Product Manager, Microsoft | [View](2026-04-03-ama-045.md) |
 | #044 | Mar 27, 2026 | Foundry Tools | SeokJin Han — Senior Product Manager, Microsoft | [View](2026-03-27-ama-044.md) |
