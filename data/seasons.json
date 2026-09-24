@@ -2,8 +2,8 @@
   {
     "season": 1,
     "title": "Season 1: Building Model IQ Foundations",
-    "startDate": "2025-01-06",
-    "endDate": "2025-05-31",
+    "startDate": "2025-03-10",
+    "endDate": "2025-05-05",
     "theme": "Introduction to Model Selection and Azure AI",
     "description": "Season 1 introduces the Model Mondays format and covers foundational topics in model selection, evaluation, and deployment using Microsoft Foundry and GitHub Models.",
     "totalEpisodes": 8,
@@ -15,11 +15,11 @@
     "season": 2,
     "title": "Season 2: Advanced Model Techniques",
     "startDate": "2025-06-16",
-    "endDate": "2025-09-15",
+    "endDate": "2025-11-21",
     "theme": "Deep Dive into Reasoning, Multimodal, and Specialized Models",
     "description": "Season 2 explores advanced topics including reasoning models, multimodal AI, model customization, and real-world customer implementations.",
     "totalEpisodes": 13,
-    "totalAMAs": 13,
+    "totalAMAs": 22,
     "status": "completed",
     "banner": "assets/misc/season-2-banner.png"
   },
@@ -30,9 +30,21 @@
     "endDate": "2026-04-06",
     "theme": "Learning Through Practice with Models for Beginners Curriculum",
     "description": "Season 3 integrates structured learning with the Models for Beginners curriculum, featuring weekly lessons alongside spotlights on Microsoft Ignite announcements and practical implementations.",
-    "totalEpisodes": 16,
-    "totalAMAs": 16,
-    "status": "active",
+    "totalEpisodes": 17,
+    "totalAMAs": 17,
+    "status": "completed",
     "banner": "assets/misc/season-3-banner.png"
+  },
+  {
+    "season": 4,
+    "title": "Season 4: Model Spotlights for Agent Builders",
+    "startDate": "2026-08-10",
+    "endDate": "2026-11-02",
+    "theme": "Model spotlights for building effective AI agents",
+    "description": "Season 4 explores model families and model-selection practices for agent builders, including proprietary, open, multimodal, speech, and fine-tuned models.",
+    "totalEpisodes": 12,
+    "status": "active",
+    "banner": "",
+    "totalAMAs": 0
   }
 ]
