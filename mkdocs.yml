@@ -3,7 +3,7 @@ site_name: "Model Mondays"
 site_url: https://microsoft.github.io/model-mondays
 site_author: Nitya Narasimhan
 site_description: >-
- Welcome to Model Mondays - a weekly 30-minute livestream series that helps you keep track of the fast-paced growth of the AI models ecosystem in actionable ways.
+ Model Mondays helps AI developers build model expertise through practical spotlights and on-demand expert AMAs.
 
 # Repository ..................................................
 repo_name: microsoft/model-mondays
@@ -24,7 +24,7 @@ theme:
   font:
     code: Roboto Mono  #Monospaced
     text: Roboto       #Regular
-  logo: img/mm-flames.png
+  logo: assets/misc/mm-flames.png
   language: en
 
   # Theme Modes ...............................................
@@ -58,7 +58,7 @@ theme:
     - navigation.instant.progress   # load progress indicator
     - navigation.tracking           # tracks anchor tags in URL
     - navigation.tabs               # tabbed on desktop, single in mobile    
-    - navigation.tabs.sticky        # tabs stick when scrolling downtheme:
+    - navigation.tabs.sticky
     - navigation.path               # add breadcrumbs
     - navigation.indexes            # index.md is default page for section
     - navigation.top
@@ -80,6 +80,8 @@ plugins:
         - Tutorials
         - Season-01
         - Season-02
+        - Season-03
+        - Season-04
   - tags
 
 # Extensions  ...............................................
@@ -111,15 +113,22 @@ markdown_extensions:
 # Navigation  ...............................................
 nav:
   - Overview: index.md
-  - Season 01:
-    - 01 | GitHub Models : season-01/ep-01.md
-    - 02 | Reasoning Models : season-01/ep-02.md
-    - 03 | Search & Retrieval : season-01/ep-03.md
-    - 04 | Visual Generative AI : season-01/ep-04.md
-    - 05 | Fine-Tuning Models : season-01/ep-05.md
-    - 06 | Synthetic Datasets : season-01/ep-06.md
-    - 07 | Open Source Projects : season-01/ep-07.md
-    - 08 | Forecasting Models : season-01/ep-08.md
+  - Season 4:
+    - 01 | MAI Models: model-mondays/2026-08-10-s04-e01.md
+    - 02 | Cohere: model-mondays/2026-08-17-s04-e02.md
+    - 03 | Model Router: model-mondays/2026-08-24-s04-e03.md
+    - 04 | Research Models: model-mondays/2026-08-31-s04-e04.md
+    - 05 | Claude Models: model-mondays/2026-09-14-s04-e05.md
+    - 06 | Azure OpenAI: model-mondays/2026-09-21-s04-e06.md
+    - 07 | Mistral: model-mondays/2026-09-28-s04-e07.md
+    - 08 | Fine-Tuned Models: model-mondays/2026-10-05-s04-e08.md
+    - 09 | Speech Models: model-mondays/2026-10-12-s04-e09.md
+    - 10 | Hugging Face: model-mondays/2026-10-19-s04-e10.md
+    - 11 | Open Models: model-mondays/2026-10-26-s04-e11.md
+    - 12 | NVIDIA Models: model-mondays/2026-11-02-s04-e12.md
+  - Foundry Friday AMAs: foundry-fridays/README.md
+  - Customer Stories: customer-stories/README.md
+  - Hugging Face: hugging-face/README.md
   - Blog:
     - blog/index.md
     - Tags: blog/tags.md

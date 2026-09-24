@@ -4,7 +4,7 @@
     "name": "Nitya Narasimhan",
     "role": "Senior Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/nitya-narasimhan.jpg",
+    "profileImage": "",
     "bio": "Nitya is a Senior Cloud Advocate at Microsoft with a focus on AI and developer experience. She holds a PhD and has extensive experience in mobile and web development.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/nityan",
@@ -24,7 +24,7 @@
     "name": "Lee Stott",
     "role": "Senior Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/lee-stott.jpg",
+    "profileImage": "",
     "bio": "Lee is a Senior Cloud Advocate at Microsoft focusing on AI, education, and developer communities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/leestott",
@@ -43,7 +43,7 @@
     "name": "Marlene Mhangami",
     "role": "Developer Advocate",
     "affiliation": "Microsoft Python Team",
-    "profileImage": "assets/people/marlene-mhangami.jpg",
+    "profileImage": "",
     "bio": "Marlene is a Developer Advocate on the Python team at Microsoft, specializing in AI and machine learning applications with Python.",
     "socialLinks": {
       "linkedin": "",
@@ -63,7 +63,7 @@
     "name": "Sharmila Chockalingam",
     "role": "Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/sharmila-chockalingam.jpg",
+    "profileImage": "",
     "bio": "Sharmila is a Cloud Advocate at Microsoft with expertise in Azure AI and cloud-native applications.",
     "socialLinks": {
       "linkedin": "",
@@ -82,7 +82,7 @@
     "name": "Sanjeev Jagtap",
     "role": "Core AI PM Lead",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/sanjeev-jagtap.jpg",
+    "profileImage": "",
     "bio": "Sanjeev is a Core AI PM Lead at Microsoft, focusing on model routing and AI infrastructure.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/sanjeevjagtap",
@@ -102,7 +102,7 @@
     "name": "Bethany Jepchumba",
     "role": "Senior Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/bethany-jepchumba.jpg",
+    "profileImage": "",
     "bio": "Bethany is a Senior Cloud Advocate at Microsoft, focusing on AI, cloud development, and developer communities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/bethany-jep",
@@ -121,7 +121,7 @@
     "name": "William Liang",
     "role": "Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/william-liang.jpg",
+    "profileImage": "",
     "bio": "William Liang is a Product Manager at Microsoft specializing in synthetic data generation and responsible AI practices. He works on tools that help developers create high-quality, diverse, and safe datasets for model training and evaluation.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/william-jiaxiang-liang",
@@ -141,7 +141,7 @@
     "name": "Amir Zur",
     "role": "Product Lead",
     "affiliation": "Microsoft Azure AI",
-    "profileImage": "assets/people/amir-zur.jpg",
+    "profileImage": "",
     "bio": "Amir Zur is a Product Lead at Microsoft Azure AI, focusing on developer experiences and portal design. He works on creating intuitive, end-to-end workflows that enable developers to build, test, and deploy AI solutions efficiently.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/amirzur",
@@ -159,10 +159,10 @@
   {
     "id": "yash-lara",
     "name": "Yash Lara",
-    "role": "Program Manager",
-    "affiliation": "Microsoft Research",
-    "profileImage": "assets/people/yash-lara.jpg",
-    "bio": "Yash Lara is a Program Manager at Microsoft Research, leading experimental AI projects and Foundry Labs initiatives. He bridges cutting-edge research with practical developer tools, bringing innovative models and frameworks to the community.",
+    "role": "Principal Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "Yash Lara works with the AI Frontiers team to release research models and build partnerships that bring cutting-edge AI into practical developer experiences.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/yashlara",
       "twitter": "",
@@ -181,7 +181,7 @@
     "name": "Korey Stegared-Pace",
     "role": "Senior Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/korey-stegared-pace.jpg",
+    "profileImage": "",
     "bio": "Korey is a Senior Cloud Advocate at Microsoft focusing on AI, developer experience, and cloud technologies.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/koreyspace",
@@ -200,7 +200,7 @@
     "name": "Carlotta Castelluccio",
     "role": "Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/carlotta-castelluccio.jpg",
+    "profileImage": "",
     "bio": "Carlotta is a Cloud Advocate at Microsoft with expertise in AI and developer communities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/carlotta-castelluccio",
@@ -219,7 +219,7 @@
     "name": "April Speight",
     "role": "Senior Cloud Advocate",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/april-speight.jpg",
+    "profileImage": "",
     "bio": "April is a Senior Cloud Advocate at Microsoft focusing on mixed reality, spatial computing, and AI technologies.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/aprilgittens",
@@ -239,7 +239,7 @@
     "name": "Shawn Henry",
     "role": "Principal Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/shawn-henry.jpg",
+    "profileImage": "",
     "bio": "Shawn is a Principal Product Manager at Microsoft, focusing on multi-agent orchestration and the Microsoft Agent Framework.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/shawn-patrick-henry",
@@ -259,7 +259,7 @@
     "name": "Guy Gregory",
     "role": "Principal Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/guy-gregory.jpg",
+    "profileImage": "",
     "bio": "Guy is a Principal Product Manager at Microsoft, specializing in fine-tuning, the Responses API, and model customization capabilities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/guygregory",
@@ -279,7 +279,7 @@
     "name": "Dave Voutila",
     "role": "Principal Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/dave-voutila.jpg",
+    "profileImage": "",
     "bio": "Dave is a Principal Product Manager at Microsoft with expertise in model fine-tuning and optimization techniques.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/davevoutila",
@@ -299,7 +299,7 @@
     "name": "Bala Venkataraman",
     "role": "Partner Group Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/bala-venkataraman.jpg",
+    "profileImage": "",
     "bio": "Bala is a Partner Group Product Manager at Microsoft, leading the development of Foundry Agents and unified AI runtime capabilities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/vpbala",
@@ -319,7 +319,7 @@
     "name": "Sebastian Kohlmeier",
     "role": "Partner Group Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/sebastian-kohlmeier.jpg",
+    "profileImage": "",
     "bio": "Sebastian is a Partner Group Product Manager at Microsoft, focusing on enterprise-scale agent management and the Foundry Control Plane.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/sebastiankohlmeier",
@@ -339,7 +339,7 @@
     "name": "Rong Lu",
     "role": "Principal Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/rong-lu.jpg",
+    "profileImage": "",
     "bio": "Rong is a Principal Product Manager at Microsoft, leading the AI Toolkit and developer experience initiatives.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/rongl",
@@ -359,7 +359,7 @@
     "name": "Farzad Sunavala",
     "role": "Principal Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/farzad-sunavala.jpg",
+    "profileImage": "",
     "bio": "Farzad is a Principal Product Manager at Microsoft, specializing in Foundry IQ and unified knowledge layer capabilities for AI agents.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/farzadsunavala",
@@ -379,7 +379,7 @@
     "name": "SeokJin Han",
     "role": "Senior Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/seokjin-han.jpg",
+    "profileImage": "",
     "bio": "SeokJin is a Senior Product Manager at Microsoft, focusing on Foundry Tools, MCP integration, and developer tool ecosystems.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/seokjinhan",
@@ -399,7 +399,7 @@
     "name": "Srikumar Nair",
     "role": "Partner Product Manager",
     "affiliation": "Microsoft",
-    "profileImage": "assets/people/srikumar-nair.jpg",
+    "profileImage": "",
     "bio": "Srikumar is a Partner Product Manager at Microsoft, leading Agent 365 and Microsoft 365 AI agent integration initiatives.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/srikumarknair",
@@ -419,7 +419,7 @@
     "name": "Peli de Halleux",
     "role": "Principal Engineer",
     "affiliation": "GitHub",
-    "profileImage": "assets/people/peli-de-halleux.jpg",
+    "profileImage": "",
     "bio": "Peli is a Principal Engineer at GitHub, leading the development of GitHub Agentic Workflows and AI-powered automation capabilities.",
     "socialLinks": {
       "linkedin": "https://linkedin.com/in/pelidehalleux",
@@ -433,5 +433,200 @@
       "GitHub Engineering",
       "Workflow Automation"
     ]
+  },
+  {
+    "id": "amy-boyd",
+    "name": "Amy Boyd",
+    "role": "Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "gustavo-cordido",
+    "name": "Gustavo Cordido",
+    "role": "Cloud Advocate",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "sophie-lebrecht",
+    "name": "Sophie Lebrecht",
+    "role": "Member of Technical Staff",
+    "affiliation": "Microsoft AI",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "yanan-cai",
+    "name": "Yanan Cai",
+    "role": "Product Manager",
+    "affiliation": "Microsoft AI",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "andy-tran",
+    "name": "Andy Tran",
+    "role": "Principal Solution Architect",
+    "affiliation": "Cohere",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "gulsimo-osimi",
+    "name": "Gulsimo Osimi",
+    "role": "Technical Program Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "amanda-wong",
+    "name": "Amanda Wong",
+    "role": "Applied AI",
+    "affiliation": "Anthropic",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "haoran-cheng",
+    "name": "Haoran Cheng",
+    "role": "Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "ananya-bishnoi",
+    "name": "Ananya Bishnoi",
+    "role": "AI Product Manager Lead",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "victor-rojo",
+    "name": "Victor Rojo",
+    "role": "Technical Partner Enablement Lead",
+    "affiliation": "Mistral AI",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "peyman-mohajerian",
+    "name": "Peyman Mohajerian",
+    "role": "Partner Solution Architect",
+    "affiliation": "Mistral AI",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "charles-kim",
+    "name": "Charles Kim",
+    "role": "Product Lead, Core AI",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
+  },
+  {
+    "id": "junjie-li",
+    "name": "Junjie Li",
+    "role": "Senior Product Manager",
+    "affiliation": "Microsoft",
+    "profileImage": "",
+    "bio": "",
+    "socialLinks": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "website": ""
+    },
+    "expertise": []
   }
 ]

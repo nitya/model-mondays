@@ -1,55 +1,31 @@
 ---
 hide:
   - navigation
-
 ---
 
-# Build Your Model IQ!
+# Model Mondays
 
-## Motivation
+Build your model IQ with practical model spotlights, demos, and expert AMAs.
 
-Is the pace of AI model evolution leaving you feeling a bit overwhelmed? You aren't alone. The [Microsoft Foundry model catalog](https://ai.azure.com/explore/models) has **over 1800 models** to choose from - and you can find **over 1.5M open-source community variants** on Hugging Face. So - how do you keep up with the news, and build hands-on expertise with this fast-paced ecosystem? Say hello to Model Mondays!
+## Season 4: Model Spotlights for Agent Builders
 
-!!! success "BUILD YOUR MODEL IQ ONE WEEK AT A TIME!" 
+| Ep | Date | Spotlight | Host | Guest speaker(s) | Page |
+|:---:|:---|:---|:---|:---|:---:|
+| 01 | Aug 10, 2026 | Spotlight on MAI Models | Amy Boyd | Sophie Lebrecht<br>Yanan Cai | [View](model-mondays/2026-08-10-s04-e01.md) |
+| 02 | Aug 17, 2026 | Cohere for Agentic AI | Bethany Jepchumba | Andy Tran | [View](model-mondays/2026-08-17-s04-e02.md) |
+| 03 | Aug 24, 2026 | Spotlight on Model Router | Lee Stott | Sanjeev Jagtap | [View](model-mondays/2026-08-24-s04-e03.md) |
+| 04 | Aug 31, 2026 | From Research to Reality | Nitya Narasimhan | Gulsimo Osimi<br>Yash Lara | [View](model-mondays/2026-08-31-s04-e04.md) |
+| 05 | Sep 14, 2026 | Claude Models in Microsoft Foundry: Tool Integrations in Practice | Gustavo Cordido | Amanda Wong<br>Haoran Cheng | [View](model-mondays/2026-09-14-s04-e05.md) |
+| 06 | Sep 21, 2026 | Spotlight on Azure OpenAI | Nitya Narasimhan | Ananya Bishnoi | [View](model-mondays/2026-09-21-s04-e06.md) |
+| 07 | Sep 28, 2026 | Mistral OCR-4 & Building AI Agents in Microsoft Foundry | Amy Boyd | Victor Rojo<br>Peyman Mohajerian | [View](model-mondays/2026-09-28-s04-e07.md) |
+| 08 | Oct 5, 2026 | Fine-Tuned Models | Bethany Jepchumba | — | [View](model-mondays/2026-10-05-s04-e08.md) |
+| 09 | Oct 12, 2026 | Spotlight on Speech Models | Gustavo Cordido | — | [View](model-mondays/2026-10-12-s04-e09.md) |
+| 10 | Oct 19, 2026 | Spotlight on Hugging Face | Amy Boyd | — | [View](model-mondays/2026-10-19-s04-e10.md) |
+| 11 | Oct 26, 2026 | Spotlight on Open Models | Bethany Jepchumba | — | [View](model-mondays/2026-10-26-s04-e11.md) |
+| 12 | Nov 2, 2026 | Spotlight on NVIDIA Models | Nitya Narasimhan | — | [View](model-mondays/2026-11-02-s04-e12.md) |
 
-    1. **Model Mondays** · Watch the livestream Mondays at 1:30pm ET · [**RSVP HERE**](https://aka.ms/model-mondays/RSVP) for upcoming episodes.
-    1. **Follow-up Fridays** · Join office hours Fridays at 1:30pm ET · [**ACCEPT INVITE**](https://aka.ms/model-mondays/chat) for a timely reminder.
+## Foundry Friday AMAs
 
+Foundry Fridays is now an on-demand series with independent event numbering.
 
----
-
-## Watch Last Episode 🆕
-
-Model Mondays is a weekly 30-minute livestream series that helps you keep track of the fast-paced growth of the AI models ecosystem in actionable ways. Every episode is structured in three parts:
-
-- **Model Highlights** - We roundup a week's worth of news in 5 minutes!
-- **Model Spotlight** - We dive deeper into one featured model a week!
-- **Community Chat** - Join us for office hours on Discord!
-
-!!! task "CATCHUP WITH THE LAST EPISODE"
-
-    <iframe width="100%" height="600" src="https://www.youtube.com/embed/dohvGc7eyqU?list=PLmsFUfdnGr3wzz6a4E-Szksg92JPng-AL" title="Model Mondays – Hands On With GitHub Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-## Season 1: Schedule
-
-In Season 1, we're putting the spotlight on popular models and themes that are gaining traction in the AI Engineering ecosystem. Check out the schedule below **and RSVP now** to get timely reminders to watch.
-
-| Episode Page | Date | Video | Details | Resources | Office Hours |
-|:---|:---|:---|:---|:---|:---|
-| #01 - GitHub Models | [Mar 10](https://developer.microsoft.com/en-us/reactor/events/25265/) | [**Watch Now**](https://youtu.be/dohvGc7eyqU)| [GitHub Models](./season-01/ep-01.md) | [PDF](https://speakerdeck.com/nitya/model-mondays-s1-e1-mar-10-2025) · Code | [Mar 14](https://aka.ms/model-mondays/chat) |
-| #02 - Reasoning Models| Mar 17 | [**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25266/) | [OpenAI, DeepSeek](./season-01/ep-02.md)| - | [Mar 21](https://aka.ms/model-mondays/chat) |
-| #03 - Search & Retrieval | Mar 24 |  [**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25354/) |[Cohere Rerank](./season-01/ep-03.md) | - | [Mar 28](https://aka.ms/model-mondays/chat) |
-| #04 - Visual Generative AI | Mar 31 |[**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25355/) |[Stable Diffusion](./season-01/ep-04.md) |  - | [Apr 03](https://aka.ms/model-mondays/chat) |
-| #05 - Fine-Tuning Models | Apr 07 |[**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25356/)  |[TBA](./season-01/ep-05.md) | - |  [Apr 10](https://aka.ms/model-mondays/chat) |
-| #06 - Synthetic Datasets | Apr 14 |[**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25357/)  |[TBA](./season-01/ep-06.md) | - | [Apr 17](https://aka.ms/model-mondays/chat) |
-| #07 - Open Source Projects | Apr 21 |[**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25358/)  |[TBA](./season-01/ep-07.md) | - | [Apr 21](https://aka.ms/model-mondays/chat) |
-| #08 - Forecasting Models | Apr 28 |[**RSVP Now**](https://developer.microsoft.com/en-us/reactor/events/25359/)  |[Nixtla TimeGEN](./season-01/ep-08.md) | - | [Apr 28](https://aka.ms/model-mondays/chat) |
-
----
-
-!!! quote "MODEL MONDAYS: Build Your Model IQ" 
-
-    ![Banner](assets/misc/model-mondays-2.png)
-
+[Browse all AMAs](foundry-fridays/README.md) · [View AMA #048](foundry-fridays/2026-09-25-ama-048.md)

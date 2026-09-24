@@ -1,38 +1,10 @@
-# AMA Assets
+# Foundry Friday AMA assets
 
-This directory contains AMA session banners and promotional images.
+AMA banners use the global event number: `AMA-NNN.png`, for example `AMA-048.png`.
 
-## File Naming Convention
+- Preferred size: 1920×1080 (16:9).
+- Preferred format: optimized PNG.
+- The AMA number/date embedded in the artwork must match `data/amas.json` and the page.
+- Pages reference banners as `../assets/foundry-fridays/AMA-048.png`.
 
-Files should follow the format: `s{season}-ama{episode}-{type}.{ext}`
-
-Where:
-- `{season}` is the season number (e.g., 2, 3)
-- `{episode}` is the AMA episode number (e.g., 01, 02)
-- `{type}` describes the image type (banner, social, etc.)
-- `{ext}` is the file extension (jpg, png, etc.)
-
-## Examples
-
-- `s2-ama01-banner.png` - Main AMA banner
-- `s3-ama02-social.jpg` - Social media promotional image
-
-## Image Specifications
-
-### Banners
-- **Size**: 1920x1080px (16:9)
-- **Format**: PNG or JPG
-- **Max file size**: 2MB
-- **Usage**: Discord event images, website banners
-
-### Social Media
-- **Size**: 1200x630px (OG image)
-- **Format**: PNG or JPG
-- **Max file size**: 1MB
-- **Usage**: Social media sharing, announcements
-
-## Adding New AMA Images
-
-1. Create images following the naming convention
-2. Reference in `amas.json` if needed
-3. Ensure images are optimized for Discord and social media platforms
+Foundry Friday numbering is independent of Model Mondays seasons.

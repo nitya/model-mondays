@@ -1,238 +1,881 @@
 [
   {
-    "id": "s2-ama01",
-    "season": 2,
-    "episode": 1,
-    "title": "Advanced Reasoning Models AMA",
-    "description": "Join us for an AMA on Advanced Reasoning Models with Marlene Mhangami. Explore how models like DeepSeek R1 and the o-series from Azure OpenAI are pushing the boundaries of problem-solving, research, and decision-making.",
+    "id": "ama-001",
+    "number": 1,
+    "date": "2025-03-14",
+    "title": "GitHub Models",
+    "description": "Join us for an AMA on GitHub Models, exploring the model marketplace, playground capabilities, and how to get started with AI models on GitHub.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-001.png",
+    "page": "docs/foundry-fridays/2025-03-14-ama-001.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 1
+    }
+  },
+  {
+    "id": "ama-002",
+    "number": 2,
+    "date": "2025-03-21",
+    "title": "Reasoning Models",
+    "description": "Deep dive AMA on reasoning models with Jennifer Marsman, discussing OpenAI's o1 series, DeepSeek, and how reasoning models work.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Jennifer Marsman"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-002.png",
+    "page": "docs/foundry-fridays/2025-03-21-ama-002.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 2
+    }
+  },
+  {
+    "id": "ama-003",
+    "number": 3,
+    "date": "2025-03-28",
+    "title": "Search & Retrieval",
+    "description": "AMA session on search and retrieval models with Cohere, focusing on rerank models and semantic search capabilities.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Neel Gokhale (Cohere)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-003.png",
+    "page": "docs/foundry-fridays/2025-03-28-ama-003.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 3
+    }
+  },
+  {
+    "id": "ama-004",
+    "number": 4,
+    "date": "2025-04-04",
+    "title": "Visual Generative Models",
+    "description": "AMA on visual generative models with Stability AI, exploring image generation, Stable Diffusion, and creative AI applications.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Ken Hoge (Stability AI)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-004.png",
+    "page": "docs/foundry-fridays/2025-04-04-ama-004.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 4
+    }
+  },
+  {
+    "id": "ama-005",
+    "number": 5,
+    "date": "2025-04-11",
+    "title": "Fine-Tuning Models",
+    "description": "AMA session on fine-tuning models, covering techniques, best practices, and when to use fine-tuning vs prompt engineering.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-005.png",
+    "page": "docs/foundry-fridays/2025-04-11-ama-005.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 5
+    }
+  },
+  {
+    "id": "ama-006",
+    "number": 6,
+    "date": "2025-04-18",
+    "title": "Local AI Development",
+    "description": "AMA on local AI development with AI Toolkit, exploring on-device models, local deployment, and development workflows.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-006.png",
+    "page": "docs/foundry-fridays/2025-04-18-ama-006.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 6
+    }
+  },
+  {
+    "id": "ama-007",
+    "number": 7,
+    "date": "2025-04-25",
+    "title": "Open Source Models",
+    "description": "AMA session on open source AI models, featuring Meta's Llama 4 and the broader open source model ecosystem.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-007.png",
+    "page": "docs/foundry-fridays/2025-04-25-ama-007.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 7
+    }
+  },
+  {
+    "id": "ama-008",
+    "number": 8,
+    "date": "2025-05-02",
+    "title": "Forecasting Models",
+    "description": "AMA on forecasting models with Nixtla, exploring time series prediction, TimeGEN capabilities, and forecasting use cases.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Nixtla (TimeGEN)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-008.png",
+    "page": "docs/foundry-fridays/2025-05-02-ama-008.md",
+    "links": {},
+    "legacy": {
+      "season": 1,
+      "episode": 8
+    }
+  },
+  {
+    "id": "ama-009",
+    "number": 9,
     "date": "2025-06-20",
-    "time": "1:30pm ET",
-    "duration": 60,
+    "title": "Advanced Reasoning Models",
+    "description": "Join us for an AMA on Advanced Reasoning Models with Marlene Mhangami. Explore how models like DeepSeek R1 and the o-series from Azure OpenAI are pushing the boundaries of problem-solving, research, and decision-making.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Marlene Mhangami",
+      "Sharmila Chockalingam"
+    ],
     "status": "completed",
-    "host": "nitya-narasimhan",
-    "guests": [
-      "marlene-mhangami",
-      "sharmila-chockalingam"
-    ],
-    "topics": [
-      "Reasoning models architecture",
-      "DeepSeek R1 implementation",
-      "Chain-of-thought techniques",
-      "Multi-agent systems",
-      "Knowledge graphs and RAG",
-      "Reducing hallucinations",
-      "Local vs cloud deployment",
-      "Model evaluation strategies"
-    ],
-    "links": {
-      "registration": "https://discord.gg/azureaifoundry?event=1382860017660854372",
-      "recap": "docs/season-02/recaps/e1-recap.md",
-      "announcement": "docs/season-02/announcements/e1-announce.md"
-    },
-    "relatedLivestreamId": "s2-e01",
-    "resources": [
-      {
-        "title": "Azure OpenAI reasoning models",
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/reasoning",
-        "type": "documentation"
-      },
-      {
-        "title": "How to use reasoning models with Microsoft Foundry Models",
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/how-to/use-chat-reasoning",
-        "type": "documentation"
-      },
-      {
-        "title": "Tutorial: Get started with DeepSeek-R1",
-        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/tutorials/get-started-deepseek-r1",
-        "type": "documentation"
-      },
-      {
-        "title": "Illusion of Thinking (Apple ML Research)",
-        "url": "https://machinelearning.apple.com/research/illusion-of-thinking",
-        "type": "blog"
-      },
-      {
-        "title": "Anthropic Multi-Agent Research System",
-        "url": "https://www.anthropic.com/engineering/built-multi-agent-research-system",
-        "type": "blog"
-      },
-      {
-        "title": "Programming with GitHub Copilot Agent Mode",
-        "url": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630",
-        "type": "blog"
-      },
-      {
-        "title": "OpenAI Deep Research",
-        "url": "https://openai.com/index/introducing-deep-research/",
-        "type": "blog"
-      },
-      {
-        "title": "LazyGraphRAG (Microsoft Research)",
-        "url": "https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/",
-        "type": "blog"
-      }
-    ],
-    "keyTakeaways": [
-      "LRMs are advancing AI's ability to reason and solve complex problems",
-      "GitHub Copilot Agent Mode supports multiple top-tier models and custom integrations",
-      "Deep Researcher tools like DeepSeek-R1 and LangChain enable advanced research workflows",
-      "Multi-agent systems and knowledge graphs can help reduce hallucinations and improve reliability",
-      "Community members are actively experimenting with reasoning models for diverse use cases"
-    ],
-    "tags": [
-      "reasoning",
-      "DeepSeek",
-      "AMA",
-      "LangChain",
-      "multi-agent"
-    ]
+    "banner": "docs/assets/foundry-fridays/AMA-009.png",
+    "page": "docs/foundry-fridays/2025-06-20-ama-009.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 1
+    }
   },
   {
-    "id": "s3-ama01",
-    "season": 3,
-    "episode": 1,
-    "title": "Model Router AMA",
-    "description": "Ask us anything about the Microsoft Foundry Model Router, including implementation strategies, cost optimization, and real-world use cases.",
+    "id": "ama-010",
+    "number": 10,
+    "date": "2025-06-27",
+    "title": "Model Context Protocol",
+    "description": "Join us for an AMA on Model Context Protocol (MCP) with Den Delimarsky.\n\nCurious about how to extend your AI models and agents with powerful new capabilities? This session dives into the Model Context Protocol (MCP), an open standard for connecting AI models to external tools and data. Den Delimarsky will walk you through the MCP specification, security best practices, and how MCP is used within Microsoft Azure to build agentic applications. Learn how to consume existing MCP servers, develop your own, and unlock new integration patterns for intelligent apps.",
+    "speakers": [
+      "Den Delimarsky"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-010.png",
+    "page": "docs/foundry-fridays/2025-06-27-ama-010.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 2
+    }
+  },
+  {
+    "id": "ama-011",
+    "number": 11,
+    "date": "2025-07-03",
+    "title": "SLMs and Reasoning",
+    "description": "Join us for an AMA on Small Language Models (SLMs) and Reasoning with Mojan Javaheripi.\n\nHow can you bring advanced reasoning to resource-constrained devices? This session explores the latest in Small Language Models (SLMs) like Phi-4, which are redefining what\u2019s possible for agentic apps. Mojan Javaheripi will discuss how SLMs leverage inference-time scaling and chain-of-thought reasoning to deliver powerful results on smaller hardware. Discover use cases, deployment strategies, and how SLMs are making AI more accessible and efficient for everyone.",
+    "speakers": [
+      "Mojan Javaheripi"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-011.png",
+    "page": "docs/foundry-fridays/2025-07-03-ama-011.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 3
+    }
+  },
+  {
+    "id": "ama-012",
+    "number": 12,
+    "date": "2025-07-11",
+    "title": "AI Developer Experiences",
+    "description": "Join us for an AMA on AI Developer Experiences with Leo Yao.\n\nReady to streamline your AI development workflow? This session highlights the latest tools and extensions for building, evaluating, and deploying generative AI apps. Leo Yao will showcase the AI Toolkit and Microsoft Foundry extensions for Visual Studio Code, sharing tips for model selection, agent development, and integrating AI into your projects. Whether you\u2019re new to AI or a seasoned developer, discover how to boost productivity and bring your ideas to life with Microsoft\u2019s developer ecosystem.",
+    "speakers": [
+      "Leo Yao"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-012.png",
+    "page": "docs/foundry-fridays/2025-07-11-ama-012.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 4
+    }
+  },
+  {
+    "id": "ama-013",
+    "number": 13,
+    "date": "2025-07-18",
+    "title": "Fine Tuning & Distillation",
+    "description": "Join us for an AMA on Fine-Tuning and Distillation with Dave Voutila.",
+    "speakers": [
+      "Dave Voutila"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-013.png",
+    "page": "docs/foundry-fridays/2025-07-18-ama-013.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 5
+    }
+  },
+  {
+    "id": "ama-014",
+    "number": 14,
+    "date": "2025-07-25",
+    "title": "Research & Innovation",
+    "description": "Join us for an AMA on Research & Innovation in Microsoft Foundry Labs with SeokJin Han and Saumil Shrivastava.\n\nExplore the latest breakthroughs from Microsoft Foundry Labs! This session features SeokJin Han and Saumil Shrivastava discussing the MCP Server for Microsoft Foundry and Magentic-UI for human-in-the-loop AI research. Discover how Microsoft is advancing the state of the art in AI, enabling new experiences and empowering developers to innovate with cutting-edge tools and research projects.",
+    "speakers": [
+      "SeokJin Han",
+      "Saumil Shrivastava"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-014.png",
+    "page": "docs/foundry-fridays/2025-07-25-ama-014.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 6
+    }
+  },
+  {
+    "id": "ama-015",
+    "number": 15,
+    "date": "2025-08-01",
+    "title": "AI-Assisted Azure Development",
+    "description": "Join us for an AMA on MCP Server for Azure & GitHub Copilot for Azure\n\nWant to bring the power of AI-assisted development to Azure workflows? Join us as we talk to Sandeep Sen about two key tools \u2013 the Azure MCP server, and the GitHub Copilot Extension for Azure \u2013 that can help you understand, debug & build with Azure resources and services (beyond just Microsoft Foundry) with the power of natural language",
+    "speakers": [
+      "Sandeep Sen"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-015.png",
+    "page": "docs/foundry-fridays/2025-08-01-ama-015.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 7
+    }
+  },
+  {
+    "id": "ama-016",
+    "number": 16,
+    "date": "2025-08-08",
+    "title": "On-Device & Local AI",
+    "description": "Join us for an AMA on On-Device & Local AI with Maanav Dalal.\n\nWant to run AI models on your own hardware for privacy, speed, or edge computing? This session spotlights Foundry Local, a solution built on ONNX Runtime for CPUs, NPUs, and GPUs. Maanav Dalal will share how to go from prototype to production with on-device inference, manage models locally, and leverage the flexibility and cost savings of local AI.",
+    "speakers": [
+      "Maanav Dalal"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-016.png",
+    "page": "docs/foundry-fridays/2025-08-08-ama-016.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 8
+    }
+  },
+  {
+    "id": "ama-017",
+    "number": 17,
+    "date": "2025-08-15",
+    "title": "Models for AI Agents",
+    "description": "Join us for an AMA on Models for AI Agents with Mona Whalin.\n\nReady to build agentic AI applications? This session introduces the Microsoft Foundry Agent Catalog, featuring open-source samples and best practices for agent development. Mona Whalin will guide you through configuration, design patterns, and how to accelerate your projects by integrating prebuilt agents and tools.",
+    "speakers": [
+      "Mona Whalin"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-017.png",
+    "page": "docs/foundry-fridays/2025-08-15-ama-017.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 9
+    }
+  },
+  {
+    "id": "ama-018",
+    "number": 18,
+    "date": "2025-08-22",
+    "title": "Image & Video Playgrounds",
+    "description": "Join us for an AMA on Image & Video Playgrounds with Thasmika Gokal.",
+    "speakers": [
+      "Thasmika Gokal"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-018.png",
+    "page": "docs/foundry-fridays/2025-08-22-ama-018.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 10
+    }
+  },
+  {
+    "id": "ama-019",
+    "number": 19,
+    "date": "2025-08-29",
+    "title": "Text & Speech Playgrounds",
+    "description": "Join us for an AMA on Text & Speech Playgrounds with Cenyu Zhang.",
+    "speakers": [
+      "Cenyu Zhang"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-019.png",
+    "page": "docs/foundry-fridays/2025-08-29-ama-019.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 11
+    }
+  },
+  {
+    "id": "ama-020",
+    "number": 20,
+    "date": "2025-09-12",
+    "title": "Models & Observability",
+    "description": "Join us for an AMA on Models & Observability with Minsoo Thigpen.\n\nHow do you ensure your AI models are trustworthy and high-performing? This session with Minsoo Thigpen covers observability in Microsoft Foundry, including evaluations, red-teaming, and end-to-end monitoring. Learn how to instrument your AI apps, collect insights, and build reliable, safe generative AI solutions.",
+    "speakers": [
+      "Minsoo Thigpen"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-020.png",
+    "page": "docs/foundry-fridays/2025-09-12-ama-020.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 12
+    }
+  },
+  {
+    "id": "ama-021",
+    "number": 21,
+    "date": "2025-09-19",
+    "title": "Open Source Models",
+    "description": "Join us for an AMA on Open Source Models in Microsoft Foundry.\n\nDid you know Microsoft Foundry offers access to thousands of open source models, including the Hugging Face collection? In this season finale, we\u2019ll discuss how to get started with open source models, select the right one for your needs, and even request new additions. Learn how to deploy, fine-tune, and integrate these models into your projects for maximum flexibility and innovation.",
+    "speakers": [
+      "Jeff Boudier \u2014 VP of Product, Hugging Face"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-021.png",
+    "page": "docs/foundry-fridays/2025-09-19-ama-021.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 13
+    }
+  },
+  {
+    "id": "ama-022",
+    "number": 22,
+    "date": "2025-09-26",
+    "title": "Red Teaming",
+    "description": "Join us for an AMA on Red Teaming in AI applications, exploring security testing, vulnerability assessment, and best practices for building robust AI systems.",
+    "speakers": [
+      "Sydney (Microsoft)",
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-022.png",
+    "page": "docs/foundry-fridays/2025-09-26-ama-022.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 14
+    }
+  },
+  {
+    "id": "ama-023",
+    "number": 23,
+    "date": "2025-10-03",
+    "title": "Fine Tuning",
+    "description": "Join us for an AMA on Fine Tuning techniques for language models, exploring customization strategies, training approaches, and practical implementations.",
+    "speakers": [
+      "Dave Voutila (Microsoft)",
+      "Lee Stott (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-023.png",
+    "page": "docs/foundry-fridays/2025-10-03-ama-023.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 15
+    }
+  },
+  {
+    "id": "ama-024",
+    "number": 24,
+    "date": "2025-10-10",
+    "title": "AI Templates",
+    "description": "Join us for an AMA on AI Templates and accelerators, exploring ready-to-use solutions, project scaffolding, and rapid prototyping with Azure AI.",
+    "speakers": [
+      "Varun Chandramohan (Microsoft)",
+      "Nalini Prabhakaran (Microsoft)",
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-024.png",
+    "page": "docs/foundry-fridays/2025-10-10-ama-024.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 16
+    }
+  },
+  {
+    "id": "ama-025",
+    "number": 25,
+    "date": "2025-10-17",
+    "title": "Model Router",
+    "description": "Join us for an AMA on Model Router capabilities in Microsoft Foundry, exploring intelligent routing, load balancing, and optimizing model selection for production workloads.",
+    "speakers": [
+      "Sanjeev Jag (Microsoft)",
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-025.png",
+    "page": "docs/foundry-fridays/2025-10-17-ama-025.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 17
+    }
+  },
+  {
+    "id": "ama-026",
+    "number": 26,
+    "date": "2025-10-24",
+    "title": "Agent Framework",
+    "description": "Join us for an AMA on the Microsoft Agent Framework, exploring agentic patterns, multi-agent systems, and building intelligent AI agents with Azure AI.",
+    "speakers": [
+      "Victor Dibia (Microsoft)",
+      "Lee Stott (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-026.png",
+    "page": "docs/foundry-fridays/2025-10-24-ama-026.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 18
+    }
+  },
+  {
+    "id": "ama-027",
+    "number": 27,
+    "date": "2025-10-31",
+    "title": "Project Samba",
+    "description": "Join us for an AMA on Project Samba, exploring innovation in AI model development, research initiatives, and cutting-edge capabilities in Microsoft Foundry.",
+    "speakers": [
+      "Liliang Ren (Microsoft)",
+      "Lee Stott (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-027.png",
+    "page": "docs/foundry-fridays/2025-10-31-ama-027.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 19
+    }
+  },
+  {
+    "id": "ama-028",
+    "number": 28,
+    "date": "2025-11-07",
+    "title": "New in AI Toolkit",
+    "description": "Join us for an AMA on the latest updates and features in the AI Toolkit for VS Code, exploring new capabilities, workflows, and developer experience improvements.",
+    "speakers": [
+      "Junjie Li (Microsoft)",
+      "April Speight (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-028.png",
+    "page": "docs/foundry-fridays/2025-11-07-ama-028.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 20
+    }
+  },
+  {
+    "id": "ama-029",
+    "number": 29,
+    "date": "2025-11-14",
+    "title": "Continuous AI & Agentic Workflows",
+    "description": "Join us for an AMA on Continuous AI and Agentic Workflows, exploring automation, CI/CD for AI applications, and building production-ready agentic systems.",
+    "speakers": [
+      "Peli De Halleux (Microsoft)",
+      "Nitya Narasimhan (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-029.png",
+    "page": "docs/foundry-fridays/2025-11-14-ama-029.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 21
+    }
+  },
+  {
+    "id": "ama-030",
+    "number": 30,
+    "date": "2025-11-21",
+    "title": "ONNX, Olive & Windows ML",
+    "description": "Join us for an AMA on ONNX Runtime, Olive optimization toolkit, and Windows ML, exploring model optimization, hardware acceleration, and edge deployment strategies.",
+    "speakers": [
+      "Microsoft ONNX Team",
+      "Lee Stott (Host)"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-030.png",
+    "page": "docs/foundry-fridays/2025-11-21-ama-030.md",
+    "links": {},
+    "legacy": {
+      "season": 2,
+      "episode": 22
+    }
+  },
+  {
+    "id": "ama-031",
+    "number": 31,
     "date": "2025-12-05",
-    "time": "1:30pm ET",
-    "duration": 60,
+    "title": "Model Router",
+    "description": "Ask us anything about the Microsoft Foundry Model Router, including implementation strategies, cost optimization, and real-world use cases.",
+    "speakers": [
+      "Nitya Narasimhan (Host)",
+      "Sanjeev Jagtap"
+    ],
     "status": "completed",
-    "host": "nitya-narasimhan",
-    "guests": [
-      "sanjeev-jagtap"
-    ],
-    "topics": [
-      "Model Router architecture",
-      "Automatic model selection",
-      "Cost optimization strategies",
-      "Performance benchmarking",
-      "Integration with existing applications",
-      "Custom routing rules"
-    ],
-    "links": {
-      "registration": "https://aka.ms/model-mondays/discord",
-      "recap": "",
-      "announcement": ""
-    },
-    "relatedLivestreamId": "s3-e01",
-    "resources": [
-      {
-        "title": "AI Tour Lab: Automate Model Selection",
-        "url": "https://github.com/microsoft/aitour26-LTG153-automate-model-selection-and-ai-app-design-with-microsoft-foundry",
-        "type": "lab"
-      }
-    ],
-    "keyTakeaways": [],
-    "tags": [
-      "model-router",
-      "AMA",
-      "automation",
-      "foundry"
-    ]
+    "banner": "docs/assets/foundry-fridays/AMA-031.png",
+    "page": "docs/foundry-fridays/2025-12-05-ama-031.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 1
+    }
   },
   {
-    "id": "s3-ama02",
-    "season": 3,
-    "episode": 2,
-    "title": "Red Teaming AMA",
-    "description": "Join us to discuss AI red teaming techniques, security best practices, and how to safeguard your AI applications.",
+    "id": "ama-032",
+    "number": 32,
     "date": "2025-12-12",
-    "time": "1:30pm ET",
-    "duration": 60,
+    "title": "Red Teaming",
+    "description": "Join us to discuss AI red teaming techniques, security best practices, and how to safeguard your AI applications.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
     "status": "completed",
-    "host": "nitya-narasimhan",
-    "guests": [],
-    "topics": [
-      "Red teaming fundamentals",
-      "Automated adversarial testing",
-      "Security vulnerabilities in AI",
-      "Responsible AI practices",
-      "Testing frameworks and tools"
-    ],
-    "links": {
-      "registration": "https://aka.ms/model-mondays/discord",
-      "recap": "",
-      "announcement": ""
-    },
-    "relatedLivestreamId": "s3-e02",
-    "resources": [
-      {
-        "title": "Ignite Lab: Safeguard Your Agents",
-        "url": "https://github.com/microsoft/ignite25-LAB516-safeguard-your-agents-with-ai-red-teaming-agent-in-microsoft-foundry",
-        "type": "lab"
-      }
-    ],
-    "keyTakeaways": [],
-    "tags": [
-      "red-teaming",
-      "security",
-      "AMA",
-      "responsible-ai"
-    ]
+    "banner": "docs/assets/foundry-fridays/AMA-032.png",
+    "page": "docs/foundry-fridays/2025-12-12-ama-032.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 2
+    }
   },
   {
-    "id": "s3-ama03",
-    "season": 3,
-    "episode": 3,
-    "title": "Edge AI and Foundry Local AMA",
-    "description": "Discuss edge deployment, local model execution, and the benefits of running AI at the edge.",
+    "id": "ama-033",
+    "number": 33,
     "date": "2025-12-19",
-    "time": "1:30pm ET",
-    "duration": 60,
+    "title": "Edge AI and Foundry Local",
+    "description": "Discuss edge deployment, local model execution, and the benefits of running AI at the edge.",
+    "speakers": [
+      "Nitya Narasimhan (Host)"
+    ],
     "status": "completed",
-    "host": "nitya-narasimhan",
-    "guests": [],
-    "topics": [
-      "Edge AI architecture",
-      "Local model deployment",
-      "Performance optimization",
-      "Privacy and security benefits",
-      "Hardware considerations"
-    ],
-    "links": {
-      "registration": "https://aka.ms/model-mondays/discord",
-      "recap": "",
-      "announcement": ""
-    },
-    "relatedLivestreamId": "s3-e03",
-    "resources": [
-      {
-        "title": "Edge AI for Beginners",
-        "url": "https://github.com/microsoft/edgeai-for-beginners",
-        "type": "documentation"
-      }
-    ],
-    "keyTakeaways": [],
-    "tags": [
-      "edge-ai",
-      "AMA",
-      "local-deployment",
-      "foundry-local"
-    ]
+    "banner": "docs/assets/foundry-fridays/AMA-033.png",
+    "page": "docs/foundry-fridays/2025-12-19-ama-033.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 3
+    }
   },
   {
-    "id": "s3-ama04",
-    "season": 3,
-    "episode": 4,
-    "title": "TBA - AMA Session 4",
-    "description": "Topic to be announced",
+    "id": "ama-034",
+    "number": 34,
     "date": "2026-01-16",
-    "time": "1:30pm ET",
-    "duration": 60,
+    "title": "Microsoft Agent Framework",
+    "description": "Ask us anything about the Microsoft Agent Framework, including implementation strategies, agent design patterns, and building agentic systems.",
+    "speakers": [
+      "Shawn Henry \u2014 Principal Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-034.png",
+    "page": "docs/foundry-fridays/2026-01-16-ama-034.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 4
+    }
+  },
+  {
+    "id": "ama-035",
+    "number": 35,
+    "date": "2026-01-23",
+    "title": "US Holiday \u2014 No AMA",
+    "description": "No AMA scheduled for this week due to US holiday.",
+    "speakers": [],
+    "status": "cancelled",
+    "banner": "docs/assets/foundry-fridays/AMA-035.png",
+    "page": "docs/foundry-fridays/2026-01-23-ama-035.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 5
+    }
+  },
+  {
+    "id": "ama-036",
+    "number": 36,
+    "date": "2026-01-30",
+    "title": "Fine Tuning & Responses API",
+    "description": "Join us to discuss fine-tuning techniques and the Responses API for optimizing model performance.",
+    "speakers": [
+      "Dave Voutila \u2014 Principal Product Manager, Microsoft",
+      "Guy Gregory \u2014 Principal Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-036.png",
+    "page": "docs/foundry-fridays/2026-01-30-ama-036.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 6
+    }
+  },
+  {
+    "id": "ama-037",
+    "number": 37,
+    "date": "2026-02-06",
+    "title": "Synthetic Data Generation",
+    "description": "Discuss synthetic data generation techniques, use cases, and best practices for creating training data.",
+    "speakers": [
+      "William Liang \u2014 Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-037.png",
+    "page": "docs/foundry-fridays/2026-02-06-ama-037.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 7
+    }
+  },
+  {
+    "id": "ama-038",
+    "number": 38,
+    "date": "2026-02-13",
+    "title": "Next-Gen UI Experiences",
+    "description": "Explore next-generation UI experiences powered by AI and how to build modern interfaces.",
+    "speakers": [
+      "Amir Zur \u2014 Product Lead, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-038.png",
+    "page": "docs/foundry-fridays/2026-02-13-ama-038.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 8
+    }
+  },
+  {
+    "id": "ama-039",
+    "number": 39,
+    "date": "2026-02-20",
+    "title": "Agent Skills for Microsoft Foundry",
+    "description": "Using coding agents for AI development requires the right activation context. Join us as we talk to Govind Kamtamneni about microsoft/skills - an open-source repository of skills, prompts, agents and MCP configurations specialized for use with Microsoft Foundry and Azure development. Learn what's available now - and what's coming next.",
+    "speakers": [
+      "Govind Kamtamneni"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-039.png",
+    "page": "docs/foundry-fridays/2026-02-20-ama-039.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 9
+    }
+  },
+  {
+    "id": "ama-040",
+    "number": 40,
+    "date": "2026-02-27",
+    "title": "Microsoft Foundry Agents",
+    "description": "Discuss Microsoft Foundry Agents, including capabilities, deployment, and integration strategies.",
+    "speakers": [
+      "Bala Venkataraman \u2014 Partner Group Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-040.png",
+    "page": "docs/foundry-fridays/2026-02-27-ama-040.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 10
+    }
+  },
+  {
+    "id": "ama-041",
+    "number": 41,
+    "date": "2026-03-06",
+    "title": "Observability in Microsoft Foundry",
+    "description": "Building trustworthy AI agents requires an end-to-end observability capability that lets us trace, monitor, and evaluate, agentic task execution at enterprise scale. Join us as we talk to Sebastian Kohlmeier about Observability capabilities in Microsoft Foundry.",
+    "speakers": [
+      "Sebastian Kohlmeier"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-041.png",
+    "page": "docs/foundry-fridays/2026-03-06-ama-041.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 11
+    }
+  },
+  {
+    "id": "ama-042",
+    "number": 42,
+    "date": "2026-03-13",
+    "title": "AI Developer Experience",
+    "description": "Discuss AI developer tools, SDKs, and experiences for building AI applications.",
+    "speakers": [
+      "Leo Yao \u2014 Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-042.png",
+    "page": "docs/foundry-fridays/2026-03-13-ama-042.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 12
+    }
+  },
+  {
+    "id": "ama-043",
+    "number": 43,
+    "date": "2026-03-20",
+    "title": "Foundry IQ",
+    "description": "Explore Foundry IQ capabilities for knowledge retrieval and intelligent information management.",
+    "speakers": [
+      "Farzad Sunavala \u2014 Principal Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-043.png",
+    "page": "docs/foundry-fridays/2026-03-20-ama-043.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 13
+    }
+  },
+  {
+    "id": "ama-044",
+    "number": 44,
+    "date": "2026-03-27",
+    "title": "Foundry Tools",
+    "description": "Discuss Azure AI services and tools available within the Foundry ecosystem.",
+    "speakers": [
+      "SeokJin Han \u2014 Senior Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-044.png",
+    "page": "docs/foundry-fridays/2026-03-27-ama-044.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 14
+    }
+  },
+  {
+    "id": "ama-045",
+    "number": 45,
+    "date": "2026-04-03",
+    "title": "Agent 365 & Identity",
+    "description": "Learn about Microsoft Agent 365 and identity integration for enterprise AI agents.",
+    "speakers": [
+      "Srikumar Nair \u2014 Partner Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-045.png",
+    "page": "docs/foundry-fridays/2026-04-03-ama-045.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 15
+    }
+  },
+  {
+    "id": "ama-046",
+    "number": 46,
+    "date": "2026-04-10",
+    "title": "GitHub Agentic Workflows",
+    "description": "Explore GitHub Agentic Workflows and how to build automated development workflows with AI.",
+    "speakers": [
+      "Peli de Halleux \u2014 Principal Engineer, GitHub"
+    ],
+    "status": "completed",
+    "banner": "docs/assets/foundry-fridays/AMA-046.png",
+    "page": "docs/foundry-fridays/2026-04-10-ama-046.md",
+    "links": {},
+    "legacy": {
+      "season": 3,
+      "episode": 16
+    }
+  },
+  {
+    "id": "ama-047",
+    "number": 47,
+    "date": "2026-09-04",
+    "time": "10:00-10:30 AM CEST",
+    "title": "Build Agents with Foundry Canvas & GitHub Copilot App",
+    "description": "An on-demand Foundry Friday session about building agents with Foundry Canvas in the GitHub Copilot app.",
+    "speakers": [
+      "Carlotta Castelluccio (Host)",
+      "Junjie Li \u2014 Senior Product Manager, Microsoft"
+    ],
+    "status": "completed",
+    "links": {},
+    "banner": "docs/assets/foundry-fridays/AMA-047.png",
+    "page": "docs/foundry-fridays/2026-09-04-ama-047.md"
+  },
+  {
+    "id": "ama-048",
+    "number": 48,
+    "date": "2026-09-25",
+    "time": "1:30-2:00 PM ET",
+    "title": "Insights in Foundry and Agent Optimizer in Foundry Agent Service",
+    "description": "You shipped an agent. It is running in production. Now comes the harder question: What should you optimize first, and how do you move from recurring failures to a reliable, trustworthy, scalable product? Join Microsoft's agent optimization engineering leaders for an interactive ask-me-anything session covering production agent evaluation, optimization loops, live demos, and open Q&A.",
+    "speakers": [
+      "Charles Kim \u2014 Product Lead, Core AI, Microsoft"
+    ],
     "status": "scheduled",
-    "host": "nitya-narasimhan",
-    "guests": [],
-    "topics": [],
     "links": {
-      "registration": "https://aka.ms/model-mondays/discord",
-      "recap": "",
-      "announcement": ""
+      "join": "https://aka.ms/model-mondays/chat",
+      "announcement": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/how-do-you-know-what-to-optimize-next-in-your-ai-agent-ask-the-experts/4559401"
     },
-    "relatedLivestreamId": "s3-e04",
-    "resources": [],
-    "keyTakeaways": [],
-    "tags": [
-      "AMA"
-    ]
+    "banner": "docs/assets/foundry-fridays/AMA-048.png",
+    "page": "docs/foundry-fridays/2026-09-25-ama-048.md"
   }
 ]

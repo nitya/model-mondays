@@ -24,5 +24,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-markmap
+      - run: pip install -r requirements.txt
+      - run: bash .github/scripts/validate-repo.sh
       - run: mkdocs gh-deploy --force
